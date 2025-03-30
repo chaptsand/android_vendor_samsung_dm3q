@@ -1824,202 +1824,202 @@ VERSION:268535144
 1501,,[ phyrf_hds_hdt_rom_patched.c : 2917 ] HDS - HdtConfigTd320 
 1502,,[ phyrf_hds_hdt_rom_patched.c : 3073 ] HDS - HdtCheckM3Status 
 1503,,[ phyrf_hds_hdt_rom_patched.c : 3093 ] HDS - HdtPhydbgReconfig 
-VERSION:268796080
+VERSION:268992688
 
 16385,II,[ cmdProcessing.c : 283 ] FTM_DEBUG :: txCmdProcessor, TxMiscFlags : 0x%x txParms->aifsn=0x%x 
 16384,iiiii,[ cmdProcessing.c : 391 ] FTM :: txCmdProcessor channel=%d txPwr=%d dataRrate=%d numPkt=%d txChain=%d
  
-16387,i,[ getTgtPwr.c : 335 ] OFDMA_ru_size: %d invalid 
-16386,i,[ getTgtPwr.c : 443 ] OFDMA_ru_size: %d invalid 
-16422,III,[ cmdLp.c : 487 ] lowpowerHandler: lowPowerMode:0x%x, lowPowerFeatureMask:0x%x, phyIdMask:0x%x, 
+16388,,[ LMGoProcessing.c : 62 ] LM_DBG: NULL pdev return 
+16387,Ii,[ LMGoProcessing.c : 78 ] LM_DBG: ABI on-period tx_duration_data %ld(US) current_time(MS) %d 
+16386,Ii,[ LMGoProcessing.c : 295 ] LM_DBG: ABI off-period tx_duration_data(US) %ld curTime(MS) %d 
+16390,i,[ getTgtPwr.c : 335 ] OFDMA_ru_size: %d invalid 
+16389,i,[ getTgtPwr.c : 443 ] OFDMA_ru_size: %d invalid 
+16392,iIi,[ dpdTuning.c : 280 ] GetDpdLoopbackInfoHandler phyId %d chainMask 0x%x GlutIdx %d 
+16391,ii,[ dpdTuning.c : 309 ] GetDpdLoopbackInfoHandler nmse %d, nmse_nondpd %d 
+16491,i,[ cmdProcessTlv2.c : 588 ] FTM Tx ChainMask %d overwrite to 0x2 due to BT2ed Harmonic! 
+16490,i,[ cmdProcessTlv2.c : 6698 ] GetBDFVersionHandler :: bdfvertype: %d 
+16489,iii,[ cmdProcessTlv2.c : 2472 ] PHYDBGdump2Handler(Phy:%d, Option:%d capture_bank:%d) 
+16488,,[ cmdProcessTlv2.c : 2492 ] ### Data buffer stream ended
  
-16421,,[ cmdLp.c : 649 ] lowpowerHandler: lowPowerMode:done 
-16420,I,[ cmdLp.c : 441 ] lowpowerHandler_CxRet: phyId:0x%x, No effect as phy is inactive! 
+16487,IiI,[ cmdProcessTlv2.c : 2480 ] ### data_ptr %p size %d status 0x%x
  
-16419,ii,[ cmdLp.c : 447 ] lowpowerHandler_CxRet: phyId:%d, cxret_powerlevel=%d 
-16418,I,[ cmdLp.c : 377 ] lowpowerHandler_LowPowerListen: phyId:0x%x, No effect as phy is inactive! 
+16486,Ii,[ cmdProcessTlv2.c : 2489 ] ### data_ptr %p stream_cnt %d
  
-16417,ii,[ cmdLp.c : 383 ] lowpowerHandler_LowPowerListen: phyId:%d, lpl_enable=%d 
-16416,I,[ cmdLp.c : 465 ] lowpowerHandler_Nrem: phyId:0x%x, No effect as phy is inactive! 
+16485,ii,[ cmdProcessTlv2.c : 2884 ] PHYDBGdumpHandler(Phy:%d, Option:%d)
  
-16415,ii,[ cmdLp.c : 471 ] lowpowerHandler_Nrem: phyId:%d, cxret_powerlevel=%d 
-16414,I,[ cmdLp.c : 406 ] lowpowerHandler_RfaTogglingInListen: phyId:0x%x, No effect as phy is inactive! 
+16484,IiI,[ cmdProcessTlv2.c : 2892 ] ### data_ptr %p size %d status 0x%x
  
-16413,ii,[ cmdLp.c : 416 ] lowpowerHandler_RfaTogglingInListen: phyId:%d, RfaTglEn=%d 
-16412,i,[ cmdLp.c : 422 ] lowpowerHandler_RfaTogglingInListen: phyId:%d, Cannot enable RFA toggling as xlna BP is disabled 
-16411,i,[ cmdLp.c : 303 ] lowpowerHandler_btclock: BT CLOCK enable=0x%d 
-16410,i,[ cmdLp.c : 160 ] lowpowerHandler_dss: synth_control=%d 
-16409,ii,[ cmdLp.c : 172 ] lowpowerHandler_dssvotedisable: phyId=%d, g_dss_vote_disable_all=%d 
-16408,I,[ cmdLp.c : 345 ] lowpowerHandler_hdl_psMask: phyId:0x%x, No effect as phy is inactive! 
+16483,Ii,[ cmdProcessTlv2.c : 2901 ] ### data_ptr %p stream_cnt %d
  
-16407,I,[ cmdLp.c : 350 ] lowpowerHandler_hdl_psMask: phyId:0x%x, No effect as phy is in sleep! 
+16482,,[ cmdProcessTlv2.c : 2904 ] ### Data buffer stream ended
  
-16406,II,[ cmdLp.c : 362 ] lowpowerHandler_hdl_psMask: phyId:0x%x, hdlpsMask=0x%x 
+16481,i,[ cmdProcessTlv2.c : 6675 ] SetBDFVersionHandler :: bdfvertype: %d 
+16480,i,[ cmdProcessTlv2.c : 4823 ] Channel index out of bounds %d 
+16479,i,[ cmdProcessTlv2.c : 4831 ] Power offset Index out of bounds %d 
+16478,ii,[ cmdProcessTlv2.c : 4839 ] 2G index %d flag %d 
+16477,ii,[ cmdProcessTlv2.c : 4852 ] values written 2G %d 5G %d 
+16476,i,[ cmdProcessTlv2.c : 4913 ] Channel index out of bounds %d 
+16475,i,[ cmdProcessTlv2.c : 4994 ] Channel index out of bounds %d 
+16474,i,[ cmdProcessTlv2.c : 5009 ] Target Power index out of bounds %d 
+16473,i,[ cmdProcessTlv2.c : 5024 ] Gain index out of bounds %d 
+16472,,[ cmdProcessTlv2.c : 6418 ] OPC_OTP_WRITE:Ready to send response!
  
-16405,iii,[ cmdLp.c : 101 ] lowpower phyid %d :: initial globals imps (%d) bmps (%d) 
+16471,I,[ cmdProcessTlv2.c : 6419 ] OTP Write status, 0x%x 
+16470,,[ cmdProcessTlv2.c : 6431 ] OPC_OTP_WRITE:send response done!
  
-16404,iii,[ cmdLp.c : 146 ] lowpower phyid %d :: Updated globals imps (%d) bmps (%d) 
+16469,i,[ cmdProcessTlv2.c : 2304 ] FTM bitWidth: %d 
  
-16403,i,[ cmdLp.c : 295 ] lowpowerHandler_lpSynthForLegacyRx: g_ftm_lpSynthForLegacyRx_enable=0x%d 
+16468,,[ cmdProcessTlv2.c : 3561 ] bdGetSizeHandler
  
-16402,i,[ cmdLp.c : 288 ] lowpowerHandler_lpSynthForLegacyTx: g_ftm_lpSynthForLegacyTx_enable=0x%d 
+16467,iIii,[ cmdProcessTlv2.c : 3588 ] bdReadHandler: bdSize %d, offset 0x%x, size %d, source %d
  
-16401,II,[ cmdLp.c : 267 ] lowpowerHandler_ocl: phyId:0x%x, ocl_enable=0x%x, No effect as phy is inactive! 
+16466,i,[ cmdProcessTlv2.c : 3629 ] error in bdReadHandler: status %d
  
-16400,II,[ cmdLp.c : 280 ] lowpowerHandler_ocl: phyId:0x%x, ocl_enable=0x%x 
+16465,Ii,[ cmdProcessTlv2.c : 6318 ] bdWriteHandler: offset 0x%x, size %d
  
-16399,I,[ cmdLp.c : 317 ] lowpowerHandler_pbs: phyId:0x%x, No effect as phy is inactive! 
-16398,I,[ cmdLp.c : 322 ] lowpowerHandler_pbs: phyId:0x%x, No effect as phy is in sleep! 
-16397,iii,[ cmdLp.c : 331 ] lowpowerHandler_pbs: phyId:%d, pbs_enable=%d, pbs_flag=%d 
-16396,I,[ cmdLp.c : 209 ] lowpowerHandler_phydbgEnable: phyId:0x%x, No effect as phy is inactive! 
+16464,IIIII,[ cmdProcessTlv2.c : 4553 ] COEX Req Handler(wght0= 0x%x,wght1= 0x%x,wght2= 0x%x,wght3= 0x%x,wght4= 0x%x)
  
-16395,I,[ cmdLp.c : 214 ] lowpowerHandler_phydbgEnable: phyId:0x%x, No effect as phy is in sleep! 
+16463,IIIIII,[ cmdProcessTlv2.c : 4562 ] COEX Req Handler(wght5= 0x%x,wght6= 0x%x,wght7= 0x%x,wght8= 0x%x,wght9= 0x%x,wght10= 0x%x)
  
-16394,i,[ cmdLp.c : 224 ] lowpowerHandler_phydbgEnable: g_phydbg_disable=%d
+16462,iIi,[ cmdProcessTlv2.c : 4568 ] COEX Req Handler(enableDynamicAggr= %d,shareChainMask= 0x%x,enableConcurrentTxChain0= %d)
  
-16393,I,[ cmdLp.c : 185 ] lowpowerHandler_phydbgdisable: phyId:0x%x, No effect as phy is inactive! 
+16461,iIii,[ cmdProcessTlv2.c : 4575 ] COEX Req Handler(btRxAllowWlanTxUnshared= %d,btTxAllowWlanTxShared= 0x%x,wlanTxAllowBtRxShared= %d,wlanRxAllowBtTxShared= %d)
  
-16392,i,[ cmdLp.c : 197 ] lowpowerHandler_phydbgdisable: g_phydbg_disable=%d
+16460,iIi,[ cmdProcessTlv2.c : 4581 ] COEX Req Handler(concurrentTxEnable= %d,btRxAllowWlanUnsharedTx= 0x%x,wlan1sTxBtTx= %d)
  
-16391,I,[ cmdLp.c : 190 ] lowpowerHandler_phydbgdisable: phyId:0x%x, No effect as phy is in sleep! 
+16459,ii,[ cmdProcessTlv2.c : 2776 ] combCalGroupHandler(): phyId = %d; cmdid = %d 
+16458,IIIII,[ cmdProcessTlv2.c : 6545 ] %s: offset %ld, size %ld, totalsize %ld, checksumsts %ld
  
-16390,II,[ cmdLp.c : 237 ] lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x, No effect as phy is inactive! 
+16457,I,[ cmdProcessTlv2.c : 6600 ] eepromReadHandler:: finalCheckSum=0x%x 
  
-16389,II,[ cmdLp.c : 242 ] lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x, No effect as phy is in sleep! 
+16456,III,[ cmdProcessTlv2.c : 6646 ] %s: offset %ld, size %ld 
+16455,iiiii,[ cmdProcessTlv2.c : 6879 ] ftmTsDebugHandler  ts_tx_ver %d ts_xtalcal %d delta %d idx %d phyId %d 
+16454,iiiii,[ cmdProcessTlv2.c : 6901 ] ftmTsDebugHandler ts_tx_ver %d ts_xtalcal %d delta %d idx %d phyId %d 
+16453,i,[ cmdProcessTlv2.c : 6911 ] ftmTsDebugHandler OPC total%d 
+16452,iii,[ cmdProcessTlv2.c : 6915 ] ftmTsDebugHandler ts_opc_Cal %d delta %d idx %d 
+16451,i,[ cmdProcessTlv2.c : 6925 ] ftmTsDebugHandler FPC total%d 
+16450,iii,[ cmdProcessTlv2.c : 6929 ] ftmTsDebugHandler ts_fpc_Cal %d delta %d idx %d 
+16449,iii,[ cmdProcessTlv2.c : 6939 ] ftmTsDebugHandler ts_nfcal %d delta %d idx %d 
+16448,iiii,[ cmdProcessTlv2.c : 6950 ] ftmTsDebugHandler ts_rx_gaincal %d delta %d idx %d phyId %d 
+16447,iiii,[ cmdProcessTlv2.c : 6961 ] ftmTsDebugHandler ts_rx_ver %d delta %d idx %d phyId %d 
+16446,i,[ cmdProcessTlv2.c : 6969 ] ftmTsDebugHandler Invalid/unhandled Exit point %d 
+16445,iiii,[ cmdProcessTlv2.c : 6793 ] ftmTsDebugHandler opt %d phyId %d print_mask %d print_cnt %d 
+16444,,[ cmdProcessTlv2.c : 6810 ] ftmTsDebugHandler globals reset 
+16443,i,[ cmdProcessTlv2.c : 6814 ] ftmTsDebugHandler ts_FPC %d 
+16442,i,[ cmdProcessTlv2.c : 6815 ] ftmTsDebugHandler ts_OPC %d 
+16441,i,[ cmdProcessTlv2.c : 6816 ] ftmTsDebugHandler ts_xtalcal %d 
+16440,i,[ cmdProcessTlv2.c : 6817 ] ftmTsDebugHandler ts_rxgaincal %d 
+16439,i,[ cmdProcessTlv2.c : 6818 ] ftmTsDebugHandler ts_nfcal %d 
+16438,i,[ cmdProcessTlv2.c : 6819 ] ftmTsDebugHandler ts_tx_ver %d 
+16437,i,[ cmdProcessTlv2.c : 6820 ] ftmTsDebugHandler ts_rx_ver %d 
+16436,i,[ cmdProcessTlv2.c : 6821 ] ftmTsDebugHandler ts_index %d 
+16435,iiii,[ cmdProcessTlv2.c : 6827 ] ftmTsDebugHandler idx %d cmd entry %d ts %d type %d 
+16434,i,[ cmdProcessTlv2.c : 6829 ] ftmTsDebugHandler ts_index %d 
+16433,,[ cmdProcessTlv2.c : 230 ] ftm_termperature_timer_handler::MAC sleeping 
+16432,,[ cmdProcessTlv2.c : 2111 ] UTFCMD: genericUtfCmdHandler  
+16431,,[ cmdProcessTlv2.c : 2147 ] Failed Rx Stop 
+16430,ii,[ cmdProcessTlv2.c : 2161 ] UTFCMD: UTF_CMD_CHANGECHAINMASK phyId=%d tcmd_state[phyId].specialCmds=%d 
+16429,ii,[ cmdProcessTlv2.c : 2171 ] UTFCMD: CMD_LP_CM phyId=%d Sleep CM %d  
+16428,ii,[ cmdProcessTlv2.c : 2181 ] UTFCMD: CMD_LP_CM phyId=%d Wake CM %d 
+16427,i,[ cmdProcessTlv2.c : 2190 ] UTFCMD: UTF_CMD_WARM_RESET phid %d 
+16426,ii,[ cmdProcessTlv2.c : 2197 ] UTFCMD: UTF_CMD_SET_MM_CMD_SEQID phid %d MMSeqID %d  
+16425,,[ cmdProcessTlv2.c : 2204 ] #### Halphy Unit Test ####  
+16424,,[ cmdProcessTlv2.c : 2219 ] ### genericUtfCmdHandler: InValid CmdID#### 
+16423,,[ cmdProcessTlv2.c : 2233 ] UTFCMD: genericUtfCmdHandler exit  
+16422,i,[ cmdProcessTlv2.c : 553 ]  FATAL ERROR!! Trying to access phy %d which is not present 
+16421,i,[ cmdProcessTlv2.c : 564 ]  FATAL ERROR!! Trying to access phy %d which is inactive 
+16420,I,[ cmdProcessTlv2.c : 5094 ] modifyBDFOTPFlagsHandler: modifyBdfOtpFlags 0x%x 
+16419,,[ cmdProcessTlv2.c : 5112 ] modifyBDFOTPFlagsHandler: pCmdStream is NULL 
+16418,,[ cmdProcessTlv2.c : 4434 ] OFDMA TonePlan
  
-16388,II,[ cmdLp.c : 249 ] lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x 
+16417,,[ cmdProcessTlv2.c : 4457 ] OFDMA TonePlan is NULL
  
-16521,i,[ cmdProcessTlv2.c : 588 ] FTM Tx ChainMask %d overwrite to 0x2 due to BT2ed Harmonic! 
-16520,i,[ cmdProcessTlv2.c : 6698 ] GetBDFVersionHandler :: bdfvertype: %d 
-16519,iii,[ cmdProcessTlv2.c : 2472 ] PHYDBGdump2Handler(Phy:%d, Option:%d capture_bank:%d) 
-16518,,[ cmdProcessTlv2.c : 2492 ] ### Data buffer stream ended
+16416,,[ cmdProcessTlv2.c : 6748 ] Failed Rx Stop 
+16415,ii,[ cmdProcessTlv2.c : 696 ] FTM :: pktgen_complete_timer_handler:  pktgen_complete_timer_handler: Pktgen Tx STOP completion callback failure for phyId %d g_pktgen_done_assert_count %d 
+16414,iiiiiii,[ cmdProcessTlv2.c : 1458 ] rxHandler: phyId %d rxMode %d wlanMode %d freq %d freq2 %d chainMask %d wifiStandard %d 
+16413,ii,[ cmdProcessTlv2.c : 1464 ] rxHandler: issue ftm_imps_wakeup: phyId=%d, rxMode=%d
  
-16517,IiI,[ cmdProcessTlv2.c : 2480 ] ### data_ptr %p size %d status 0x%x
+16412,i,[ cmdProcessTlv2.c : 1472 ] RX operation not allowed on phyID %d one operation ongoing 
+16411,iii,[ cmdProcessTlv2.c : 535 ] ftmTsDebugHandler cmdId %d phyId %d status %d 
+16410,ii,[ cmdProcessTlv2.c : 5265 ] Exception value %d ctl grp %d 
+16409,,[ cmdProcessTlv2.c : 5131 ] #### per chain forced pwr TLV called!
  
-16516,Ii,[ cmdProcessTlv2.c : 2489 ] ### data_ptr %p stream_cnt %d
+16408,iI,[ cmdProcessTlv2.c : 3248 ] setPhyRfModeHandler: DBS/SBS is not supported, phyRfMode %d status 0x%x  
+16407,I,[ cmdProcessTlv2.c : 1619 ] pdev %u 
+16406,I,[ cmdProcessTlv2.c : 1645 ] pdev %u 
+16405,iiiiiII,[ cmdProcessTlv2.c : 1661 ] curChan->band_center_freq1 %d, curChan->band_center_freq2 %d, PHYRF_BW_IDX(curChan) %d curChan->phy_mode %d num_20_bw %d rx_CM %x, tx_CM %x 
+16404,I,[ cmdProcessTlv2.c : 658 ] FTM :: tlv2SendTxStatus:  timestamp = %ld 
+16403,iiii,[ cmdProcessTlv2.c : 4203 ] Tx Gain Control:Chain %d, Gain %d, dacGain %d, forceCal %d 
  
-16515,ii,[ cmdProcessTlv2.c : 2884 ] PHYDBGdumpHandler(Phy:%d, Option:%d)
+16402,i,[ cmdProcessTlv2.c : 926 ] FTM phyid %d :: txHandler invoked
  
-16514,IiI,[ cmdProcessTlv2.c : 2892 ] ### data_ptr %p size %d status 0x%x
+16401,i,[ cmdProcessTlv2.c : 985 ] FTM :: txHandler: TX operation not allowed on phyID %d one operation ongoing 
+16400,i,[ cmdProcessTlv2.c : 1108 ] FTM: OFDMA Tone Plan BW %d 
+16399,IIII,[ cmdProcessTlv2.c : 1172 ] FTM :: txHandler: ret:0x%x, ret1:0x%x, ret2:0x%x, ret3:0x%x 
+16398,ii,[ cmdProcessTlv2.c : 1191 ] FTM :: txHandler dev running state=%d iterations_taken_to_flush=%d 
+16397,iI,[ cmdProcessTlv2.c : 1204 ] FTM :: txHandler: Sent response to host with status =%d, timestamp =%ld 
+16396,iiiiiiiI,[ cmdProcessTlv2.c : 935 ] FTM :: txHandler: phyId %d txMode %d freq %d freq2 %d wlanMode %d chainMask %d wifiStandard %d timestamp =%ld 
+16395,iiI,[ cmdProcessTlv2.c : 1247 ] FTM :: txStatusHandler: INSIDE txStatusHandler phyId =%d pParms->needReport=%d timestamp : %u 
+16394,ii,[ cmdProcessTlv2.c : 1261 ] FTM :: txStatusHandler: pParms->needReport=%d pParms->stopTx=%d 
+16393,IIII,[ cmdProcessTlv2.c : 1292 ] FTM :: txStatusHandler: ret:0x%x, ret1:0x%x, ret2:0x%x, ret3:0x%x 
+16526,III,[ cmdLp.c : 487 ] lowpowerHandler: lowPowerMode:0x%x, lowPowerFeatureMask:0x%x, phyIdMask:0x%x, 
  
-16513,Ii,[ cmdProcessTlv2.c : 2901 ] ### data_ptr %p stream_cnt %d
+16525,,[ cmdLp.c : 649 ] lowpowerHandler: lowPowerMode:done 
+16524,I,[ cmdLp.c : 441 ] lowpowerHandler_CxRet: phyId:0x%x, No effect as phy is inactive! 
  
-16512,,[ cmdProcessTlv2.c : 2904 ] ### Data buffer stream ended
+16523,ii,[ cmdLp.c : 447 ] lowpowerHandler_CxRet: phyId:%d, cxret_powerlevel=%d 
+16522,I,[ cmdLp.c : 377 ] lowpowerHandler_LowPowerListen: phyId:0x%x, No effect as phy is inactive! 
  
-16511,i,[ cmdProcessTlv2.c : 6675 ] SetBDFVersionHandler :: bdfvertype: %d 
-16510,i,[ cmdProcessTlv2.c : 4823 ] Channel index out of bounds %d 
-16509,i,[ cmdProcessTlv2.c : 4831 ] Power offset Index out of bounds %d 
-16508,ii,[ cmdProcessTlv2.c : 4839 ] 2G index %d flag %d 
-16507,ii,[ cmdProcessTlv2.c : 4852 ] values written 2G %d 5G %d 
-16506,i,[ cmdProcessTlv2.c : 4913 ] Channel index out of bounds %d 
-16505,i,[ cmdProcessTlv2.c : 4994 ] Channel index out of bounds %d 
-16504,i,[ cmdProcessTlv2.c : 5009 ] Target Power index out of bounds %d 
-16503,i,[ cmdProcessTlv2.c : 5024 ] Gain index out of bounds %d 
-16502,,[ cmdProcessTlv2.c : 6418 ] OPC_OTP_WRITE:Ready to send response!
+16521,ii,[ cmdLp.c : 383 ] lowpowerHandler_LowPowerListen: phyId:%d, lpl_enable=%d 
+16520,I,[ cmdLp.c : 465 ] lowpowerHandler_Nrem: phyId:0x%x, No effect as phy is inactive! 
  
-16501,I,[ cmdProcessTlv2.c : 6419 ] OTP Write status, 0x%x 
-16500,,[ cmdProcessTlv2.c : 6431 ] OPC_OTP_WRITE:send response done!
+16519,ii,[ cmdLp.c : 471 ] lowpowerHandler_Nrem: phyId:%d, cxret_powerlevel=%d 
+16518,I,[ cmdLp.c : 406 ] lowpowerHandler_RfaTogglingInListen: phyId:0x%x, No effect as phy is inactive! 
  
-16499,i,[ cmdProcessTlv2.c : 2304 ] FTM bitWidth: %d 
+16517,ii,[ cmdLp.c : 416 ] lowpowerHandler_RfaTogglingInListen: phyId:%d, RfaTglEn=%d 
+16516,i,[ cmdLp.c : 422 ] lowpowerHandler_RfaTogglingInListen: phyId:%d, Cannot enable RFA toggling as xlna BP is disabled 
+16515,i,[ cmdLp.c : 303 ] lowpowerHandler_btclock: BT CLOCK enable=0x%d 
+16514,i,[ cmdLp.c : 160 ] lowpowerHandler_dss: synth_control=%d 
+16513,ii,[ cmdLp.c : 172 ] lowpowerHandler_dssvotedisable: phyId=%d, g_dss_vote_disable_all=%d 
+16512,I,[ cmdLp.c : 345 ] lowpowerHandler_hdl_psMask: phyId:0x%x, No effect as phy is inactive! 
  
-16498,,[ cmdProcessTlv2.c : 3561 ] bdGetSizeHandler
+16511,I,[ cmdLp.c : 350 ] lowpowerHandler_hdl_psMask: phyId:0x%x, No effect as phy is in sleep! 
  
-16497,iIii,[ cmdProcessTlv2.c : 3588 ] bdReadHandler: bdSize %d, offset 0x%x, size %d, source %d
+16510,II,[ cmdLp.c : 362 ] lowpowerHandler_hdl_psMask: phyId:0x%x, hdlpsMask=0x%x 
  
-16496,i,[ cmdProcessTlv2.c : 3629 ] error in bdReadHandler: status %d
+16509,iii,[ cmdLp.c : 101 ] lowpower phyid %d :: initial globals imps (%d) bmps (%d) 
  
-16495,Ii,[ cmdProcessTlv2.c : 6318 ] bdWriteHandler: offset 0x%x, size %d
+16508,iii,[ cmdLp.c : 146 ] lowpower phyid %d :: Updated globals imps (%d) bmps (%d) 
  
-16494,IIIII,[ cmdProcessTlv2.c : 4553 ] COEX Req Handler(wght0= 0x%x,wght1= 0x%x,wght2= 0x%x,wght3= 0x%x,wght4= 0x%x)
+16507,i,[ cmdLp.c : 295 ] lowpowerHandler_lpSynthForLegacyRx: g_ftm_lpSynthForLegacyRx_enable=0x%d 
  
-16493,IIIIII,[ cmdProcessTlv2.c : 4562 ] COEX Req Handler(wght5= 0x%x,wght6= 0x%x,wght7= 0x%x,wght8= 0x%x,wght9= 0x%x,wght10= 0x%x)
+16506,i,[ cmdLp.c : 288 ] lowpowerHandler_lpSynthForLegacyTx: g_ftm_lpSynthForLegacyTx_enable=0x%d 
  
-16492,iIi,[ cmdProcessTlv2.c : 4568 ] COEX Req Handler(enableDynamicAggr= %d,shareChainMask= 0x%x,enableConcurrentTxChain0= %d)
+16505,II,[ cmdLp.c : 267 ] lowpowerHandler_ocl: phyId:0x%x, ocl_enable=0x%x, No effect as phy is inactive! 
  
-16491,iIii,[ cmdProcessTlv2.c : 4575 ] COEX Req Handler(btRxAllowWlanTxUnshared= %d,btTxAllowWlanTxShared= 0x%x,wlanTxAllowBtRxShared= %d,wlanRxAllowBtTxShared= %d)
+16504,II,[ cmdLp.c : 280 ] lowpowerHandler_ocl: phyId:0x%x, ocl_enable=0x%x 
  
-16490,iIi,[ cmdProcessTlv2.c : 4581 ] COEX Req Handler(concurrentTxEnable= %d,btRxAllowWlanUnsharedTx= 0x%x,wlan1sTxBtTx= %d)
+16503,I,[ cmdLp.c : 317 ] lowpowerHandler_pbs: phyId:0x%x, No effect as phy is inactive! 
+16502,I,[ cmdLp.c : 322 ] lowpowerHandler_pbs: phyId:0x%x, No effect as phy is in sleep! 
+16501,iii,[ cmdLp.c : 331 ] lowpowerHandler_pbs: phyId:%d, pbs_enable=%d, pbs_flag=%d 
+16500,I,[ cmdLp.c : 209 ] lowpowerHandler_phydbgEnable: phyId:0x%x, No effect as phy is inactive! 
  
-16489,ii,[ cmdProcessTlv2.c : 2776 ] combCalGroupHandler(): phyId = %d; cmdid = %d 
-16488,IIIII,[ cmdProcessTlv2.c : 6545 ] %s: offset %ld, size %ld, totalsize %ld, checksumsts %ld
+16499,I,[ cmdLp.c : 214 ] lowpowerHandler_phydbgEnable: phyId:0x%x, No effect as phy is in sleep! 
  
-16487,I,[ cmdProcessTlv2.c : 6600 ] eepromReadHandler:: finalCheckSum=0x%x 
+16498,i,[ cmdLp.c : 224 ] lowpowerHandler_phydbgEnable: g_phydbg_disable=%d
  
-16486,III,[ cmdProcessTlv2.c : 6646 ] %s: offset %ld, size %ld 
-16485,iiiii,[ cmdProcessTlv2.c : 6879 ] ftmTsDebugHandler  ts_tx_ver %d ts_xtalcal %d delta %d idx %d phyId %d 
-16484,iiiii,[ cmdProcessTlv2.c : 6901 ] ftmTsDebugHandler ts_tx_ver %d ts_xtalcal %d delta %d idx %d phyId %d 
-16483,i,[ cmdProcessTlv2.c : 6911 ] ftmTsDebugHandler OPC total%d 
-16482,iii,[ cmdProcessTlv2.c : 6915 ] ftmTsDebugHandler ts_opc_Cal %d delta %d idx %d 
-16481,i,[ cmdProcessTlv2.c : 6925 ] ftmTsDebugHandler FPC total%d 
-16480,iii,[ cmdProcessTlv2.c : 6929 ] ftmTsDebugHandler ts_fpc_Cal %d delta %d idx %d 
-16479,iii,[ cmdProcessTlv2.c : 6939 ] ftmTsDebugHandler ts_nfcal %d delta %d idx %d 
-16478,iiii,[ cmdProcessTlv2.c : 6950 ] ftmTsDebugHandler ts_rx_gaincal %d delta %d idx %d phyId %d 
-16477,iiii,[ cmdProcessTlv2.c : 6961 ] ftmTsDebugHandler ts_rx_ver %d delta %d idx %d phyId %d 
-16476,i,[ cmdProcessTlv2.c : 6969 ] ftmTsDebugHandler Invalid/unhandled Exit point %d 
-16475,iiii,[ cmdProcessTlv2.c : 6793 ] ftmTsDebugHandler opt %d phyId %d print_mask %d print_cnt %d 
-16474,,[ cmdProcessTlv2.c : 6810 ] ftmTsDebugHandler globals reset 
-16473,i,[ cmdProcessTlv2.c : 6814 ] ftmTsDebugHandler ts_FPC %d 
-16472,i,[ cmdProcessTlv2.c : 6815 ] ftmTsDebugHandler ts_OPC %d 
-16471,i,[ cmdProcessTlv2.c : 6816 ] ftmTsDebugHandler ts_xtalcal %d 
-16470,i,[ cmdProcessTlv2.c : 6817 ] ftmTsDebugHandler ts_rxgaincal %d 
-16469,i,[ cmdProcessTlv2.c : 6818 ] ftmTsDebugHandler ts_nfcal %d 
-16468,i,[ cmdProcessTlv2.c : 6819 ] ftmTsDebugHandler ts_tx_ver %d 
-16467,i,[ cmdProcessTlv2.c : 6820 ] ftmTsDebugHandler ts_rx_ver %d 
-16466,i,[ cmdProcessTlv2.c : 6821 ] ftmTsDebugHandler ts_index %d 
-16465,iiii,[ cmdProcessTlv2.c : 6827 ] ftmTsDebugHandler idx %d cmd entry %d ts %d type %d 
-16464,i,[ cmdProcessTlv2.c : 6829 ] ftmTsDebugHandler ts_index %d 
-16463,,[ cmdProcessTlv2.c : 230 ] ftm_termperature_timer_handler::MAC sleeping 
-16462,,[ cmdProcessTlv2.c : 2111 ] UTFCMD: genericUtfCmdHandler  
-16461,,[ cmdProcessTlv2.c : 2147 ] Failed Rx Stop 
-16460,ii,[ cmdProcessTlv2.c : 2161 ] UTFCMD: UTF_CMD_CHANGECHAINMASK phyId=%d tcmd_state[phyId].specialCmds=%d 
-16459,ii,[ cmdProcessTlv2.c : 2171 ] UTFCMD: CMD_LP_CM phyId=%d Sleep CM %d  
-16458,ii,[ cmdProcessTlv2.c : 2181 ] UTFCMD: CMD_LP_CM phyId=%d Wake CM %d 
-16457,i,[ cmdProcessTlv2.c : 2190 ] UTFCMD: UTF_CMD_WARM_RESET phid %d 
-16456,ii,[ cmdProcessTlv2.c : 2197 ] UTFCMD: UTF_CMD_SET_MM_CMD_SEQID phid %d MMSeqID %d  
-16455,,[ cmdProcessTlv2.c : 2204 ] #### Halphy Unit Test ####  
-16454,,[ cmdProcessTlv2.c : 2219 ] ### genericUtfCmdHandler: InValid CmdID#### 
-16453,,[ cmdProcessTlv2.c : 2233 ] UTFCMD: genericUtfCmdHandler exit  
-16452,i,[ cmdProcessTlv2.c : 553 ]  FATAL ERROR!! Trying to access phy %d which is not present 
-16451,i,[ cmdProcessTlv2.c : 564 ]  FATAL ERROR!! Trying to access phy %d which is inactive 
-16450,I,[ cmdProcessTlv2.c : 5094 ] modifyBDFOTPFlagsHandler: modifyBdfOtpFlags 0x%x 
-16449,,[ cmdProcessTlv2.c : 5112 ] modifyBDFOTPFlagsHandler: pCmdStream is NULL 
-16448,,[ cmdProcessTlv2.c : 4434 ] OFDMA TonePlan
+16497,I,[ cmdLp.c : 185 ] lowpowerHandler_phydbgdisable: phyId:0x%x, No effect as phy is inactive! 
  
-16447,,[ cmdProcessTlv2.c : 4457 ] OFDMA TonePlan is NULL
+16496,i,[ cmdLp.c : 197 ] lowpowerHandler_phydbgdisable: g_phydbg_disable=%d
  
-16446,,[ cmdProcessTlv2.c : 6748 ] Failed Rx Stop 
-16445,ii,[ cmdProcessTlv2.c : 696 ] FTM :: pktgen_complete_timer_handler:  pktgen_complete_timer_handler: Pktgen Tx STOP completion callback failure for phyId %d g_pktgen_done_assert_count %d 
-16444,iiiiiii,[ cmdProcessTlv2.c : 1458 ] rxHandler: phyId %d rxMode %d wlanMode %d freq %d freq2 %d chainMask %d wifiStandard %d 
-16443,ii,[ cmdProcessTlv2.c : 1464 ] rxHandler: issue ftm_imps_wakeup: phyId=%d, rxMode=%d
+16495,I,[ cmdLp.c : 190 ] lowpowerHandler_phydbgdisable: phyId:0x%x, No effect as phy is in sleep! 
  
-16442,i,[ cmdProcessTlv2.c : 1472 ] RX operation not allowed on phyID %d one operation ongoing 
-16441,iii,[ cmdProcessTlv2.c : 535 ] ftmTsDebugHandler cmdId %d phyId %d status %d 
-16440,ii,[ cmdProcessTlv2.c : 5265 ] Exception value %d ctl grp %d 
-16439,,[ cmdProcessTlv2.c : 5131 ] #### per chain forced pwr TLV called!
+16494,II,[ cmdLp.c : 237 ] lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x, No effect as phy is inactive! 
  
-16438,iI,[ cmdProcessTlv2.c : 3248 ] setPhyRfModeHandler: DBS/SBS is not supported, phyRfMode %d status 0x%x  
-16437,I,[ cmdProcessTlv2.c : 1619 ] pdev %u 
-16436,I,[ cmdProcessTlv2.c : 1645 ] pdev %u 
-16435,iiiiiII,[ cmdProcessTlv2.c : 1661 ] curChan->band_center_freq1 %d, curChan->band_center_freq2 %d, PHYRF_BW_IDX(curChan) %d curChan->phy_mode %d num_20_bw %d rx_CM %x, tx_CM %x 
-16434,I,[ cmdProcessTlv2.c : 658 ] FTM :: tlv2SendTxStatus:  timestamp = %ld 
-16433,iiii,[ cmdProcessTlv2.c : 4203 ] Tx Gain Control:Chain %d, Gain %d, dacGain %d, forceCal %d 
+16493,II,[ cmdLp.c : 242 ] lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x, No effect as phy is in sleep! 
  
-16432,i,[ cmdProcessTlv2.c : 926 ] FTM phyid %d :: txHandler invoked
+16492,II,[ cmdLp.c : 249 ] lowpowerHandler_xlnabypass: phyId:0x%x, xlna_bypass=0x%x 
  
-16431,i,[ cmdProcessTlv2.c : 985 ] FTM :: txHandler: TX operation not allowed on phyID %d one operation ongoing 
-16430,i,[ cmdProcessTlv2.c : 1108 ] FTM: OFDMA Tone Plan BW %d 
-16429,IIII,[ cmdProcessTlv2.c : 1172 ] FTM :: txHandler: ret:0x%x, ret1:0x%x, ret2:0x%x, ret3:0x%x 
-16428,ii,[ cmdProcessTlv2.c : 1191 ] FTM :: txHandler dev running state=%d iterations_taken_to_flush=%d 
-16427,iI,[ cmdProcessTlv2.c : 1204 ] FTM :: txHandler: Sent response to host with status =%d, timestamp =%ld 
-16426,iiiiiiiI,[ cmdProcessTlv2.c : 935 ] FTM :: txHandler: phyId %d txMode %d freq %d freq2 %d wlanMode %d chainMask %d wifiStandard %d timestamp =%ld 
-16425,iiI,[ cmdProcessTlv2.c : 1247 ] FTM :: txStatusHandler: INSIDE txStatusHandler phyId =%d pParms->needReport=%d timestamp : %u 
-16424,ii,[ cmdProcessTlv2.c : 1261 ] FTM :: txStatusHandler: pParms->needReport=%d pParms->stopTx=%d 
-16423,IIII,[ cmdProcessTlv2.c : 1292 ] FTM :: txStatusHandler: ret:0x%x, ret1:0x%x, ret2:0x%x, ret3:0x%x 
-16523,iIi,[ dpdTuning.c : 280 ] GetDpdLoopbackInfoHandler phyId %d chainMask 0x%x GlutIdx %d 
-16522,ii,[ dpdTuning.c : 309 ] GetDpdLoopbackInfoHandler nmse %d, nmse_nondpd %d 
-16526,,[ LMGoProcessing.c : 62 ] LM_DBG: NULL pdev return 
-16525,Ii,[ LMGoProcessing.c : 78 ] LM_DBG: ABI on-period tx_duration_data %ld(US) current_time(MS) %d 
-16524,Ii,[ LMGoProcessing.c : 295 ] LM_DBG: ABI off-period tx_duration_data(US) %ld curTime(MS) %d 
 16570,I,[ tcmd.c : 5938 ] Invalid pdev %lu 
 16569,ii,[ tcmd.c : 5052 ] ftm_txoff_dur_calc: txtime = %d->%d 
 16568,iiii,[ tcmd.c : 5118 ] ftm_txq_update : ftm_tx_params %d, aifs %d cw_min %d cw_max %d 
@@ -2220,144 +2220,144 @@ VERSION:268796080
 16671,iiiiiiiii,[ rxGainCal.c : 408 ] rxGainCal:: rssiDB=%d Saving Results for phyId %d, chainIdx %d, ChanIdx %d, PNFdBr %d, PNFdBm %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d minCCAThreshold=%d 
 16670,iiiiii,[ rxGainCal.c : 414 ] rxGainCal:: Saving Results for phyId %d, chainIdx %d, ChanIdx %d, Expected Pkt Cnt %d, Actual Pkt Cnt %d totalPkt=%d 
 16669,,[ rxGainCal.c : 424 ] nextLoopRxCal is NULL 
-16796,iii,[ tpcCal.c : 660 ] chk1 Max_TX_CAL_Gain_ID_5G:%d Max_TX_CAL_Gain_ID_2G %d Max_TX_CAL_Gain_ID_6G %d 
-16795,IIII,[ tpcCal.c : 796 ] tpccal::5G opcChan[%u] %u, tpcChan[%u] %u 
-16794,Ii,[ tpcCal.c : 897 ] greenTxGainIndGrpFlag2G:%x, greenTxGainIndGrpFlag5G:%d 
+16700,iiI,[ xtalCal.c : 212 ] NEWXTALCALPROCHandler start phyid = %d, TrimValue = %d, ctrlFlag = %x
  
-16793,iiii,[ tpcCal.c : 986 ]  5G IdxGainEndGrp1:%d IdxGainEndGrp2:%d IdxGainEndGrp3:%d IdxGainEndGrp4:%d
+16699,ii,[ xtalCal.c : 342 ] [ERROR][TLV2_CTRL_W_OTP]OTP has data %d, %d 
+16698,ii,[ xtalCal.c : 350 ] XTAL_CAL: Success loop: pParms->hsVal=%d and pParms->xtalSts=%d 
  
-16792,iii,[ tpcCal.c : 711 ] tpccal:: PowerSave:: Mode %d gainIdxSwitch %d gainIdxSel %d 
-16791,IIII,[ tpcCal.c : 771 ] tpccal::2G opcChan[%u] %u, tpcChan[%u] %u 
-16790,iiiii,[ tpcCal.c : 1360 ] freq %d gIdx %d dacGain %d paCfg %d chMask %d
+16697,ii,[ xtalCal.c : 358 ] [TLV2_CTRL_W_OTP]capIn=%d, capOut=%d 
+16696,ii,[ xtalCal.c : 362 ] [ERROR][TLV2_CTRL_W_OTP]OTP has data %d, %d 
+16695,ii,[ xtalCal.c : 368 ] XTAL_CAL: Failure Loop: pParms->hsVal=%d and pParms->xtalSts=%d 
  
-16789,III,[ tpcCal.c : 1413 ] tpccal::Stopping tx before starting for Chan %u, Chain %u, Gain %u 
-16788,,[ tpcCal.c : 2751 ] tpccal::Generating Caldata 
-16787,ii,[ tpcCal.c : 2839 ] tpcCal::Generating Caldata for Channel %d dacGainforCal %d 
-16786,i,[ tpcCal.c : 2843 ] tpcCal::Generating Caldata for Chain %d 
-16785,iii,[ tpcCal.c : 2850 ] tpcCal::Generating Caldata for GLUT Gain Idx %d txgainIdx %d meas_pwr %d 
-16784,iii,[ tpcCal.c : 2861 ] tpcCal::Generating Caldata for GLUT EXT Gain Idx %d txgainIdx %d meas_pwr %d 
-16783,iii,[ tpcCal.c : 2871 ] tpcCal::Generating Caldata for PLUT Gain Idx %d pdadc_read %d meas_pwr %d 
-16782,iii,[ tpcCal.c : 2875 ] tpcdebug:: iGainidx %d current pdadc %d, previous pdadc %d 
-16781,iii,[ tpcCal.c : 2927 ] tpcCal::Generating Caldata for Chain %d sbsOffset %d NUM_CAL_GAINS_SELECTED_4_GLUT:%d  
-16780,iii,[ tpcCal.c : 2948 ] tpcCal::Generating Caldata for GLUT Gain Idx %d txgainIdx %d meas_pwr %d 
-16779,iiii,[ tpcCal.c : 2966 ] tpcCal::Generating Caldata for GLUT EXT Gain Idx %d txgainIdx %d meas_pwr %d numGlutEntries_5G:%d 
-16778,iii,[ tpcCal.c : 2983 ] tpcCal::Generating Caldata for PLUT Gain Idx %d pdadc_read %d meas_pwr %d 
-16777,iii,[ tpcCal.c : 2987 ] tpcdebug:: iGainidx %d current pdadc %d, previous pdadc %d 
-16776,iii,[ tpcCal.c : 3014 ] phyId:%d cmask:%d pwrAtPdadc:%d 
-16775,I,[ tpcCal.c : 3106 ] TPC2G: &scanCalPierData2G = 0x%x 
-16774,I,[ tpcCal.c : 3107 ] TPC5G: &scanCalPierData5G = 0x%x 
-16773,ii,[ tpcCal.c : 3115 ] TPC: chain = %d, iChanIdx = %d 
-16772,iii,[ tpcCal.c : 3123 ] TPC2G: scanMeasPwr2G[%d][%d] = %d 
-16771,iii,[ tpcCal.c : 3130 ] TPC5G: scanMeasPwr5G[%d][%d] = %d 
-16770,III,[ tpcCal.c : 1889 ] getNextLoop fail curLoop->idxCalPt %u, Chain %u, Gain %u 
-16769,iiiii,[ tpcCal.c : 1937 ] bef, band %d ch %d numCh %d chain %d gain %d
+16694,i,[ xtalCal.c : 330 ] XTAL_CAL : Backward compatible Loop, pParms->hsVal=%d 
+16693,ii,[ xtalCal.c : 338 ] [TLV2_CTRL_W_OTP]capIn=%d, capOut=%d 
+16804,iii,[ tpcCal.c : 660 ] chk1 Max_TX_CAL_Gain_ID_5G:%d Max_TX_CAL_Gain_ID_2G %d Max_TX_CAL_Gain_ID_6G %d 
+16803,IIII,[ tpcCal.c : 796 ] tpccal::5G opcChan[%u] %u, tpcChan[%u] %u 
+16802,Ii,[ tpcCal.c : 897 ] greenTxGainIndGrpFlag2G:%x, greenTxGainIndGrpFlag5G:%d 
  
-16768,,[ tpcCal.c : 1942 ] end loop0
+16801,iiii,[ tpcCal.c : 986 ]  5G IdxGainEndGrp1:%d IdxGainEndGrp2:%d IdxGainEndGrp3:%d IdxGainEndGrp4:%d
  
-16767,iiii,[ tpcCal.c : 1955 ] inc calPt %d ch %d chn %d, numGain %d
+16800,iii,[ tpcCal.c : 711 ] tpccal:: PowerSave:: Mode %d gainIdxSwitch %d gainIdxSel %d 
+16799,IIII,[ tpcCal.c : 771 ] tpccal::2G opcChan[%u] %u, tpcChan[%u] %u 
+16798,iiiii,[ tpcCal.c : 1360 ] freq %d gIdx %d dacGain %d paCfg %d chMask %d
  
-16766,ii,[ tpcCal.c : 1963 ] inc chain AI %d %d
+16797,III,[ tpcCal.c : 1413 ] tpccal::Stopping tx before starting for Chan %u, Chain %u, Gain %u 
+16796,,[ tpcCal.c : 2751 ] tpccal::Generating Caldata 
+16795,ii,[ tpcCal.c : 2839 ] tpcCal::Generating Caldata for Channel %d dacGainforCal %d 
+16794,i,[ tpcCal.c : 2843 ] tpcCal::Generating Caldata for Chain %d 
+16793,iii,[ tpcCal.c : 2850 ] tpcCal::Generating Caldata for GLUT Gain Idx %d txgainIdx %d meas_pwr %d 
+16792,iii,[ tpcCal.c : 2861 ] tpcCal::Generating Caldata for GLUT EXT Gain Idx %d txgainIdx %d meas_pwr %d 
+16791,iii,[ tpcCal.c : 2871 ] tpcCal::Generating Caldata for PLUT Gain Idx %d pdadc_read %d meas_pwr %d 
+16790,iii,[ tpcCal.c : 2875 ] tpcdebug:: iGainidx %d current pdadc %d, previous pdadc %d 
+16789,iii,[ tpcCal.c : 2927 ] tpcCal::Generating Caldata for Chain %d sbsOffset %d NUM_CAL_GAINS_SELECTED_4_GLUT:%d  
+16788,iii,[ tpcCal.c : 2948 ] tpcCal::Generating Caldata for GLUT Gain Idx %d txgainIdx %d meas_pwr %d 
+16787,iiii,[ tpcCal.c : 2966 ] tpcCal::Generating Caldata for GLUT EXT Gain Idx %d txgainIdx %d meas_pwr %d numGlutEntries_5G:%d 
+16786,iii,[ tpcCal.c : 2983 ] tpcCal::Generating Caldata for PLUT Gain Idx %d pdadc_read %d meas_pwr %d 
+16785,iii,[ tpcCal.c : 2987 ] tpcdebug:: iGainidx %d current pdadc %d, previous pdadc %d 
+16784,iii,[ tpcCal.c : 3014 ] phyId:%d cmask:%d pwrAtPdadc:%d 
+16783,I,[ tpcCal.c : 3106 ] TPC2G: &scanCalPierData2G = 0x%x 
+16782,I,[ tpcCal.c : 3107 ] TPC5G: &scanCalPierData5G = 0x%x 
+16781,ii,[ tpcCal.c : 3115 ] TPC: chain = %d, iChanIdx = %d 
+16780,iii,[ tpcCal.c : 3123 ] TPC2G: scanMeasPwr2G[%d][%d] = %d 
+16779,iii,[ tpcCal.c : 3130 ] TPC5G: scanMeasPwr5G[%d][%d] = %d 
+16778,III,[ tpcCal.c : 1889 ] getNextLoop fail curLoop->idxCalPt %u, Chain %u, Gain %u 
+16777,iiiii,[ tpcCal.c : 1937 ] bef, band %d ch %d numCh %d chain %d gain %d
  
-16765,ii,[ tpcCal.c : 1971 ] inc ch AI %d %d
+16776,,[ tpcCal.c : 1942 ] end loop0
  
-16764,ii,[ tpcCal.c : 1979 ] inc band AI %d %d
+16775,iiii,[ tpcCal.c : 1955 ] inc calPt %d ch %d chn %d, numGain %d
  
-16763,,[ tpcCal.c : 1983 ] end loop
+16774,ii,[ tpcCal.c : 1963 ] inc chain AI %d %d
  
-16762,iiii,[ tpcCal.c : 2044 ] pwr est %d band %d numEst %d, idx %d 
-16761,iiiii,[ tpcCal.c : 2048 ] sG %d %d %d %d %d  
-16760,i,[ tpcCal.c : 2049 ] %d
+16773,ii,[ tpcCal.c : 1971 ] inc ch AI %d %d
  
-16759,i,[ tpcCal.c : 3666 ] available_gainIdxs:%d 
-16758,iiii,[ tpcCal.c : 3672 ] Iteration m:%d glutsfilled[%d]:%d Max_Glut_Map[band][grpId]:%d 
-16757,i,[ tpcCal.c : 3673 ] tpcCalResult[band][chan].measPwr[chain][m]:%d 
-16756,,[ tpcCal.c : 3676 ] ERR: BAD CAL TARGETs CONFIGURED for:  
-16755,i,[ tpcCal.c : 3683 ] Picked limiting gainidx:%d 
-16754,i,[ tpcCal.c : 3697 ] Picked gainidx:%d  
-16753,,[ tpcCal.c : 3701 ] Moving up gainidxs to guarantee GLUT count! 
-16752,ii,[ tpcCal.c : 3704 ] currIndx:%d Updated endPwrIdxGrp:%d 
-16751,,[ tpcCal.c : 3709 ] BAD CAL TARGETs CONFIGURED for 
-16750,ii,[ tpcCal.c : 3714 ] Picked max gainidx:%d from group :%d  
-16749,,[ tpcCal.c : 3717 ] Invalid pick_glut_entry condition! 
-16748,,[ tpcCal.c : 2135 ] populateScanArray 
-16747,ii,[ tpcCal.c : 2184 ] populateScanArray 2G: ScanGainIdx = %d, measPwr = %d 
-16746,iiiii,[ tpcCal.c : 2187 ] populateScanArray 5G: iBand = %d, scanMeasPwr5G[%d][%d] = %d Actual chain = %d 
-16745,iiiiii,[ tpcCal.c : 2188 ] populateScanArray 5G: tpcCalResult[%d][%d].measPwr[%d][%d] = %d Actual chain = %d 
-16744,,[ tpcCal.c : 2342 ] tpccal::Post processing CLPC Caldata 
-16743,iii,[ tpcCal.c : 2418 ] tpccal:: PowerSave:: skip gainIdx %d Previous PDADC %d meas PDADC %d  
-16742,ii,[ tpcCal.c : 2428 ] tpccal::skip gainIdx %d (< thresh %d) 
-16741,,[ tpcCal.c : 2491 ] tpccal::Post processing CLPC Caldata GTX 
-16740,ii,[ tpcCal.c : 2568 ] tpccal::skip gainIdx %d (< thresh %d) 
-16739,,[ tpcCal.c : 2202 ] tpccal::Post processing OLPC Caldata 
-16738,,[ tpcCal.c : 2210 ] pp OLPC
+16772,ii,[ tpcCal.c : 1979 ] inc band AI %d %d
  
-16737,iiiii,[ tpcCal.c : 2234 ] meaPwr %d tgtPwr %d, bn %d ch %d chn %d, 
+16771,,[ tpcCal.c : 1983 ] end loop
  
-16736,i,[ tpcCal.c : 2235 ] numValidMeas = %d
+16770,iiii,[ tpcCal.c : 2044 ] pwr est %d band %d numEst %d, idx %d 
+16769,iiiii,[ tpcCal.c : 2048 ] sG %d %d %d %d %d  
+16768,i,[ tpcCal.c : 2049 ] %d
  
-16735,iiii,[ tpcCal.c : 2242 ] bkof %d bn %d ch %d chn %d
+16767,i,[ tpcCal.c : 3666 ] available_gainIdxs:%d 
+16766,iiii,[ tpcCal.c : 3672 ] Iteration m:%d glutsfilled[%d]:%d Max_Glut_Map[band][grpId]:%d 
+16765,i,[ tpcCal.c : 3673 ] tpcCalResult[band][chan].measPwr[chain][m]:%d 
+16764,,[ tpcCal.c : 3676 ] ERR: BAD CAL TARGETs CONFIGURED for:  
+16763,i,[ tpcCal.c : 3683 ] Picked limiting gainidx:%d 
+16762,i,[ tpcCal.c : 3697 ] Picked gainidx:%d  
+16761,,[ tpcCal.c : 3701 ] Moving up gainidxs to guarantee GLUT count! 
+16760,ii,[ tpcCal.c : 3704 ] currIndx:%d Updated endPwrIdxGrp:%d 
+16759,,[ tpcCal.c : 3709 ] BAD CAL TARGETs CONFIGURED for 
+16758,ii,[ tpcCal.c : 3714 ] Picked max gainidx:%d from group :%d  
+16757,,[ tpcCal.c : 3717 ] Invalid pick_glut_entry condition! 
+16756,,[ tpcCal.c : 2135 ] populateScanArray 
+16755,ii,[ tpcCal.c : 2184 ] populateScanArray 2G: ScanGainIdx = %d, measPwr = %d 
+16754,iiiii,[ tpcCal.c : 2187 ] populateScanArray 5G: iBand = %d, scanMeasPwr5G[%d][%d] = %d Actual chain = %d 
+16753,iiiiii,[ tpcCal.c : 2188 ] populateScanArray 5G: tpcCalResult[%d][%d].measPwr[%d][%d] = %d Actual chain = %d 
+16752,,[ tpcCal.c : 2342 ] tpccal::Post processing CLPC Caldata 
+16751,iii,[ tpcCal.c : 2418 ] tpccal:: PowerSave:: skip gainIdx %d Previous PDADC %d meas PDADC %d  
+16750,ii,[ tpcCal.c : 2428 ] tpccal::skip gainIdx %d (< thresh %d) 
+16749,,[ tpcCal.c : 2491 ] tpccal::Post processing CLPC Caldata GTX 
+16748,ii,[ tpcCal.c : 2568 ] tpccal::skip gainIdx %d (< thresh %d) 
+16747,,[ tpcCal.c : 2202 ] tpccal::Post processing OLPC Caldata 
+16746,,[ tpcCal.c : 2210 ] pp OLPC
  
-16734,iiii,[ tpcCal.c : 2261 ] stPwrIdx %d bn %d ch %d chn %d
+16745,iiiii,[ tpcCal.c : 2234 ] meaPwr %d tgtPwr %d, bn %d ch %d chn %d, 
  
-16733,iiiiiiii,[ tpcCal.c : 2312 ] iMeas %d iGainIdx %d tgt %d ch %d chn %d sel pwr %d gIdx %d dac %d
+16744,i,[ tpcCal.c : 2235 ] numValidMeas = %d
  
-16732,,[ tpcCal.c : 3736 ] postProcessingOLPCCALData_gtx 
-16731,iiii,[ tpcCal.c : 3775 ] BegiN: Band:%d chan:%d startPwrIdxGrp:%d  endPwrIdxGrp:%d  
-16730,ii,[ tpcCal.c : 3776 ] gtx tgtpwridx:%d , GlutPwrMapGrpNum:%d  
-16729,iii,[ tpcCal.c : 3783 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d modifiedTarget:%d 
-16728,i,[ tpcCal.c : 3785 ] endPwrIdxGrp:%d 
-16727,iii,[ tpcCal.c : 3791 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d modifiedTarget:%d 
-16726,i,[ tpcCal.c : 3793 ] endPwrIdxGrp:%d 
-16725,iiii,[ tpcCal.c : 3800 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d tpcCfg[band].IdxGainEndGrp3:%d modifiedTarget:%d 
-16724,i,[ tpcCal.c : 3802 ] endPwrIdxGrp:%d 
-16723,iiii,[ tpcCal.c : 3808 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d tpcCfg[band].IdxGainEndGrp4:%d modifiedTarget:%d 
-16722,i,[ tpcCal.c : 3810 ] endPwrIdxGrp:%d 
-16721,iii,[ tpcCal.c : 3814 ] gtx Invalid TPC_GLUT_PWR_MAP_GRP Id ! from Band:%d Chain:%d tgtpwridx:%d 
-16720,ii,[ tpcCal.c : 2662 ] tpccal:: PowerSave:: Switch Gainindex %d switchpwrIndex %d 
-16719,ii,[ tpcCal.c : 1182 ] Sending to host freq2G %d, freq5G %d
+16743,iiii,[ tpcCal.c : 2242 ] bkof %d bn %d ch %d chn %d
  
-16718,iii,[ tpcCal.c : 1791 ] Sending to host freq2G %d, freq5G %d, chain %d 
-16717,iiii,[ tpcCal.c : 1792 ] gain %d pwr %d numChain %d numCalpt %d
+16742,iiii,[ tpcCal.c : 2261 ] stPwrIdx %d bn %d ch %d chn %d
  
-16716,IIII,[ tpcCal.c : 1796 ] tpccal::Sending to host to look for measurements inChan2G %u, Chan5G %u, ChainMask(User) %u, Gain %u 
-16715,iii,[ tpcCal.c : 1798 ] Sending to host freq2G %d, freq5G %d, chain %d
+16741,iiiiiiii,[ tpcCal.c : 2312 ] iMeas %d iGainIdx %d tgt %d ch %d chn %d sel pwr %d gIdx %d dac %d
  
-16714,iiii,[ tpcCal.c : 1799 ] gain %d pwr %d numChain %d numCalpt %d
+16740,,[ tpcCal.c : 3736 ] postProcessingOLPCCALData_gtx 
+16739,iiii,[ tpcCal.c : 3775 ] BegiN: Band:%d chan:%d startPwrIdxGrp:%d  endPwrIdxGrp:%d  
+16738,ii,[ tpcCal.c : 3776 ] gtx tgtpwridx:%d , GlutPwrMapGrpNum:%d  
+16737,iii,[ tpcCal.c : 3783 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d modifiedTarget:%d 
+16736,i,[ tpcCal.c : 3785 ] endPwrIdxGrp:%d 
+16735,iii,[ tpcCal.c : 3791 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d modifiedTarget:%d 
+16734,i,[ tpcCal.c : 3793 ] endPwrIdxGrp:%d 
+16733,iiii,[ tpcCal.c : 3800 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d tpcCfg[band].IdxGainEndGrp3:%d modifiedTarget:%d 
+16732,i,[ tpcCal.c : 3802 ] endPwrIdxGrp:%d 
+16731,iiii,[ tpcCal.c : 3808 ] gtx startPwrIdxGrp:%d , endPwrIdxGrp:%d tpcCfg[band].IdxGainEndGrp4:%d modifiedTarget:%d 
+16730,i,[ tpcCal.c : 3810 ] endPwrIdxGrp:%d 
+16729,iii,[ tpcCal.c : 3814 ] gtx Invalid TPC_GLUT_PWR_MAP_GRP Id ! from Band:%d Chain:%d tgtpwridx:%d 
+16728,ii,[ tpcCal.c : 2662 ] tpccal:: PowerSave:: Switch Gainindex %d switchpwrIndex %d 
+16727,ii,[ tpcCal.c : 1182 ] Sending to host freq2G %d, freq5G %d
  
-16713,,[ tpcCal.c : 2696 ] tpccal::Sending Caldata to host 
-16712,,[ tpcCal.c : 1486 ] tpccal::Starting ... 
-16711,iii,[ tpcCal.c : 1540 ] srinivas tpccal::Invalid Config!! phyId=%d band=%d Mode=%dreturning 
-16710,,[ tpcCal.c : 1615 ] TPC Cal message check 
+16726,iii,[ tpcCal.c : 1791 ] Sending to host freq2G %d, freq5G %d, chain %d 
+16725,iiii,[ tpcCal.c : 1792 ] gain %d pwr %d numChain %d numCalpt %d
  
-16709,ii,[ tpcCal.c : 1670 ] tpcCALScheme: %d, phyID %d
+16724,IIII,[ tpcCal.c : 1796 ] tpccal::Sending to host to look for measurements inChan2G %u, Chan5G %u, ChainMask(User) %u, Gain %u 
+16723,iii,[ tpcCal.c : 1798 ] Sending to host freq2G %d, freq5G %d, chain %d
  
-16708,,[ tpcCal.c : 2101 ] tpccal::Completed 
-16707,,[ tpcCal.c : 2114 ] tpcCalCompleteCallback() 
-16706,iIIII,[ tpcCal.c : 3314 ] tpccal::Got measurement %d from host for Chan %u Chain %u Chain(user) %u Gain %u 
-16705,ii,[ tpcCal.c : 3413 ] Received identical power meas:%d prevMeas:%d .Failing calloop 
-16704,iii,[ tpcCal.c : 3442 ] Get 10Log(pdadc) prev:%d curr:%d slope:%d 
-16703,ii,[ tpcCal.c : 3445 ] Get Power meas:%d prevMeas:%d 
-16702,iiii,[ tpcCal.c : 3446 ]  calFail:%d, gainIdx:%d, idxCalPt:%d skipSlope_gtx_bndry:%d 
-16701,i,[ tpcCal.c : 3450 ] skipping slope for gainIdx = %d 
-16700,iIIIII,[ tpcCal.c : 3334 ] tpccal::latestThermValue %d for Band %u tpcChan %u opcChan[%u] %u  Chain %u 
-16699,iiii,[ tpcCal.c : 3350 ] Got Power from host Chan %d ,  GainIdx %d , MeasPwr  %d , Read pdadc %d  
-16698,ii,[ tpcCal.c : 3386 ]  tpccal:: PowerSave:: enabled %d ignore non-linerarity at Gainidx switch %d 
-16697,III,[ tpcCal.c : 2078 ] tpccal::Starting tx for Chan %u, Chain %u, Gain %u 
-16696,i,[ tpcCal.c : 2085 ] tpccal:: PowerSave:: Gainindex Switch %d 
-16695,iiiii,[ tpcCal.c : 3633 ] Write to tpcCalPostProcResult[%d][%d].olpc.measPwrExt[%d][%d]:%d 
-16694,iiiii,[ tpcCal.c : 3640 ] Write to tpcCalPostProcResult[%d][%d].olpc.measPwr[%d][%d]:%d 
-16693,ii,[ tpcCal.c : 3650 ] glutsfilled[%d]:%d 
-16804,iiI,[ xtalCal.c : 212 ] NEWXTALCALPROCHandler start phyid = %d, TrimValue = %d, ctrlFlag = %x
+16722,iiii,[ tpcCal.c : 1799 ] gain %d pwr %d numChain %d numCalpt %d
  
-16803,ii,[ xtalCal.c : 342 ] [ERROR][TLV2_CTRL_W_OTP]OTP has data %d, %d 
-16802,ii,[ xtalCal.c : 350 ] XTAL_CAL: Success loop: pParms->hsVal=%d and pParms->xtalSts=%d 
+16721,,[ tpcCal.c : 2696 ] tpccal::Sending Caldata to host 
+16720,,[ tpcCal.c : 1486 ] tpccal::Starting ... 
+16719,iii,[ tpcCal.c : 1540 ] srinivas tpccal::Invalid Config!! phyId=%d band=%d Mode=%dreturning 
+16718,,[ tpcCal.c : 1615 ] TPC Cal message check 
  
-16801,ii,[ xtalCal.c : 358 ] [TLV2_CTRL_W_OTP]capIn=%d, capOut=%d 
-16800,ii,[ xtalCal.c : 362 ] [ERROR][TLV2_CTRL_W_OTP]OTP has data %d, %d 
-16799,ii,[ xtalCal.c : 368 ] XTAL_CAL: Failure Loop: pParms->hsVal=%d and pParms->xtalSts=%d 
+16717,ii,[ tpcCal.c : 1670 ] tpcCALScheme: %d, phyID %d
  
-16798,i,[ xtalCal.c : 330 ] XTAL_CAL : Backward compatible Loop, pParms->hsVal=%d 
-16797,ii,[ xtalCal.c : 338 ] [TLV2_CTRL_W_OTP]capIn=%d, capOut=%d 
+16716,,[ tpcCal.c : 2101 ] tpccal::Completed 
+16715,,[ tpcCal.c : 2114 ] tpcCalCompleteCallback() 
+16714,iIIII,[ tpcCal.c : 3314 ] tpccal::Got measurement %d from host for Chan %u Chain %u Chain(user) %u Gain %u 
+16713,ii,[ tpcCal.c : 3413 ] Received identical power meas:%d prevMeas:%d .Failing calloop 
+16712,iii,[ tpcCal.c : 3442 ] Get 10Log(pdadc) prev:%d curr:%d slope:%d 
+16711,ii,[ tpcCal.c : 3445 ] Get Power meas:%d prevMeas:%d 
+16710,iiii,[ tpcCal.c : 3446 ]  calFail:%d, gainIdx:%d, idxCalPt:%d skipSlope_gtx_bndry:%d 
+16709,i,[ tpcCal.c : 3450 ] skipping slope for gainIdx = %d 
+16708,iIIIII,[ tpcCal.c : 3334 ] tpccal::latestThermValue %d for Band %u tpcChan %u opcChan[%u] %u  Chain %u 
+16707,iiii,[ tpcCal.c : 3350 ] Got Power from host Chan %d ,  GainIdx %d , MeasPwr  %d , Read pdadc %d  
+16706,ii,[ tpcCal.c : 3386 ]  tpccal:: PowerSave:: enabled %d ignore non-linerarity at Gainidx switch %d 
+16705,III,[ tpcCal.c : 2078 ] tpccal::Starting tx for Chan %u, Chain %u, Gain %u 
+16704,i,[ tpcCal.c : 2085 ] tpccal:: PowerSave:: Gainindex Switch %d 
+16703,iiiii,[ tpcCal.c : 3633 ] Write to tpcCalPostProcResult[%d][%d].olpc.measPwrExt[%d][%d]:%d 
+16702,iiiii,[ tpcCal.c : 3640 ] Write to tpcCalPostProcResult[%d][%d].olpc.measPwr[%d][%d]:%d 
+16701,ii,[ tpcCal.c : 3650 ] glutsfilled[%d]:%d 
 16805,ii,[ wmi_ftm_attach.c : 226 ] ERROR: ftm_parse_unifiedcmd: dataLen %d is LESS than sizeof(segHdrInfo) %d 
 16806,,[ mac_hal_init_api_patch.c : 2029 ] RXPCU_DEBUG: Configured RXPCU_GSE_WATCHDOG timeout as 0x4e20 ie 20msec 
 16810,,[ whal_beacon_patch.c : 177 ] scratch registers have not been allocated by host for mac0 tsf1 offset 
@@ -3481,134 +3481,134 @@ VERSION:268796080
 17704,i,[ phyvi_ftpgRx.c : 130 ] OFDMA-DL RX [TARGET USER = %d] 
 17703,i,[ phyvi_ftpgRx.c : 140 ] SU RX %d 
 17702,,[ phyvi_ftpgRx.c : 40 ] Resetting FCS-CRC Registers 
-17720,,[ ftpgToolBox.c : 86 ] Error: Qword array points to NULL! 
-17719,,[ ftpgToolBox.c : 100 ] Error: Queue does not exist! 
-17718,,[ ftpgToolBox.c : 120 ] ftpg error detected, aborting... 
-17717,,[ ftpgToolBox.c : 45 ] Error: Queue does not exist! 
-17716,,[ ftpgToolBox.c : 65 ] Error: Queue does not exist! 
-17715,II,[ ftpgToolBox.c : 308 ] %-20s = %-20u 
-17714,I,[ ftpgToolBox.c : 262 ] Error: PHYDBG BANK OVERFLOW! [bank_size=%u] 
-17713,I,[ ftpgToolBox.c : 276 ] Error: Invalid memidx. [bank_size=%u] 
-17712,I,[ ftpgToolBox.c : 227 ] Error: TXBF Weight Bank OVERFLOW! [current bank_size=%u] 
-17711,I,[ ftpgToolBox.c : 245 ] Error: TXBF Weight Bank OVERFLOW! [current bank_size=%u] 
-17710,i,[ ftpgToolBox.c : 153 ] Error: Invalid phyid [=%d] 
-17733,,[ ftpgTlvWrapper.c : 207 ] Error: TLVFIELD array points to NULL! 
-17732,,[ ftpgTlvWrapper.c : 152 ] Error: TLVFIELD array points to NULL! 
-17731,II,[ ftpgTlvWrapper.c : 166 ] Error: Field %s not found in the TLV %s! 
-17730,I,[ ftpgTlvWrapper.c : 359 ] Error: invalid input to function %s. Exiting ... 
-17729,ii,[ ftpgTlvWrapper.c : 260 ] Error: totalQwords=%d exceeds Max supported Qwords of %d 
-17728,,[ ftpgTlvWrapper.c : 303 ] Error: Exceed Max Supported Qwords! 
-17727,,[ ftpgTlvWrapper.c : 63 ] Error: TLVFIELD array points to NULL! 
-17726,II,[ ftpgTlvWrapper.c : 99 ] Error: Field %s was not found in the TLV %s! 
-17725,II,[ ftpgTlvWrapper.c : 75 ] Error: Field %s of TLV %s is read only! 
-17724,III,[ ftpgTlvWrapper.c : 89 ] Error: Max TLV Field Value = %u has been exceeded for field [%s] of [%s]! 
-17723,,[ ftpgTlvWrapper.c : 111 ] Error: TLVFIELD array points to NULL! 
-17722,III,[ ftpgTlvWrapper.c : 129 ] Error: Max TLV Field Value = %u has been exceeded for field [%s] of [%s]! 
-17721,II,[ ftpgTlvWrapper.c : 139 ] Error: Field %s was not found in the TLV %s! 
-17810,II,[ ftpgCompute.c : 1791 ] Error: Unsupported [pktTypeIdx, pktSubTypeIdx] = [%u, %u] 
-17809,I,[ ftpgCompute.c : 1797 ] Error: Unsupported pktSubTypeIdx[=%u] 
-17808,i,[ ftpgCompute.c : 1565 ] Error: Nsym cannot accomodate payload for user %d [ldpc] 
-17807,ii,[ ftpgCompute.c : 1566 ] nsym = %d total bits = %d 
-17806,i,[ ftpgCompute.c : 1579 ] Error: Nsym cannot accomodate payload for user %d [bcc] 
-17805,i,[ ftpgCompute.c : 1580 ] total bits = %d 
-17804,II,[ ftpgCompute.c : 1883 ] Error: Unsupported [pktTypeIdx, pktSubTypeIdx] = [%u, %u] 
-17803,I,[ ftpgCompute.c : 1889 ] Error: Unsupported pktSubTypeIdx[=%u] 
-17802,i,[ ftpgCompute.c : 1609 ] Error: Nsym cannot accomodate payload for user %d [ldpc] 
-17801,ii,[ ftpgCompute.c : 1610 ] nsym = %d total bits = %d 
-17800,i,[ ftpgCompute.c : 1623 ] Error: Nsym cannot accomodate payload for user %d [bcc] 
-17799,i,[ ftpgCompute.c : 1624 ] total bits = %d 
-17798,I,[ ftpgCompute.c : 1131 ] Error: Unsupported pktSubTypeIdx[=%u] 
-17797,,[ ftpgCompute.c : 2808 ] E: FTPG_COMPUTE_SM in unexpected state! 
-17796,i,[ ftpgCompute.c : 2817 ] payLoadSize = %d 
-17795,i,[ ftpgCompute.c : 2818 ] nsym = %d 
-17794,,[ ftpgCompute.c : 2833 ] E: FTPG_COMPUTE_SM did not converge! 
-17793,I,[ ftpgCompute.c : 2838 ] payLoadSize converged to %u 
-17792,ii,[ ftpgCompute.c : 2816 ] ftpgComputeSmState(%d) = %d 
-17791,I,[ ftpgCompute.c : 2139 ] Error: Unsupported 11ax GI Index [=%u] 
-17790,I,[ ftpgCompute.c : 2118 ] Error: Unsupported 11ax ltf_size_index [=%u] 
-17789,I,[ ftpgCompute.c : 2162 ] Error: Unsupported 11ax GI Index [=%u] 
-17788,I,[ ftpgCompute.c : 926 ] Error: Invalid 11b Rate Code [=%u] 
-17787,I,[ ftpgCompute.c : 2054 ] Error: Unsupported RU Size [=%u] 
-17786,I,[ ftpgCompute.c : 2082 ] Error: Unsupported RU Size [=%u] 
-17785,,[ ftpgCompute.c : 710 ] Invalid 11a Modulation Index! 
-17784,I,[ ftpgCompute.c : 742 ] %s: Error: Invalid input! 
-17783,I,[ ftpgCompute.c : 534 ] %s: Error: Could not compute Coding Rate! [check input parameters] 
-17782,I,[ ftpgCompute.c : 549 ] %s: Error: Could not compute Coding Rate! [check input parameters] 
-17781,I,[ ftpgCompute.c : 184 ] %s: Error: Invalid Packet Type! 
-17780,I,[ ftpgCompute.c : 225 ] %s: Error: Invalid dot11ax_gi! 
-17779,I,[ ftpgCompute.c : 249 ] Fatal Error: L-SIGA LENGTH must be divisible by 3 for Non-HE packet. Got %u ! 
-17778,,[ ftpgCompute.c : 583 ] Error: DCM is not supported for MCS > 0 
-17777,,[ ftpgCompute.c : 595 ] Error: DCM is not supported for MCS > 0 
-17776,I,[ ftpgCompute.c : 605 ] %s: Error: Could not compute Nbpscs! [check input parameters] 
-17775,,[ ftpgCompute.c : 443 ] Fatal Error: Could not compute Ncbps! 
-17774,I,[ ftpgCompute.c : 467 ] Fatal Error: Could not compute Ncbps for user %u! 
-17773,II,[ ftpgCompute.c : 477 ] Error: Unsupported [pktTypeIdx, pktSubTypeIdx] = [%u, %u] 
-17772,I,[ ftpgCompute.c : 488 ] Fatal Error: Could not compute Ncbps for user %u! 
-17771,I,[ ftpgCompute.c : 495 ] Error: Unsupported pktSubTypeIdx[=%u] 
-17770,,[ ftpgCompute.c : 374 ] Fatal Error: Could not compute Ndbps! 
-17769,I,[ ftpgCompute.c : 397 ] Fatal Error: Could not compute Ndbps for user %u! 
-17768,II,[ ftpgCompute.c : 407 ] Error: Unsupported [pktTypeIdx, pktSubTypeIdx] = [%u, %u] 
-17767,I,[ ftpgCompute.c : 418 ] Fatal Error: Could not compute Ndbps for user %u! 
-17766,I,[ ftpgCompute.c : 425 ] Error: Unsupported pktSubTypeIdx[=%u] 
-17765,I,[ ftpgCompute.c : 2228 ] Error: Unsupported pktSubTypeIdx[=%u] 
-17764,,[ ftpgCompute.c : 291 ] Error: Could not compute Nsc! [check input parameters] 
-17763,I,[ ftpgCompute.c : 326 ] Error: Unsupported RU Size [=%u] 
-17762,II,[ ftpgCompute.c : 338 ] Error: Unsupported [pktTypeIdx, pktSubTypeIdx] = [%u, %u] 
-17761,,[ ftpgCompute.c : 349 ] Error: Could not compute Nsc! [check input parameters] 
-17760,I,[ ftpgCompute.c : 356 ] Error: Unsupported pktSubTypeIdx[=%u] 
-17759,I,[ ftpgCompute.c : 2333 ] Error: Unsupported pktSubTypeIdx[=%u] 
-17758,Ii,[ ftpgCompute.c : 2480 ] %s: iter%d 
-17757,iii,[ ftpgCompute.c : 2481 ] numSigBSymCh0=%d numSigBSymCh1=%d mcsHeSigB=%d 
-17756,I,[ ftpgCompute.c : 2493 ] %s: Fatal Error in HeSigBSymCalc Calc 
-17755,I,[ ftpgCompute.c : 655 ] %s: Invalid 11b Rate Code! 
-17754,I,[ ftpgCompute.c : 675 ] Error: Unsupported pktSubTypeIdx[=%u] 
-17753,I,[ ftpgCompute.c : 2604 ] %s: Fatal Error in SGI Disamb Calc 
-17752,I,[ ftpgCompute.c : 2613 ] Error: Invalid BW Code [%u] 
-17751,,[ ftpgCompute.c : 1255 ] Error: HE_SU/STBC+DCM is not supported 
-17750,,[ ftpgCompute.c : 1304 ] Error: STBC and DCM are not support for HE_SUxHE_LTF+0.8GI 
-17749,,[ ftpgCompute.c : 1316 ] Error: Invalid GI Input for NON-HE-SU packet 
-17748,,[ ftpgCompute.c : 1327 ] Error: DCM is not support for HE_SUxHE_LTF+0.4GI 
-17747,,[ ftpgCompute.c : 1340 ] Error: Invalid mcs for QC Proprietary GI+LTF! 
-17746,,[ ftpgCompute.c : 1346 ] Error: Invalid GI Input for NON-HE-SU packet! 
-17745,,[ ftpgCompute.c : 1357 ] Error: DCM is not support for HE_SUxHE_LTF+0.4GI 
-17744,,[ ftpgCompute.c : 1370 ] Error: Invalid mcs for QC Proprietary GI+LTF! 
-17743,,[ ftpgCompute.c : 1376 ] Error: Invalid GI Input for NON-HE-SU packet! 
-17742,,[ ftpgCompute.c : 1383 ] Error: Invalid cp_ltf_size! 
-17741,,[ ftpgCompute.c : 1275 ] Error: Invalid pktSubType for given cpLtfSize! 
-17740,,[ ftpgCompute.c : 1405 ] Error: HE_SU/STBC+DCM is not supported 
-17739,,[ ftpgCompute.c : 1456 ] Error: STBC and DCM are not support for HE_SUxHE_LTF+0.8GI 
-17738,,[ ftpgCompute.c : 1468 ] Error: Invalid GI Input for NON-HE-SU packet 
-17737,,[ ftpgCompute.c : 1537 ] Error: Invalid cp_ltf_size! 
-17736,II,[ ftpgCompute.c : 1236 ] Error: Unsupported [pktTypeIdx, pktSubTypeIdx] = [%u, %u] 
-17735,I,[ ftpgCompute.c : 1242 ] Error: Unsupported pktSubTypeIdx[=%u] 
-17734,iI,[ ftpgCompute.c : 2563 ] Warning: Nss[=%d] should be < than Total Tx Chains [=%u] 
-17817,I,[ phyvi_ftpgTx.c : 144 ] %s (Disabled) 
-17816,I,[ phyvi_ftpgTx.c : 170 ] E: Some input parameters were invalid [err_mask=0x%X]! 
-17815,,[ phyvi_ftpgTx.c : 171 ] Aborting FTPG TX 
-17814,I,[ phyvi_ftpgTx.c : 199 ] %s: Recipe Failed! 
-17813,I,[ phyvi_ftpgTx.c : 203 ] %s: Recipe Completed 
-17812,,[ phyvi_ftpgTx.c : 149 ] FTPG Tx: Re-Transmitting ... 
-17811,ii,[ phyvi_ftpgTx.c : 158 ] Map ftpgTxInput->pktBWCode BW160(%d) to BW80plus80 (%d). Since BW def in FTPG is different 
-17823,i,[ ftpgRuAllocation.c : 376 ] Error: Invalid BW  code = %d 
-17822,I,[ ftpgRuAllocation.c : 165 ] Fatal Error: numDummyUsers exceeds Max Users corresponding RU Alloc for band %u 
-17821,II,[ ftpgRuAllocation.c : 177 ] Fatal Error: Total Users in RU Allocation [%u] does not match input number of users [%u] 
-17820,I,[ ftpgRuAllocation.c : 89 ] Error: Invalid Band Index [=%u] 
-17819,I,[ ftpgRuAllocation.c : 122 ] Error: Unsupported RU Size [=%u] 
-17818,I,[ ftpgRuAllocation.c : 249 ] Fatal Error: Invaid BW code [%u] 
-17827,,[ configFtpg.c : 186 ] Resetting FTPG Block ... 
-17826,I,[ configFtpg.c : 91 ] [pktdur=%uus] 
-17825,I,[ configFtpg.c : 92 ] [numPkts=%u] 
-17824,,[ configFtpg.c : 116 ] current tlv is synth_on, need 100us total 
-17833,I,[ ftpgTlvFieldProgStruct.c : 985 ] **********************crcQword=%llx  
-17832,I,[ ftpgTlvFieldProgStruct.c : 987 ] **********************crc=%x  
-17831,II,[ ftpgTlvFieldProgStruct.c : 328 ] Corrupting CRC: %u->%u 
-17830,II,[ ftpgTlvFieldProgStruct.c : 296 ] Corrupting LSig: %u->%u 
-17829,II,[ ftpgTlvFieldProgStruct.c : 317 ] Corrupting LSigParity: %u->%u 
-17828,II,[ ftpgTlvFieldProgStruct.c : 306 ] Corrupting Rate: %u->%u 
-17837,I,[ ftpgTlvSeq.c : 110 ] Error: Invalid Argument [pktSubType = %u]. 
-17836,I,[ ftpgTlvSeq.c : 176 ] Error: Invalid Argument [pktType = %u]. 
-17835,I,[ ftpgTlvSeq.c : 140 ] Error: Invalid Argument [pktSubType = %u]. 
-17834,I,[ ftpgTlvSeq.c : 170 ] Error: Invalid Argument [pktSubType = %u]. 
+17786,II,[ ftpgCompute.c : 1791 ] Error: Unsupported [pktTypeIdx, pktSubTypeIdx] = [%u, %u] 
+17785,I,[ ftpgCompute.c : 1797 ] Error: Unsupported pktSubTypeIdx[=%u] 
+17784,i,[ ftpgCompute.c : 1565 ] Error: Nsym cannot accomodate payload for user %d [ldpc] 
+17783,ii,[ ftpgCompute.c : 1566 ] nsym = %d total bits = %d 
+17782,i,[ ftpgCompute.c : 1579 ] Error: Nsym cannot accomodate payload for user %d [bcc] 
+17781,i,[ ftpgCompute.c : 1580 ] total bits = %d 
+17780,II,[ ftpgCompute.c : 1883 ] Error: Unsupported [pktTypeIdx, pktSubTypeIdx] = [%u, %u] 
+17779,I,[ ftpgCompute.c : 1889 ] Error: Unsupported pktSubTypeIdx[=%u] 
+17778,i,[ ftpgCompute.c : 1609 ] Error: Nsym cannot accomodate payload for user %d [ldpc] 
+17777,ii,[ ftpgCompute.c : 1610 ] nsym = %d total bits = %d 
+17776,i,[ ftpgCompute.c : 1623 ] Error: Nsym cannot accomodate payload for user %d [bcc] 
+17775,i,[ ftpgCompute.c : 1624 ] total bits = %d 
+17774,I,[ ftpgCompute.c : 1131 ] Error: Unsupported pktSubTypeIdx[=%u] 
+17773,,[ ftpgCompute.c : 2808 ] E: FTPG_COMPUTE_SM in unexpected state! 
+17772,i,[ ftpgCompute.c : 2817 ] payLoadSize = %d 
+17771,i,[ ftpgCompute.c : 2818 ] nsym = %d 
+17770,,[ ftpgCompute.c : 2833 ] E: FTPG_COMPUTE_SM did not converge! 
+17769,I,[ ftpgCompute.c : 2838 ] payLoadSize converged to %u 
+17768,ii,[ ftpgCompute.c : 2816 ] ftpgComputeSmState(%d) = %d 
+17767,I,[ ftpgCompute.c : 2139 ] Error: Unsupported 11ax GI Index [=%u] 
+17766,I,[ ftpgCompute.c : 2118 ] Error: Unsupported 11ax ltf_size_index [=%u] 
+17765,I,[ ftpgCompute.c : 2162 ] Error: Unsupported 11ax GI Index [=%u] 
+17764,I,[ ftpgCompute.c : 926 ] Error: Invalid 11b Rate Code [=%u] 
+17763,I,[ ftpgCompute.c : 2054 ] Error: Unsupported RU Size [=%u] 
+17762,I,[ ftpgCompute.c : 2082 ] Error: Unsupported RU Size [=%u] 
+17761,,[ ftpgCompute.c : 710 ] Invalid 11a Modulation Index! 
+17760,I,[ ftpgCompute.c : 742 ] %s: Error: Invalid input! 
+17759,I,[ ftpgCompute.c : 534 ] %s: Error: Could not compute Coding Rate! [check input parameters] 
+17758,I,[ ftpgCompute.c : 549 ] %s: Error: Could not compute Coding Rate! [check input parameters] 
+17757,I,[ ftpgCompute.c : 184 ] %s: Error: Invalid Packet Type! 
+17756,I,[ ftpgCompute.c : 225 ] %s: Error: Invalid dot11ax_gi! 
+17755,I,[ ftpgCompute.c : 249 ] Fatal Error: L-SIGA LENGTH must be divisible by 3 for Non-HE packet. Got %u ! 
+17754,,[ ftpgCompute.c : 583 ] Error: DCM is not supported for MCS > 0 
+17753,,[ ftpgCompute.c : 595 ] Error: DCM is not supported for MCS > 0 
+17752,I,[ ftpgCompute.c : 605 ] %s: Error: Could not compute Nbpscs! [check input parameters] 
+17751,,[ ftpgCompute.c : 443 ] Fatal Error: Could not compute Ncbps! 
+17750,I,[ ftpgCompute.c : 467 ] Fatal Error: Could not compute Ncbps for user %u! 
+17749,II,[ ftpgCompute.c : 477 ] Error: Unsupported [pktTypeIdx, pktSubTypeIdx] = [%u, %u] 
+17748,I,[ ftpgCompute.c : 488 ] Fatal Error: Could not compute Ncbps for user %u! 
+17747,I,[ ftpgCompute.c : 495 ] Error: Unsupported pktSubTypeIdx[=%u] 
+17746,,[ ftpgCompute.c : 374 ] Fatal Error: Could not compute Ndbps! 
+17745,I,[ ftpgCompute.c : 397 ] Fatal Error: Could not compute Ndbps for user %u! 
+17744,II,[ ftpgCompute.c : 407 ] Error: Unsupported [pktTypeIdx, pktSubTypeIdx] = [%u, %u] 
+17743,I,[ ftpgCompute.c : 418 ] Fatal Error: Could not compute Ndbps for user %u! 
+17742,I,[ ftpgCompute.c : 425 ] Error: Unsupported pktSubTypeIdx[=%u] 
+17741,I,[ ftpgCompute.c : 2228 ] Error: Unsupported pktSubTypeIdx[=%u] 
+17740,,[ ftpgCompute.c : 291 ] Error: Could not compute Nsc! [check input parameters] 
+17739,I,[ ftpgCompute.c : 326 ] Error: Unsupported RU Size [=%u] 
+17738,II,[ ftpgCompute.c : 338 ] Error: Unsupported [pktTypeIdx, pktSubTypeIdx] = [%u, %u] 
+17737,,[ ftpgCompute.c : 349 ] Error: Could not compute Nsc! [check input parameters] 
+17736,I,[ ftpgCompute.c : 356 ] Error: Unsupported pktSubTypeIdx[=%u] 
+17735,I,[ ftpgCompute.c : 2333 ] Error: Unsupported pktSubTypeIdx[=%u] 
+17734,Ii,[ ftpgCompute.c : 2480 ] %s: iter%d 
+17733,iii,[ ftpgCompute.c : 2481 ] numSigBSymCh0=%d numSigBSymCh1=%d mcsHeSigB=%d 
+17732,I,[ ftpgCompute.c : 2493 ] %s: Fatal Error in HeSigBSymCalc Calc 
+17731,I,[ ftpgCompute.c : 655 ] %s: Invalid 11b Rate Code! 
+17730,I,[ ftpgCompute.c : 675 ] Error: Unsupported pktSubTypeIdx[=%u] 
+17729,I,[ ftpgCompute.c : 2604 ] %s: Fatal Error in SGI Disamb Calc 
+17728,I,[ ftpgCompute.c : 2613 ] Error: Invalid BW Code [%u] 
+17727,,[ ftpgCompute.c : 1255 ] Error: HE_SU/STBC+DCM is not supported 
+17726,,[ ftpgCompute.c : 1304 ] Error: STBC and DCM are not support for HE_SUxHE_LTF+0.8GI 
+17725,,[ ftpgCompute.c : 1316 ] Error: Invalid GI Input for NON-HE-SU packet 
+17724,,[ ftpgCompute.c : 1327 ] Error: DCM is not support for HE_SUxHE_LTF+0.4GI 
+17723,,[ ftpgCompute.c : 1340 ] Error: Invalid mcs for QC Proprietary GI+LTF! 
+17722,,[ ftpgCompute.c : 1346 ] Error: Invalid GI Input for NON-HE-SU packet! 
+17721,,[ ftpgCompute.c : 1357 ] Error: DCM is not support for HE_SUxHE_LTF+0.4GI 
+17720,,[ ftpgCompute.c : 1370 ] Error: Invalid mcs for QC Proprietary GI+LTF! 
+17719,,[ ftpgCompute.c : 1376 ] Error: Invalid GI Input for NON-HE-SU packet! 
+17718,,[ ftpgCompute.c : 1383 ] Error: Invalid cp_ltf_size! 
+17717,,[ ftpgCompute.c : 1275 ] Error: Invalid pktSubType for given cpLtfSize! 
+17716,,[ ftpgCompute.c : 1405 ] Error: HE_SU/STBC+DCM is not supported 
+17715,,[ ftpgCompute.c : 1456 ] Error: STBC and DCM are not support for HE_SUxHE_LTF+0.8GI 
+17714,,[ ftpgCompute.c : 1468 ] Error: Invalid GI Input for NON-HE-SU packet 
+17713,,[ ftpgCompute.c : 1537 ] Error: Invalid cp_ltf_size! 
+17712,II,[ ftpgCompute.c : 1236 ] Error: Unsupported [pktTypeIdx, pktSubTypeIdx] = [%u, %u] 
+17711,I,[ ftpgCompute.c : 1242 ] Error: Unsupported pktSubTypeIdx[=%u] 
+17710,iI,[ ftpgCompute.c : 2563 ] Warning: Nss[=%d] should be < than Total Tx Chains [=%u] 
+17793,I,[ phyvi_ftpgTx.c : 144 ] %s (Disabled) 
+17792,I,[ phyvi_ftpgTx.c : 170 ] E: Some input parameters were invalid [err_mask=0x%X]! 
+17791,,[ phyvi_ftpgTx.c : 171 ] Aborting FTPG TX 
+17790,I,[ phyvi_ftpgTx.c : 199 ] %s: Recipe Failed! 
+17789,I,[ phyvi_ftpgTx.c : 203 ] %s: Recipe Completed 
+17788,,[ phyvi_ftpgTx.c : 149 ] FTPG Tx: Re-Transmitting ... 
+17787,ii,[ phyvi_ftpgTx.c : 158 ] Map ftpgTxInput->pktBWCode BW160(%d) to BW80plus80 (%d). Since BW def in FTPG is different 
+17797,I,[ ftpgTlvSeq.c : 110 ] Error: Invalid Argument [pktSubType = %u]. 
+17796,I,[ ftpgTlvSeq.c : 176 ] Error: Invalid Argument [pktType = %u]. 
+17795,I,[ ftpgTlvSeq.c : 140 ] Error: Invalid Argument [pktSubType = %u]. 
+17794,I,[ ftpgTlvSeq.c : 170 ] Error: Invalid Argument [pktSubType = %u]. 
+17808,,[ ftpgToolBox.c : 86 ] Error: Qword array points to NULL! 
+17807,,[ ftpgToolBox.c : 100 ] Error: Queue does not exist! 
+17806,,[ ftpgToolBox.c : 120 ] ftpg error detected, aborting... 
+17805,,[ ftpgToolBox.c : 45 ] Error: Queue does not exist! 
+17804,,[ ftpgToolBox.c : 65 ] Error: Queue does not exist! 
+17803,II,[ ftpgToolBox.c : 308 ] %-20s = %-20u 
+17802,I,[ ftpgToolBox.c : 262 ] Error: PHYDBG BANK OVERFLOW! [bank_size=%u] 
+17801,I,[ ftpgToolBox.c : 276 ] Error: Invalid memidx. [bank_size=%u] 
+17800,I,[ ftpgToolBox.c : 227 ] Error: TXBF Weight Bank OVERFLOW! [current bank_size=%u] 
+17799,I,[ ftpgToolBox.c : 245 ] Error: TXBF Weight Bank OVERFLOW! [current bank_size=%u] 
+17798,i,[ ftpgToolBox.c : 153 ] Error: Invalid phyid [=%d] 
+17812,,[ configFtpg.c : 186 ] Resetting FTPG Block ... 
+17811,I,[ configFtpg.c : 91 ] [pktdur=%uus] 
+17810,I,[ configFtpg.c : 92 ] [numPkts=%u] 
+17809,,[ configFtpg.c : 116 ] current tlv is synth_on, need 100us total 
+17818,i,[ ftpgRuAllocation.c : 376 ] Error: Invalid BW  code = %d 
+17817,I,[ ftpgRuAllocation.c : 165 ] Fatal Error: numDummyUsers exceeds Max Users corresponding RU Alloc for band %u 
+17816,II,[ ftpgRuAllocation.c : 177 ] Fatal Error: Total Users in RU Allocation [%u] does not match input number of users [%u] 
+17815,I,[ ftpgRuAllocation.c : 89 ] Error: Invalid Band Index [=%u] 
+17814,I,[ ftpgRuAllocation.c : 122 ] Error: Unsupported RU Size [=%u] 
+17813,I,[ ftpgRuAllocation.c : 249 ] Fatal Error: Invaid BW code [%u] 
+17824,I,[ ftpgTlvFieldProgStruct.c : 985 ] **********************crcQword=%llx  
+17823,I,[ ftpgTlvFieldProgStruct.c : 987 ] **********************crc=%x  
+17822,II,[ ftpgTlvFieldProgStruct.c : 328 ] Corrupting CRC: %u->%u 
+17821,II,[ ftpgTlvFieldProgStruct.c : 296 ] Corrupting LSig: %u->%u 
+17820,II,[ ftpgTlvFieldProgStruct.c : 317 ] Corrupting LSigParity: %u->%u 
+17819,II,[ ftpgTlvFieldProgStruct.c : 306 ] Corrupting Rate: %u->%u 
+17837,,[ ftpgTlvWrapper.c : 207 ] Error: TLVFIELD array points to NULL! 
+17836,,[ ftpgTlvWrapper.c : 152 ] Error: TLVFIELD array points to NULL! 
+17835,II,[ ftpgTlvWrapper.c : 166 ] Error: Field %s not found in the TLV %s! 
+17834,I,[ ftpgTlvWrapper.c : 359 ] Error: invalid input to function %s. Exiting ... 
+17833,ii,[ ftpgTlvWrapper.c : 260 ] Error: totalQwords=%d exceeds Max supported Qwords of %d 
+17832,,[ ftpgTlvWrapper.c : 303 ] Error: Exceed Max Supported Qwords! 
+17831,,[ ftpgTlvWrapper.c : 63 ] Error: TLVFIELD array points to NULL! 
+17830,II,[ ftpgTlvWrapper.c : 99 ] Error: Field %s was not found in the TLV %s! 
+17829,II,[ ftpgTlvWrapper.c : 75 ] Error: Field %s of TLV %s is read only! 
+17828,III,[ ftpgTlvWrapper.c : 89 ] Error: Max TLV Field Value = %u has been exceeded for field [%s] of [%s]! 
+17827,,[ ftpgTlvWrapper.c : 111 ] Error: TLVFIELD array points to NULL! 
+17826,III,[ ftpgTlvWrapper.c : 129 ] Error: Max TLV Field Value = %u has been exceeded for field [%s] of [%s]! 
+17825,II,[ ftpgTlvWrapper.c : 139 ] Error: Field %s was not found in the TLV %s! 
 17839,I,[ phyFtpgSequence.c : 35 ] E: Invlaid seqNum [=0x%x] 
 17838,Ii,[ phyFtpgSequence.c : 42 ] Transmitting SEQ%08X [rptCnt=%d] 
 17878,i,[ phy_dev_ADCCal.c : 219 ]  BW = %d, HPADC cal only applies to CBW160/320(ch2ch3) 
@@ -5817,270 +5817,270 @@ VERSION:268796080
 19628,,[ phyrf_hds_hdt_debug.c : 1276 ] phyrf_hds_WarmReset_PreDebug 
 19627,,[ phyrf_hds_hdt_debug.c : 93 ] phyrf_hds_WlanXo_PostDebug 
 19626,,[ phyrf_hds_hdt_debug.c : 86 ] phyrf_hds_WlanXo_PreDebug 
-19935,iiii,[ phyrf_hds_if.c : 45 ] HDS_ATTACH: Version:%d.%d.%d.%d 
-19934,ii,[ phyrf_hds_if.c : 46 ] HDS_ATTACH: NUM_HDT_SETTINGS:%d, NUM_ADT_SETTINGS:%d 
-19939,ii,[ phyrf_hds_ddl_debug_prof_seq.c : 49 ] HDS: Debug ADT Profile Start - PHYID:%d, Profile:%d 
-19938,,[ phyrf_hds_ddl_debug_prof_seq.c : 53 ] HDS: Debug ADT Profile End 
-19937,ii,[ phyrf_hds_ddl_debug_prof_seq.c : 30 ] HDS: Debug HDT Profile Start - PHYID:%d, Profile:%d 
-19936,,[ phyrf_hds_ddl_debug_prof_seq.c : 34 ] HDS: Debug HDT Profile End 
-19983,,[ phyrf_hds_hdt_override.c : 110 ] phyrf_hds_AfsCalProfileOverride 
-19982,,[ phyrf_hds_hdt_override.c : 179 ] phyrf_hds_ChangeChainMaskOverride 
-19981,,[ phyrf_hds_hdt_override.c : 163 ] phyrf_hds_DpdOverride 
-19980,,[ phyrf_hds_hdt_override.c : 369 ] phyrf_hds_EmlsrActiveFcsOverride 
-19979,,[ phyrf_hds_hdt_override.c : 362 ] phyrf_hds_EmlsrActiveOverride 
-19978,,[ phyrf_hds_hdt_override.c : 383 ] phyrf_hds_EmlsrListenFcsOverride 
-19977,,[ phyrf_hds_hdt_override.c : 376 ] phyrf_hds_EmlsrListenOverride 
-19976,,[ phyrf_hds_hdt_override.c : 20 ] phyrf_hds_Home0Override 
-19975,,[ phyrf_hds_hdt_override.c : 120 ] phyrf_hds_Home0FcsOverride 
-19974,,[ phyrf_hds_hdt_override.c : 52 ] phyrf_hds_Home0Override 
-19973,,[ phyrf_hds_hdt_override.c : 136 ] phyrf_hds_Home1FcsOverride 
-19972,,[ phyrf_hds_hdt_override.c : 69 ] phyrf_hds_Home1Override 
-19971,,[ phyrf_hds_hdt_override.c : 334 ] phyrf_hds_Inactive_imps_s2wOverride 
-19970,,[ phyrf_hds_hdt_override.c : 341 ] phyrf_hds_Inactive_imps_w2sOverride 
-19969,,[ phyrf_hds_hdt_override.c : 348 ] phyrf_hds_ModeSwitchOverride 
-19968,,[ phyrf_hds_hdt_override.c : 170 ] phyrf_hds_PostDpdOverride 
-19967,,[ phyrf_hds_hdt_override.c : 327 ] phyrf_hds_RecoveryReset1Override 
-19966,,[ phyrf_hds_hdt_override.c : 355 ] phyrf_hds_RecoveryReset2Override 
-19965,,[ phyrf_hds_hdt_override.c : 418 ] phyrf_hds_ResetCalOverride 
-19964,,[ phyrf_hds_hdt_override.c : 37 ] phyrf_hds_Home0Override 
-19963,,[ phyrf_hds_hdt_override.c : 282 ] phyrf_hds_S2wBmpsCx_nremModeOverride 
-19962,,[ phyrf_hds_hdt_override.c : 213 ] phyrf_hds_S2wBmpsCx_pcModeOverride 
-19961,,[ phyrf_hds_hdt_override.c : 246 ] phyrf_hds_S2wBmpsCx_retentionModeOverride 
-19960,,[ phyrf_hds_hdt_override.c : 300 ] phyrf_hds_S2wBmpsFcsCx_pcModeOverride 
-19959,,[ phyrf_hds_hdt_override.c : 318 ] phyrf_hds_S2wBmpsFcsCx_retentionModeOverride 
-19958,,[ phyrf_hds_hdt_override.c : 264 ] phyrf_hds_S2wImpsCx_nremModeOverride 
-19957,,[ phyrf_hds_hdt_override.c : 201 ] phyrf_hds_S2wImpsCx_pcModeOverride 
-19956,,[ phyrf_hds_hdt_override.c : 228 ] phyrf_hds_S2wImpsCx_retentionModeOverride 
-19955,,[ phyrf_hds_hdt_override.c : 411 ] phyrf_hds_S2wImpsFcsNanHwOffloadModeOverride 
-19954,,[ phyrf_hds_hdt_override.c : 404 ] phyrf_hds_S2wImpsNanHwOffloadModeOverride 
-19953,,[ phyrf_hds_hdt_override.c : 154 ] phyrf_hds_SbsScanFcsOverride 
-19952,,[ phyrf_hds_hdt_override.c : 94 ] phyrf_hds_SbsScanOverride 
-19951,,[ phyrf_hds_hdt_override.c : 145 ] phyrf_hds_ScanFcsOverride 
-19950,,[ phyrf_hds_hdt_override.c : 78 ] phyrf_hds_Home0Override 
-19949,,[ phyrf_hds_hdt_override.c : 273 ] phyrf_hds_W2sBmpsCx_nremModeOverride 
-19948,,[ phyrf_hds_hdt_override.c : 207 ] phyrf_hds_W2sBmpsCx_pcModeOverride 
-19947,,[ phyrf_hds_hdt_override.c : 237 ] phyrf_hds_W2sBmpsCx_retentionModeOverride 
-19946,,[ phyrf_hds_hdt_override.c : 291 ] phyrf_hds_W2sBmpsFcsCx_pcModeOverride 
-19945,,[ phyrf_hds_hdt_override.c : 309 ] phyrf_hds_W2sBmpsFcsCx_retentionModeOverride 
-19944,,[ phyrf_hds_hdt_override.c : 255 ] phyrf_hds_W2sImpsCx_nremModeOverride 
-19943,,[ phyrf_hds_hdt_override.c : 195 ] phyrf_hds_W2sImpsCx_pcModeOverride 
-19942,,[ phyrf_hds_hdt_override.c : 219 ] phyrf_hds_W2sImpsCx_retentionModeOverride 
-19941,,[ phyrf_hds_hdt_override.c : 397 ] phyrf_hds_W2sImpsFcsNanHwOffloadModeOverride 
-19940,,[ phyrf_hds_hdt_override.c : 390 ] phyrf_hds_W2sImpsNanHwOffloadModeOverride 
-20024,,[ phyrf_hds_adt_override.c : 103 ] phyrf_hds_AniDisablePhyOnOverride 
-20023,,[ phyrf_hds_adt_override.c : 89 ] phyrf_hds_AniEnablePhyOnOverride 
-20022,,[ phyrf_hds_adt_override.c : 471 ] phyrf_hds_ConfigRfSwitchByHwModeOverride 
-20021,,[ phyrf_hds_adt_override.c : 145 ] phyrf_hds_ContChannelCaptureDisablePhyOnOverride 
-20020,,[ phyrf_hds_adt_override.c : 131 ] phyrf_hds_ContChannelCaptureEnablePhyOnOverride 
-20019,,[ phyrf_hds_adt_override.c : 527 ] phyrf_hds_CxmInitWci2Override 
-20018,,[ phyrf_hds_adt_override.c : 541 ] phyrf_hds_CxmWakeupBtOverride 
-20017,,[ phyrf_hds_adt_override.c : 597 ] phyrf_hds_CxmWci2QueryStatusOverride 
-20016,,[ phyrf_hds_adt_override.c : 75 ] phyrf_hds_DssDisablePhyOnOverride 
-20015,,[ phyrf_hds_adt_override.c : 61 ] phyrf_hds_DssEnablePhyOnOverride 
-20014,,[ phyrf_hds_adt_override.c : 513 ] phyrf_hds_EnableCfrCirOverride 
-20013,,[ phyrf_hds_adt_override.c : 499 ] phyrf_hds_ForceXlnaOnOffOverride 
-20012,,[ phyrf_hds_adt_override.c : 415 ] phyrf_hds_LplEnableDisableOverride 
-20011,,[ phyrf_hds_adt_override.c : 485 ] phyrf_hds_MloEmlsrMsdConfigOverride 
-20010,,[ phyrf_hds_adt_override.c : 273 ] phyrf_hds_OclDisablePhyOnOverride 
-20009,,[ phyrf_hds_adt_override.c : 287 ] phyrf_hds_OclEnablePhyOnOverride 
-20008,,[ phyrf_hds_adt_override.c : 303 ] phyrf_hds_PhyTdSwapSetPhyModeOverride 
-20007,,[ phyrf_hds_adt_override.c : 317 ] phyrf_hds_PhyTdSwapUnusedChainOffOverride 
-20006,,[ phyrf_hds_adt_override.c : 583 ] phyrf_hds_PostPhyOnOverride 
-20005,,[ phyrf_hds_adt_override.c : 429 ] phyrf_hds_PowerAssistModeOverride 
-20004,,[ phyrf_hds_adt_override.c : 33 ] phyrf_hds_PrePhyOffOverride 
-20003,,[ phyrf_hds_adt_override.c : 47 ] phyrf_hds_PrePhyOnOverride 
-20002,,[ phyrf_hds_adt_override.c : 359 ] phyrf_hds_ReadRxclearPrerxframeCntOverride 
-20001,,[ phyrf_hds_adt_override.c : 569 ] phyrf_hds_RfaRriRestoreOverride 
-20000,,[ phyrf_hds_adt_override.c : 555 ] phyrf_hds_RfaRriSaveOverride 
-19999,,[ phyrf_hds_adt_override.c : 443 ] phyrf_hds_RfaTogglingInListenOverride 
-19998,,[ phyrf_hds_adt_override.c : 231 ] phyrf_hds_Rtt11azEnablePhyOnOverride 
-19997,,[ phyrf_hds_adt_override.c : 201 ] phyrf_hds_RttEnablePhyOnOverride 
-19996,,[ phyrf_hds_adt_override.c : 345 ] phyrf_hds_SetMaxTargetPwrOverride 
-19995,,[ phyrf_hds_adt_override.c : 331 ] phyrf_hds_SetOperatingModeOverride 
-19994,,[ phyrf_hds_adt_override.c : 373 ] phyrf_hds_SetRxclearPrerxframeCntOverride 
-19993,,[ phyrf_hds_adt_override.c : 457 ] phyrf_hds_SetTdPowerConfigOverride 
-19992,,[ phyrf_hds_adt_override.c : 387 ] phyrf_hds_SmarttxQueryVregOverride 
-19991,,[ phyrf_hds_adt_override.c : 401 ] phyrf_hds_SmarttxResetVregOverride 
-19990,,[ phyrf_hds_adt_override.c : 173 ] phyrf_hds_SpectralActivatePhyOnOverride 
-19989,,[ phyrf_hds_adt_override.c : 187 ] phyrf_hds_SpectralDeactivatePhyOnOverride 
-19988,,[ phyrf_hds_adt_override.c : 159 ] phyrf_hds_SpectralDisablePhyOnOverride 
-19987,,[ phyrf_hds_adt_override.c : 117 ] phyrf_hds_SpectralEnablePhyOnOverride 
-19986,,[ phyrf_hds_adt_override.c : 215 ] phyrf_hds_SpectralResetPhyOnOverride 
-19985,,[ phyrf_hds_adt_override.c : 245 ] phyrf_hds_XlnabypassDisablePhyOnOverride 
-19984,,[ phyrf_hds_adt_override.c : 259 ] phyrf_hds_XlnabypassEnablePhyOnOverride 
-20164,,[ phyrf_hds_adt_debug.c : 1109 ] phyrf_hds_ActivateAgileSpectralScan_PostDebug 
-20163,,[ phyrf_hds_adt_debug.c : 1095 ] phyrf_hds_ActivateAgileSpectralScan_PreDebug 
-20162,,[ phyrf_hds_adt_debug.c : 1221 ] phyrf_hds_ActivateNormalSpectralScan_PostDebug 
-20161,,[ phyrf_hds_adt_debug.c : 1207 ] phyrf_hds_ActivateNormalSpectralScan_PreDebug 
-20160,,[ phyrf_hds_adt_debug.c : 773 ] phyrf_hds_ActivateSpectralScan_PostDebug 
-20159,,[ phyrf_hds_adt_debug.c : 759 ] phyrf_hds_ActivateSpectralScan_PreDebug 
-20158,,[ phyrf_hds_adt_debug.c : 45 ] phyrf_hds_AniConfigure_PostDebug 
-20157,,[ phyrf_hds_adt_debug.c : 31 ] phyrf_hds_AniConfigure_PreDebug 
-20156,,[ phyrf_hds_adt_debug.c : 101 ] phyrf_hds_AniDisableReg_PostDebug 
-20155,,[ phyrf_hds_adt_debug.c : 87 ] phyrf_hds_AniDisableReg_PreDebug 
-20154,,[ phyrf_hds_adt_debug.c : 241 ] phyrf_hds_AniDisable_PostDebug 
-20153,,[ phyrf_hds_adt_debug.c : 227 ] phyrf_hds_AniDisable_PreDebug 
-20152,,[ phyrf_hds_adt_debug.c : 73 ] phyrf_hds_AniEnableReg_PostDebug 
-20151,,[ phyrf_hds_adt_debug.c : 59 ] phyrf_hds_AniEnableReg_PreDebug 
-20150,,[ phyrf_hds_adt_debug.c : 213 ] phyrf_hds_AniEnable_PostDebug 
-20149,,[ phyrf_hds_adt_debug.c : 199 ] phyrf_hds_AniEnable_PreDebug 
-20148,,[ phyrf_hds_adt_debug.c : 885 ] phyrf_hds_AniOfdmaDesenseLevel_PostDebug 
-20147,,[ phyrf_hds_adt_debug.c : 871 ] phyrf_hds_AniOfdmaDesenseLevel_PreDebug 
-20146,,[ phyrf_hds_adt_debug.c : 129 ] phyrf_hds_AniRestoreDl_PostDebug 
-20145,,[ phyrf_hds_adt_debug.c : 115 ] phyrf_hds_AniRestoreDl_PreDebug 
-20144,,[ phyrf_hds_adt_debug.c : 157 ] phyrf_hds_AniTimeout_PostDebug 
-20143,,[ phyrf_hds_adt_debug.c : 143 ] phyrf_hds_AniTimeout_PreDebug 
-20142,,[ phyrf_hds_adt_debug.c : 185 ] phyrf_hds_AniUntimeout_PostDebug 
-20141,,[ phyrf_hds_adt_debug.c : 171 ] phyrf_hds_AniUntimeout_PreDebug 
-20140,,[ phyrf_hds_adt_debug.c : 1669 ] phyrf_hds_ConfigRfSwitchByHwMode_PostDebug 
-20139,,[ phyrf_hds_adt_debug.c : 1655 ] phyrf_hds_ConfigRfSwitchByHwMode_PreDebug 
-20138,,[ phyrf_hds_adt_debug.c : 1753 ] phyrf_hds_CxmInitWci2_PostDebug 
-20137,,[ phyrf_hds_adt_debug.c : 1739 ] phyrf_hds_CxmInitWci2_PreDebug 
-20136,,[ phyrf_hds_adt_debug.c : 1781 ] phyrf_hds_CxmWakeupBt_PostDebug 
-20135,,[ phyrf_hds_adt_debug.c : 1767 ] phyrf_hds_CxmWakeupBt_PreDebug 
-20134,,[ phyrf_hds_adt_debug.c : 1977 ] phyrf_hds_CxmWci2Status_PostDebug 
-20133,,[ phyrf_hds_adt_debug.c : 1963 ] phyrf_hds_CxmWci2Status_PreDebug 
-20132,,[ phyrf_hds_adt_debug.c : 801 ] phyrf_hds_DeactivateSpectralScan_PostDebug 
-20131,,[ phyrf_hds_adt_debug.c : 787 ] phyrf_hds_DeactivateSpectralScan_PreDebug 
-20130,,[ phyrf_hds_adt_debug.c : 717 ] phyrf_hds_DeinitSpectralScan_PostDebug 
-20129,,[ phyrf_hds_adt_debug.c : 703 ] phyrf_hds_DeinitSpectralScan_PreDebug 
-20128,,[ phyrf_hds_adt_debug.c : 829 ] phyrf_hds_DeinitSpectralWatchdogConfig_PostDebug 
-20127,,[ phyrf_hds_adt_debug.c : 815 ] phyrf_hds_DeinitSpectralWatchdogConfig_PreDebug 
-20126,,[ phyrf_hds_adt_debug.c : 1277 ] phyrf_hds_DfsDisableRadarSubbandMask_PostDebug 
-20125,,[ phyrf_hds_adt_debug.c : 1263 ] phyrf_hds_DfsDisableRadarSubbandMask_PreDebug 
-20124,,[ phyrf_hds_adt_debug.c : 1249 ] phyrf_hds_DfsEnableRadarSubbandMask_PostDebug 
-20123,,[ phyrf_hds_adt_debug.c : 1235 ] phyrf_hds_DfsEnableRadarSubbandMask_PreDebug 
-20122,,[ phyrf_hds_adt_debug.c : 1585 ] phyrf_hds_DisablePhydbgCapture_PostDebug 
-20121,,[ phyrf_hds_adt_debug.c : 1571 ] phyrf_hds_DisablePhydbgCapture_PreDebug 
-20120,,[ phyrf_hds_adt_debug.c : 1865 ] phyrf_hds_DssCuVoteDisable_PostDebug 
-20119,,[ phyrf_hds_adt_debug.c : 1851 ] phyrf_hds_DssCuVoteDisable_PreDebug 
-20118,,[ phyrf_hds_adt_debug.c : 1893 ] phyrf_hds_DssCuVoteEnable_PostDebug 
-20117,,[ phyrf_hds_adt_debug.c : 1879 ] phyrf_hds_DssCuVoteEnable_PreDebug 
-20116,,[ phyrf_hds_adt_debug.c : 493 ] phyrf_hds_DssDisableDssWarCfo_PostDebug 
-20115,,[ phyrf_hds_adt_debug.c : 479 ] phyrf_hds_DssDisableDssWarCfo_PreDebug 
-20114,,[ phyrf_hds_adt_debug.c : 465 ] phyrf_hds_DssEnableDssWarCfo_PostDebug 
-20113,,[ phyrf_hds_adt_debug.c : 451 ] phyrf_hds_DssEnableDssWarCfo_PreDebug 
-20112,,[ phyrf_hds_adt_debug.c : 409 ] phyrf_hds_DssForcedSyn_PostDebug 
-20111,,[ phyrf_hds_adt_debug.c : 395 ] phyrf_hds_DssForcedSyn_PreDebug 
-20110,,[ phyrf_hds_adt_debug.c : 437 ] phyrf_hds_DssNoForcedSyn_PostDebug 
-20109,,[ phyrf_hds_adt_debug.c : 423 ] phyrf_hds_DssNoForcedSyn_PreDebug 
-20108,,[ phyrf_hds_adt_debug.c : 1921 ] phyrf_hds_EmlsrConfigDisable_PostDebug 
-20107,,[ phyrf_hds_adt_debug.c : 1907 ] phyrf_hds_EmlsrConfigDisable_PreDebug 
-20106,,[ phyrf_hds_adt_debug.c : 1949 ] phyrf_hds_EmlsrConfigEnable_PostDebug 
-20105,,[ phyrf_hds_adt_debug.c : 1935 ] phyrf_hds_EmlsrConfigEnable_PreDebug 
-20104,,[ phyrf_hds_adt_debug.c : 689 ] phyrf_hds_EnableCfrCir_PostDebug 
-20103,,[ phyrf_hds_adt_debug.c : 675 ] phyrf_hds_EnableCfrCir_PreDebug 
-20102,,[ phyrf_hds_adt_debug.c : 1305 ] phyrf_hds_EnableRtt11az_PostDebug 
-20101,,[ phyrf_hds_adt_debug.c : 1291 ] phyrf_hds_EnableRtt11az_PreDebug 
-20100,,[ phyrf_hds_adt_debug.c : 857 ] phyrf_hds_EnableRtt_PostDebug 
-20099,,[ phyrf_hds_adt_debug.c : 843 ] phyrf_hds_EnableRtt_PreDebug 
-20098,,[ phyrf_hds_adt_debug.c : 1725 ] phyrf_hds_ForceXlnaOnOff_PostDebug 
-20097,,[ phyrf_hds_adt_debug.c : 1711 ] phyrf_hds_ForceXlnaOnOff_PreDebug 
-20096,,[ phyrf_hds_adt_debug.c : 1053 ] phyrf_hds_InitAgileSpectralScan_PostDebug 
-20095,,[ phyrf_hds_adt_debug.c : 1039 ] phyrf_hds_InitAgileSpectralScan_PreDebug 
-20094,,[ phyrf_hds_adt_debug.c : 1081 ] phyrf_hds_InitAgileSpectralWatchdogConfig_PostDebug 
-20093,,[ phyrf_hds_adt_debug.c : 1067 ] phyrf_hds_InitAgileSpectralWatchdogConfig_PreDebug 
-20092,,[ phyrf_hds_adt_debug.c : 1165 ] phyrf_hds_InitNormalSpectralScan_PostDebug 
-20091,,[ phyrf_hds_adt_debug.c : 1151 ] phyrf_hds_InitNormalSpectralScan_PreDebug 
-20090,,[ phyrf_hds_adt_debug.c : 1193 ] phyrf_hds_InitNormalSpectralWatchdogConfig_PostDebug 
-20089,,[ phyrf_hds_adt_debug.c : 1179 ] phyrf_hds_InitNormalSpectralWatchdogConfig_PreDebug 
-20088,,[ phyrf_hds_adt_debug.c : 325 ] phyrf_hds_InitSpectralScan_PostDebug 
-20087,,[ phyrf_hds_adt_debug.c : 311 ] phyrf_hds_InitSpectralScan_PreDebug 
-20086,,[ phyrf_hds_adt_debug.c : 745 ] phyrf_hds_InitSpectralWatchdogConfig_PostDebug 
-20085,,[ phyrf_hds_adt_debug.c : 731 ] phyrf_hds_InitSpectralWatchdogConfig_PreDebug 
-20084,,[ phyrf_hds_adt_debug.c : 1025 ] phyrf_hds_IsAgileSpectralEnabled_PostDebug 
-20083,,[ phyrf_hds_adt_debug.c : 1011 ] phyrf_hds_IsAgileSpectralEnabled_PreDebug 
-20082,,[ phyrf_hds_adt_debug.c : 1137 ] phyrf_hds_IsNormalSpectralEnabled_PostDebug 
-20081,,[ phyrf_hds_adt_debug.c : 1123 ] phyrf_hds_IsNormalSpectralEnabled_PreDebug 
-20080,,[ phyrf_hds_adt_debug.c : 269 ] phyrf_hds_IsSpectralEnabled_PostDebug 
-20079,,[ phyrf_hds_adt_debug.c : 255 ] phyrf_hds_IsSpectralEnabled_PreDebug 
-20078,,[ phyrf_hds_adt_debug.c : 1697 ] phyrf_hds_MloEmlsrMsdConfig_PostDebug 
-20077,,[ phyrf_hds_adt_debug.c : 1683 ] phyrf_hds_MloEmlsrMsdConfig_PreDebug 
-20076,,[ phyrf_hds_adt_debug.c : 381 ] phyrf_hds_OclDisable_PostDebug 
-20075,,[ phyrf_hds_adt_debug.c : 367 ] phyrf_hds_OclDisable_PreDebug 
-20074,,[ phyrf_hds_adt_debug.c : 353 ] phyrf_hds_OclEnable_PostDebug 
-20073,,[ phyrf_hds_adt_debug.c : 339 ] phyrf_hds_OclEnable_PreDebug 
-20072,,[ phyrf_hds_adt_debug.c : 913 ] phyrf_hds_ReadAgileSpectralConfigRegs_PostDebug 
-20071,,[ phyrf_hds_adt_debug.c : 899 ] phyrf_hds_ReadAgileSpectralConfigRegs_PreDebug 
-20070,,[ phyrf_hds_adt_debug.c : 941 ] phyrf_hds_ReadNormalSpectralConfigRegs_PostDebug 
-20069,,[ phyrf_hds_adt_debug.c : 927 ] phyrf_hds_ReadNormalSpectralConfigRegs_PreDebug 
-20068,,[ phyrf_hds_adt_debug.c : 1445 ] phyrf_hds_ReadRxclearPrerxframeCnt_PostDebug 
-20067,,[ phyrf_hds_adt_debug.c : 1431 ] phyrf_hds_ReadRxclearPrerxframeCnt_PreDebug 
-20066,,[ phyrf_hds_adt_debug.c : 633 ] phyrf_hds_RepChannelCaptureDisable_PostDebug 
-20065,,[ phyrf_hds_adt_debug.c : 619 ] phyrf_hds_RepChannelCaptureDisable_PreDebug 
-20064,,[ phyrf_hds_adt_debug.c : 577 ] phyrf_hds_RepChannelCaptureEnable_PostDebug 
-20063,,[ phyrf_hds_adt_debug.c : 563 ] phyrf_hds_RepChannelCaptureEnable_PreDebug 
-20062,,[ phyrf_hds_adt_debug.c : 1837 ] phyrf_hds_RfaRriRestore_PostDebug 
-20061,,[ phyrf_hds_adt_debug.c : 1823 ] phyrf_hds_RfaRriRestore_PreDebug 
-20060,,[ phyrf_hds_adt_debug.c : 1809 ] phyrf_hds_RfaRriSave_PostDebug 
-20059,,[ phyrf_hds_adt_debug.c : 1795 ] phyrf_hds_RfaRriSave_PreDebug 
-20058,,[ phyrf_hds_adt_debug.c : 1613 ] phyrf_hds_RfaToggling_PostDebug 
-20057,,[ phyrf_hds_adt_debug.c : 1599 ] phyrf_hds_RfaToggling_PreDebug 
-20056,,[ phyrf_hds_adt_debug.c : 1557 ] phyrf_hds_SetLpl_PostDebug 
-20055,,[ phyrf_hds_adt_debug.c : 1543 ] phyrf_hds_SetLpl_PreDebug 
-20054,,[ phyrf_hds_adt_debug.c : 1417 ] phyrf_hds_SetMaxTargetPwr_PostDebug 
-20053,,[ phyrf_hds_adt_debug.c : 1403 ] phyrf_hds_SetMaxTargetPwr_PreDebug 
-20052,,[ phyrf_hds_adt_debug.c : 1389 ] phyrf_hds_SetOperatingMode_PostDebug 
-20051,,[ phyrf_hds_adt_debug.c : 1375 ] phyrf_hds_SetOperatingMode_PreDebug 
-20050,,[ phyrf_hds_adt_debug.c : 661 ] phyrf_hds_SetPbsForChannelCaptureDisabled_PostDebug 
-20049,,[ phyrf_hds_adt_debug.c : 647 ] phyrf_hds_SetPbsForChannelCaptureDisabled_PreDebug 
-20048,,[ phyrf_hds_adt_debug.c : 605 ] phyrf_hds_SetPbsForChannelCaptureEnabled_PostDebug 
-20047,,[ phyrf_hds_adt_debug.c : 591 ] phyrf_hds_SetPbsForChannelCaptureEnabled_PreDebug 
-20046,,[ phyrf_hds_adt_debug.c : 1473 ] phyrf_hds_SetRxclearPrerxframeCnt_PostDebug 
-20045,,[ phyrf_hds_adt_debug.c : 1459 ] phyrf_hds_SetRxclearPrerxframeCnt_PreDebug 
-20044,,[ phyrf_hds_adt_debug.c : 1641 ] phyrf_hds_SetTdPowerConfig_PostDebug 
-20043,,[ phyrf_hds_adt_debug.c : 1627 ] phyrf_hds_SetTdPowerConfig_PreDebug 
-20042,,[ phyrf_hds_adt_debug.c : 1361 ] phyrf_hds_SetVregPhyMode_PostDebug 
-20041,,[ phyrf_hds_adt_debug.c : 1347 ] phyrf_hds_SetVregPhyMode_PreDebug 
-20040,,[ phyrf_hds_adt_debug.c : 1501 ] phyrf_hds_SmarttxQueryStats_PostDebug 
-20039,,[ phyrf_hds_adt_debug.c : 1487 ] phyrf_hds_SmarttxQueryStats_PreDebug 
-20038,,[ phyrf_hds_adt_debug.c : 1529 ] phyrf_hds_SmarttxResetStats_PostDebug 
-20037,,[ phyrf_hds_adt_debug.c : 1515 ] phyrf_hds_SmarttxResetStats_PreDebug 
-20036,,[ phyrf_hds_adt_debug.c : 1333 ] phyrf_hds_SynthShutdownUnusedChain_PostDebug 
-20035,,[ phyrf_hds_adt_debug.c : 1319 ] phyrf_hds_SynthShutdownUnusedChain_PreDebug 
-20034,,[ phyrf_hds_adt_debug.c : 969 ] phyrf_hds_WriteAgileSpectralConfigRegs_PostDebug 
-20033,,[ phyrf_hds_adt_debug.c : 955 ] phyrf_hds_WriteAgileSpectralConfigRegs_PreDebug 
-20032,,[ phyrf_hds_adt_debug.c : 997 ] phyrf_hds_WriteNormalSpectralConfigRegs_PostDebug 
-20031,,[ phyrf_hds_adt_debug.c : 983 ] phyrf_hds_WriteNormalSpectralConfigRegs_PreDebug 
-20030,,[ phyrf_hds_adt_debug.c : 297 ] phyrf_hds_WriteSpectralConfigRegs_PostDebug 
-20029,,[ phyrf_hds_adt_debug.c : 283 ] phyrf_hds_WriteSpectralConfigRegs_PreDebug 
-20028,,[ phyrf_hds_adt_debug.c : 549 ] phyrf_hds_XlnaBypassDisable_PostDebug 
-20027,,[ phyrf_hds_adt_debug.c : 535 ] phyrf_hds_XlnaBypassDisable_PreDebug 
-20026,,[ phyrf_hds_adt_debug.c : 521 ] phyrf_hds_XlnaBypassEnable_PostDebug 
-20025,,[ phyrf_hds_adt_debug.c : 507 ] phyrf_hds_XlnaBypassEnable_PreDebug 
-20194,,[ phyrf_hds_ddl.c : 176 ] HDS DDL - phyrf_hds_Ddl_debug_phyADCCal 
-20193,,[ phyrf_hds_ddl.c : 98 ] HDS DDL - phyrf_hds_Ddl_debug_phyAdcCapture 
-20192,,[ phyrf_hds_ddl.c : 134 ] HDS DDL - phyrf_hds_Ddl_debug_phyCombinedCal 
-20191,,[ phyrf_hds_ddl.c : 182 ] HDS DDL - phyrf_hds_Ddl_debug_phyDACCal 
-20190,,[ phyrf_hds_ddl.c : 104 ] HDS DDL - phyrf_hds_Ddl_debug_phyDemfCapture 
-20189,,[ phyrf_hds_ddl.c : 146 ] HDS DDL - phyrf_hds_Ddl_debug_phyDpdTraining 
-20188,,[ phyrf_hds_ddl.c : 53 ] HDS DDL - phyrf_hds_Ddl_debug_phyErrorDump 
-20187,,[ phyrf_hds_ddl.c : 81 ] DDL dumping phyrf registers failed
+19963,,[ phyrf_hds_ddl.c : 176 ] HDS DDL - phyrf_hds_Ddl_debug_phyADCCal 
+19962,,[ phyrf_hds_ddl.c : 98 ] HDS DDL - phyrf_hds_Ddl_debug_phyAdcCapture 
+19961,,[ phyrf_hds_ddl.c : 134 ] HDS DDL - phyrf_hds_Ddl_debug_phyCombinedCal 
+19960,,[ phyrf_hds_ddl.c : 182 ] HDS DDL - phyrf_hds_Ddl_debug_phyDACCal 
+19959,,[ phyrf_hds_ddl.c : 104 ] HDS DDL - phyrf_hds_Ddl_debug_phyDemfCapture 
+19958,,[ phyrf_hds_ddl.c : 146 ] HDS DDL - phyrf_hds_Ddl_debug_phyDpdTraining 
+19957,,[ phyrf_hds_ddl.c : 53 ] HDS DDL - phyrf_hds_Ddl_debug_phyErrorDump 
+19956,,[ phyrf_hds_ddl.c : 81 ] DDL dumping phyrf registers failed
  
-20186,,[ phyrf_hds_ddl.c : 72 ] Active Powet MAC - Calling DDL to print debug regsiters
+19955,,[ phyrf_hds_ddl.c : 72 ] Active Powet MAC - Calling DDL to print debug regsiters
  
-20185,,[ phyrf_hds_ddl.c : 77 ] Device is in Sleep state - Not printing phyrf registers
+19954,,[ phyrf_hds_ddl.c : 77 ] Device is in Sleep state - Not printing phyrf registers
  
-20184,,[ phyrf_hds_ddl.c : 92 ] HDS DDL - phyrf_hds_Ddl_debug_phyEventCapture 
-20183,,[ phyrf_hds_ddl.c : 47 ] HDS DDL - phyrf_hds_Ddl_debug_phyForceRxGain 
-20182,,[ phyrf_hds_ddl.c : 116 ] HDS DDL - phyrf_hds_Ddl_debug_phyGetRFAChipID 
-20181,,[ phyrf_hds_ddl.c : 188 ] HDS DDL - phyrf_hds_Ddl_debug_phyIM2Cal 
-20180,,[ phyrf_hds_ddl.c : 140 ] HDS DDL - phyrf_hds_Ddl_debug_phyNFCal 
-20179,,[ phyrf_hds_ddl.c : 164 ] HDS DDL - phyrf_hds_Ddl_debug_phyPALCal 
-20178,,[ phyrf_hds_ddl.c : 152 ] HDS DDL - phyrf_hds_Ddl_debug_phyPkDetCal 
-20177,,[ phyrf_hds_ddl.c : 29 ] HDS DDL - phyrf_hds_Ddl_debug_phyRtt 
-20176,,[ phyrf_hds_ddl.c : 128 ] HDS DDL - phyrf_hds_Ddl_debug_phyRxDCOCal 
-20175,,[ phyrf_hds_ddl.c : 158 ] HDS DDL - phyrf_hds_Ddl_debug_phyRxGainCal 
-20174,,[ phyrf_hds_ddl.c : 35 ] HDS DDL - phyrf_hds_Ddl_debug_phySetChainMask 
-20173,,[ phyrf_hds_ddl.c : 122 ] HDS DDL - phyrf_hds_Ddl_debug_phySetChannel 
-20172,,[ phyrf_hds_ddl.c : 170 ] HDS DDL - phyrf_hds_Ddl_debug_phySetTPC 
-20171,,[ phyrf_hds_ddl.c : 41 ] HDS DDL - phyrf_hds_Ddl_debug_phySetXbar 
-20170,,[ phyrf_hds_ddl.c : 23 ] HDS DDL - phyrf_hds_Ddl_debug_phySpurMitigation 
-20169,,[ phyrf_hds_ddl.c : 194 ] HDS DDL - phyrf_hds_Ddl_debug_phyTIAdcCal 
-20168,,[ phyrf_hds_ddl.c : 110 ] HDS DDL - phyrf_hds_Ddl_debug_rfGetBoardId 
-20167,,[ phyrf_hds_ddl.c : 212 ] HDS DDL - phyrf_hds_Ddl_debug_tpcReadAlut 
-20166,,[ phyrf_hds_ddl.c : 200 ] HDS DDL - phyrf_hds_Ddl_debug_tpcReadGlut 
-20165,,[ phyrf_hds_ddl.c : 206 ] HDS DDL - phyrf_hds_Ddl_debug_tpcReadPlut 
+19953,,[ phyrf_hds_ddl.c : 92 ] HDS DDL - phyrf_hds_Ddl_debug_phyEventCapture 
+19952,,[ phyrf_hds_ddl.c : 47 ] HDS DDL - phyrf_hds_Ddl_debug_phyForceRxGain 
+19951,,[ phyrf_hds_ddl.c : 116 ] HDS DDL - phyrf_hds_Ddl_debug_phyGetRFAChipID 
+19950,,[ phyrf_hds_ddl.c : 188 ] HDS DDL - phyrf_hds_Ddl_debug_phyIM2Cal 
+19949,,[ phyrf_hds_ddl.c : 140 ] HDS DDL - phyrf_hds_Ddl_debug_phyNFCal 
+19948,,[ phyrf_hds_ddl.c : 164 ] HDS DDL - phyrf_hds_Ddl_debug_phyPALCal 
+19947,,[ phyrf_hds_ddl.c : 152 ] HDS DDL - phyrf_hds_Ddl_debug_phyPkDetCal 
+19946,,[ phyrf_hds_ddl.c : 29 ] HDS DDL - phyrf_hds_Ddl_debug_phyRtt 
+19945,,[ phyrf_hds_ddl.c : 128 ] HDS DDL - phyrf_hds_Ddl_debug_phyRxDCOCal 
+19944,,[ phyrf_hds_ddl.c : 158 ] HDS DDL - phyrf_hds_Ddl_debug_phyRxGainCal 
+19943,,[ phyrf_hds_ddl.c : 35 ] HDS DDL - phyrf_hds_Ddl_debug_phySetChainMask 
+19942,,[ phyrf_hds_ddl.c : 122 ] HDS DDL - phyrf_hds_Ddl_debug_phySetChannel 
+19941,,[ phyrf_hds_ddl.c : 170 ] HDS DDL - phyrf_hds_Ddl_debug_phySetTPC 
+19940,,[ phyrf_hds_ddl.c : 41 ] HDS DDL - phyrf_hds_Ddl_debug_phySetXbar 
+19939,,[ phyrf_hds_ddl.c : 23 ] HDS DDL - phyrf_hds_Ddl_debug_phySpurMitigation 
+19938,,[ phyrf_hds_ddl.c : 194 ] HDS DDL - phyrf_hds_Ddl_debug_phyTIAdcCal 
+19937,,[ phyrf_hds_ddl.c : 110 ] HDS DDL - phyrf_hds_Ddl_debug_rfGetBoardId 
+19936,,[ phyrf_hds_ddl.c : 212 ] HDS DDL - phyrf_hds_Ddl_debug_tpcReadAlut 
+19935,,[ phyrf_hds_ddl.c : 200 ] HDS DDL - phyrf_hds_Ddl_debug_tpcReadGlut 
+19934,,[ phyrf_hds_ddl.c : 206 ] HDS DDL - phyrf_hds_Ddl_debug_tpcReadPlut 
+19965,iiii,[ phyrf_hds_if.c : 45 ] HDS_ATTACH: Version:%d.%d.%d.%d 
+19964,ii,[ phyrf_hds_if.c : 46 ] HDS_ATTACH: NUM_HDT_SETTINGS:%d, NUM_ADT_SETTINGS:%d 
+20006,,[ phyrf_hds_adt_override.c : 103 ] phyrf_hds_AniDisablePhyOnOverride 
+20005,,[ phyrf_hds_adt_override.c : 89 ] phyrf_hds_AniEnablePhyOnOverride 
+20004,,[ phyrf_hds_adt_override.c : 471 ] phyrf_hds_ConfigRfSwitchByHwModeOverride 
+20003,,[ phyrf_hds_adt_override.c : 145 ] phyrf_hds_ContChannelCaptureDisablePhyOnOverride 
+20002,,[ phyrf_hds_adt_override.c : 131 ] phyrf_hds_ContChannelCaptureEnablePhyOnOverride 
+20001,,[ phyrf_hds_adt_override.c : 527 ] phyrf_hds_CxmInitWci2Override 
+20000,,[ phyrf_hds_adt_override.c : 541 ] phyrf_hds_CxmWakeupBtOverride 
+19999,,[ phyrf_hds_adt_override.c : 597 ] phyrf_hds_CxmWci2QueryStatusOverride 
+19998,,[ phyrf_hds_adt_override.c : 75 ] phyrf_hds_DssDisablePhyOnOverride 
+19997,,[ phyrf_hds_adt_override.c : 61 ] phyrf_hds_DssEnablePhyOnOverride 
+19996,,[ phyrf_hds_adt_override.c : 513 ] phyrf_hds_EnableCfrCirOverride 
+19995,,[ phyrf_hds_adt_override.c : 499 ] phyrf_hds_ForceXlnaOnOffOverride 
+19994,,[ phyrf_hds_adt_override.c : 415 ] phyrf_hds_LplEnableDisableOverride 
+19993,,[ phyrf_hds_adt_override.c : 485 ] phyrf_hds_MloEmlsrMsdConfigOverride 
+19992,,[ phyrf_hds_adt_override.c : 273 ] phyrf_hds_OclDisablePhyOnOverride 
+19991,,[ phyrf_hds_adt_override.c : 287 ] phyrf_hds_OclEnablePhyOnOverride 
+19990,,[ phyrf_hds_adt_override.c : 303 ] phyrf_hds_PhyTdSwapSetPhyModeOverride 
+19989,,[ phyrf_hds_adt_override.c : 317 ] phyrf_hds_PhyTdSwapUnusedChainOffOverride 
+19988,,[ phyrf_hds_adt_override.c : 583 ] phyrf_hds_PostPhyOnOverride 
+19987,,[ phyrf_hds_adt_override.c : 429 ] phyrf_hds_PowerAssistModeOverride 
+19986,,[ phyrf_hds_adt_override.c : 33 ] phyrf_hds_PrePhyOffOverride 
+19985,,[ phyrf_hds_adt_override.c : 47 ] phyrf_hds_PrePhyOnOverride 
+19984,,[ phyrf_hds_adt_override.c : 359 ] phyrf_hds_ReadRxclearPrerxframeCntOverride 
+19983,,[ phyrf_hds_adt_override.c : 569 ] phyrf_hds_RfaRriRestoreOverride 
+19982,,[ phyrf_hds_adt_override.c : 555 ] phyrf_hds_RfaRriSaveOverride 
+19981,,[ phyrf_hds_adt_override.c : 443 ] phyrf_hds_RfaTogglingInListenOverride 
+19980,,[ phyrf_hds_adt_override.c : 231 ] phyrf_hds_Rtt11azEnablePhyOnOverride 
+19979,,[ phyrf_hds_adt_override.c : 201 ] phyrf_hds_RttEnablePhyOnOverride 
+19978,,[ phyrf_hds_adt_override.c : 345 ] phyrf_hds_SetMaxTargetPwrOverride 
+19977,,[ phyrf_hds_adt_override.c : 331 ] phyrf_hds_SetOperatingModeOverride 
+19976,,[ phyrf_hds_adt_override.c : 373 ] phyrf_hds_SetRxclearPrerxframeCntOverride 
+19975,,[ phyrf_hds_adt_override.c : 457 ] phyrf_hds_SetTdPowerConfigOverride 
+19974,,[ phyrf_hds_adt_override.c : 387 ] phyrf_hds_SmarttxQueryVregOverride 
+19973,,[ phyrf_hds_adt_override.c : 401 ] phyrf_hds_SmarttxResetVregOverride 
+19972,,[ phyrf_hds_adt_override.c : 173 ] phyrf_hds_SpectralActivatePhyOnOverride 
+19971,,[ phyrf_hds_adt_override.c : 187 ] phyrf_hds_SpectralDeactivatePhyOnOverride 
+19970,,[ phyrf_hds_adt_override.c : 159 ] phyrf_hds_SpectralDisablePhyOnOverride 
+19969,,[ phyrf_hds_adt_override.c : 117 ] phyrf_hds_SpectralEnablePhyOnOverride 
+19968,,[ phyrf_hds_adt_override.c : 215 ] phyrf_hds_SpectralResetPhyOnOverride 
+19967,,[ phyrf_hds_adt_override.c : 245 ] phyrf_hds_XlnabypassDisablePhyOnOverride 
+19966,,[ phyrf_hds_adt_override.c : 259 ] phyrf_hds_XlnabypassEnablePhyOnOverride 
+20050,,[ phyrf_hds_hdt_override.c : 110 ] phyrf_hds_AfsCalProfileOverride 
+20049,,[ phyrf_hds_hdt_override.c : 179 ] phyrf_hds_ChangeChainMaskOverride 
+20048,,[ phyrf_hds_hdt_override.c : 163 ] phyrf_hds_DpdOverride 
+20047,,[ phyrf_hds_hdt_override.c : 369 ] phyrf_hds_EmlsrActiveFcsOverride 
+20046,,[ phyrf_hds_hdt_override.c : 362 ] phyrf_hds_EmlsrActiveOverride 
+20045,,[ phyrf_hds_hdt_override.c : 383 ] phyrf_hds_EmlsrListenFcsOverride 
+20044,,[ phyrf_hds_hdt_override.c : 376 ] phyrf_hds_EmlsrListenOverride 
+20043,,[ phyrf_hds_hdt_override.c : 20 ] phyrf_hds_Home0Override 
+20042,,[ phyrf_hds_hdt_override.c : 120 ] phyrf_hds_Home0FcsOverride 
+20041,,[ phyrf_hds_hdt_override.c : 52 ] phyrf_hds_Home0Override 
+20040,,[ phyrf_hds_hdt_override.c : 136 ] phyrf_hds_Home1FcsOverride 
+20039,,[ phyrf_hds_hdt_override.c : 69 ] phyrf_hds_Home1Override 
+20038,,[ phyrf_hds_hdt_override.c : 334 ] phyrf_hds_Inactive_imps_s2wOverride 
+20037,,[ phyrf_hds_hdt_override.c : 341 ] phyrf_hds_Inactive_imps_w2sOverride 
+20036,,[ phyrf_hds_hdt_override.c : 348 ] phyrf_hds_ModeSwitchOverride 
+20035,,[ phyrf_hds_hdt_override.c : 170 ] phyrf_hds_PostDpdOverride 
+20034,,[ phyrf_hds_hdt_override.c : 327 ] phyrf_hds_RecoveryReset1Override 
+20033,,[ phyrf_hds_hdt_override.c : 355 ] phyrf_hds_RecoveryReset2Override 
+20032,,[ phyrf_hds_hdt_override.c : 418 ] phyrf_hds_ResetCalOverride 
+20031,,[ phyrf_hds_hdt_override.c : 37 ] phyrf_hds_Home0Override 
+20030,,[ phyrf_hds_hdt_override.c : 282 ] phyrf_hds_S2wBmpsCx_nremModeOverride 
+20029,,[ phyrf_hds_hdt_override.c : 213 ] phyrf_hds_S2wBmpsCx_pcModeOverride 
+20028,,[ phyrf_hds_hdt_override.c : 246 ] phyrf_hds_S2wBmpsCx_retentionModeOverride 
+20027,,[ phyrf_hds_hdt_override.c : 300 ] phyrf_hds_S2wBmpsFcsCx_pcModeOverride 
+20026,,[ phyrf_hds_hdt_override.c : 318 ] phyrf_hds_S2wBmpsFcsCx_retentionModeOverride 
+20025,,[ phyrf_hds_hdt_override.c : 264 ] phyrf_hds_S2wImpsCx_nremModeOverride 
+20024,,[ phyrf_hds_hdt_override.c : 201 ] phyrf_hds_S2wImpsCx_pcModeOverride 
+20023,,[ phyrf_hds_hdt_override.c : 228 ] phyrf_hds_S2wImpsCx_retentionModeOverride 
+20022,,[ phyrf_hds_hdt_override.c : 411 ] phyrf_hds_S2wImpsFcsNanHwOffloadModeOverride 
+20021,,[ phyrf_hds_hdt_override.c : 404 ] phyrf_hds_S2wImpsNanHwOffloadModeOverride 
+20020,,[ phyrf_hds_hdt_override.c : 154 ] phyrf_hds_SbsScanFcsOverride 
+20019,,[ phyrf_hds_hdt_override.c : 94 ] phyrf_hds_SbsScanOverride 
+20018,,[ phyrf_hds_hdt_override.c : 145 ] phyrf_hds_ScanFcsOverride 
+20017,,[ phyrf_hds_hdt_override.c : 78 ] phyrf_hds_Home0Override 
+20016,,[ phyrf_hds_hdt_override.c : 273 ] phyrf_hds_W2sBmpsCx_nremModeOverride 
+20015,,[ phyrf_hds_hdt_override.c : 207 ] phyrf_hds_W2sBmpsCx_pcModeOverride 
+20014,,[ phyrf_hds_hdt_override.c : 237 ] phyrf_hds_W2sBmpsCx_retentionModeOverride 
+20013,,[ phyrf_hds_hdt_override.c : 291 ] phyrf_hds_W2sBmpsFcsCx_pcModeOverride 
+20012,,[ phyrf_hds_hdt_override.c : 309 ] phyrf_hds_W2sBmpsFcsCx_retentionModeOverride 
+20011,,[ phyrf_hds_hdt_override.c : 255 ] phyrf_hds_W2sImpsCx_nremModeOverride 
+20010,,[ phyrf_hds_hdt_override.c : 195 ] phyrf_hds_W2sImpsCx_pcModeOverride 
+20009,,[ phyrf_hds_hdt_override.c : 219 ] phyrf_hds_W2sImpsCx_retentionModeOverride 
+20008,,[ phyrf_hds_hdt_override.c : 397 ] phyrf_hds_W2sImpsFcsNanHwOffloadModeOverride 
+20007,,[ phyrf_hds_hdt_override.c : 390 ] phyrf_hds_W2sImpsNanHwOffloadModeOverride 
+20054,ii,[ phyrf_hds_ddl_debug_prof_seq.c : 49 ] HDS: Debug ADT Profile Start - PHYID:%d, Profile:%d 
+20053,,[ phyrf_hds_ddl_debug_prof_seq.c : 53 ] HDS: Debug ADT Profile End 
+20052,ii,[ phyrf_hds_ddl_debug_prof_seq.c : 30 ] HDS: Debug HDT Profile Start - PHYID:%d, Profile:%d 
+20051,,[ phyrf_hds_ddl_debug_prof_seq.c : 34 ] HDS: Debug HDT Profile End 
+20194,,[ phyrf_hds_adt_debug.c : 1109 ] phyrf_hds_ActivateAgileSpectralScan_PostDebug 
+20193,,[ phyrf_hds_adt_debug.c : 1095 ] phyrf_hds_ActivateAgileSpectralScan_PreDebug 
+20192,,[ phyrf_hds_adt_debug.c : 1221 ] phyrf_hds_ActivateNormalSpectralScan_PostDebug 
+20191,,[ phyrf_hds_adt_debug.c : 1207 ] phyrf_hds_ActivateNormalSpectralScan_PreDebug 
+20190,,[ phyrf_hds_adt_debug.c : 773 ] phyrf_hds_ActivateSpectralScan_PostDebug 
+20189,,[ phyrf_hds_adt_debug.c : 759 ] phyrf_hds_ActivateSpectralScan_PreDebug 
+20188,,[ phyrf_hds_adt_debug.c : 45 ] phyrf_hds_AniConfigure_PostDebug 
+20187,,[ phyrf_hds_adt_debug.c : 31 ] phyrf_hds_AniConfigure_PreDebug 
+20186,,[ phyrf_hds_adt_debug.c : 101 ] phyrf_hds_AniDisableReg_PostDebug 
+20185,,[ phyrf_hds_adt_debug.c : 87 ] phyrf_hds_AniDisableReg_PreDebug 
+20184,,[ phyrf_hds_adt_debug.c : 241 ] phyrf_hds_AniDisable_PostDebug 
+20183,,[ phyrf_hds_adt_debug.c : 227 ] phyrf_hds_AniDisable_PreDebug 
+20182,,[ phyrf_hds_adt_debug.c : 73 ] phyrf_hds_AniEnableReg_PostDebug 
+20181,,[ phyrf_hds_adt_debug.c : 59 ] phyrf_hds_AniEnableReg_PreDebug 
+20180,,[ phyrf_hds_adt_debug.c : 213 ] phyrf_hds_AniEnable_PostDebug 
+20179,,[ phyrf_hds_adt_debug.c : 199 ] phyrf_hds_AniEnable_PreDebug 
+20178,,[ phyrf_hds_adt_debug.c : 885 ] phyrf_hds_AniOfdmaDesenseLevel_PostDebug 
+20177,,[ phyrf_hds_adt_debug.c : 871 ] phyrf_hds_AniOfdmaDesenseLevel_PreDebug 
+20176,,[ phyrf_hds_adt_debug.c : 129 ] phyrf_hds_AniRestoreDl_PostDebug 
+20175,,[ phyrf_hds_adt_debug.c : 115 ] phyrf_hds_AniRestoreDl_PreDebug 
+20174,,[ phyrf_hds_adt_debug.c : 157 ] phyrf_hds_AniTimeout_PostDebug 
+20173,,[ phyrf_hds_adt_debug.c : 143 ] phyrf_hds_AniTimeout_PreDebug 
+20172,,[ phyrf_hds_adt_debug.c : 185 ] phyrf_hds_AniUntimeout_PostDebug 
+20171,,[ phyrf_hds_adt_debug.c : 171 ] phyrf_hds_AniUntimeout_PreDebug 
+20170,,[ phyrf_hds_adt_debug.c : 1669 ] phyrf_hds_ConfigRfSwitchByHwMode_PostDebug 
+20169,,[ phyrf_hds_adt_debug.c : 1655 ] phyrf_hds_ConfigRfSwitchByHwMode_PreDebug 
+20168,,[ phyrf_hds_adt_debug.c : 1753 ] phyrf_hds_CxmInitWci2_PostDebug 
+20167,,[ phyrf_hds_adt_debug.c : 1739 ] phyrf_hds_CxmInitWci2_PreDebug 
+20166,,[ phyrf_hds_adt_debug.c : 1781 ] phyrf_hds_CxmWakeupBt_PostDebug 
+20165,,[ phyrf_hds_adt_debug.c : 1767 ] phyrf_hds_CxmWakeupBt_PreDebug 
+20164,,[ phyrf_hds_adt_debug.c : 1977 ] phyrf_hds_CxmWci2Status_PostDebug 
+20163,,[ phyrf_hds_adt_debug.c : 1963 ] phyrf_hds_CxmWci2Status_PreDebug 
+20162,,[ phyrf_hds_adt_debug.c : 801 ] phyrf_hds_DeactivateSpectralScan_PostDebug 
+20161,,[ phyrf_hds_adt_debug.c : 787 ] phyrf_hds_DeactivateSpectralScan_PreDebug 
+20160,,[ phyrf_hds_adt_debug.c : 717 ] phyrf_hds_DeinitSpectralScan_PostDebug 
+20159,,[ phyrf_hds_adt_debug.c : 703 ] phyrf_hds_DeinitSpectralScan_PreDebug 
+20158,,[ phyrf_hds_adt_debug.c : 829 ] phyrf_hds_DeinitSpectralWatchdogConfig_PostDebug 
+20157,,[ phyrf_hds_adt_debug.c : 815 ] phyrf_hds_DeinitSpectralWatchdogConfig_PreDebug 
+20156,,[ phyrf_hds_adt_debug.c : 1277 ] phyrf_hds_DfsDisableRadarSubbandMask_PostDebug 
+20155,,[ phyrf_hds_adt_debug.c : 1263 ] phyrf_hds_DfsDisableRadarSubbandMask_PreDebug 
+20154,,[ phyrf_hds_adt_debug.c : 1249 ] phyrf_hds_DfsEnableRadarSubbandMask_PostDebug 
+20153,,[ phyrf_hds_adt_debug.c : 1235 ] phyrf_hds_DfsEnableRadarSubbandMask_PreDebug 
+20152,,[ phyrf_hds_adt_debug.c : 1585 ] phyrf_hds_DisablePhydbgCapture_PostDebug 
+20151,,[ phyrf_hds_adt_debug.c : 1571 ] phyrf_hds_DisablePhydbgCapture_PreDebug 
+20150,,[ phyrf_hds_adt_debug.c : 1865 ] phyrf_hds_DssCuVoteDisable_PostDebug 
+20149,,[ phyrf_hds_adt_debug.c : 1851 ] phyrf_hds_DssCuVoteDisable_PreDebug 
+20148,,[ phyrf_hds_adt_debug.c : 1893 ] phyrf_hds_DssCuVoteEnable_PostDebug 
+20147,,[ phyrf_hds_adt_debug.c : 1879 ] phyrf_hds_DssCuVoteEnable_PreDebug 
+20146,,[ phyrf_hds_adt_debug.c : 493 ] phyrf_hds_DssDisableDssWarCfo_PostDebug 
+20145,,[ phyrf_hds_adt_debug.c : 479 ] phyrf_hds_DssDisableDssWarCfo_PreDebug 
+20144,,[ phyrf_hds_adt_debug.c : 465 ] phyrf_hds_DssEnableDssWarCfo_PostDebug 
+20143,,[ phyrf_hds_adt_debug.c : 451 ] phyrf_hds_DssEnableDssWarCfo_PreDebug 
+20142,,[ phyrf_hds_adt_debug.c : 409 ] phyrf_hds_DssForcedSyn_PostDebug 
+20141,,[ phyrf_hds_adt_debug.c : 395 ] phyrf_hds_DssForcedSyn_PreDebug 
+20140,,[ phyrf_hds_adt_debug.c : 437 ] phyrf_hds_DssNoForcedSyn_PostDebug 
+20139,,[ phyrf_hds_adt_debug.c : 423 ] phyrf_hds_DssNoForcedSyn_PreDebug 
+20138,,[ phyrf_hds_adt_debug.c : 1921 ] phyrf_hds_EmlsrConfigDisable_PostDebug 
+20137,,[ phyrf_hds_adt_debug.c : 1907 ] phyrf_hds_EmlsrConfigDisable_PreDebug 
+20136,,[ phyrf_hds_adt_debug.c : 1949 ] phyrf_hds_EmlsrConfigEnable_PostDebug 
+20135,,[ phyrf_hds_adt_debug.c : 1935 ] phyrf_hds_EmlsrConfigEnable_PreDebug 
+20134,,[ phyrf_hds_adt_debug.c : 689 ] phyrf_hds_EnableCfrCir_PostDebug 
+20133,,[ phyrf_hds_adt_debug.c : 675 ] phyrf_hds_EnableCfrCir_PreDebug 
+20132,,[ phyrf_hds_adt_debug.c : 1305 ] phyrf_hds_EnableRtt11az_PostDebug 
+20131,,[ phyrf_hds_adt_debug.c : 1291 ] phyrf_hds_EnableRtt11az_PreDebug 
+20130,,[ phyrf_hds_adt_debug.c : 857 ] phyrf_hds_EnableRtt_PostDebug 
+20129,,[ phyrf_hds_adt_debug.c : 843 ] phyrf_hds_EnableRtt_PreDebug 
+20128,,[ phyrf_hds_adt_debug.c : 1725 ] phyrf_hds_ForceXlnaOnOff_PostDebug 
+20127,,[ phyrf_hds_adt_debug.c : 1711 ] phyrf_hds_ForceXlnaOnOff_PreDebug 
+20126,,[ phyrf_hds_adt_debug.c : 1053 ] phyrf_hds_InitAgileSpectralScan_PostDebug 
+20125,,[ phyrf_hds_adt_debug.c : 1039 ] phyrf_hds_InitAgileSpectralScan_PreDebug 
+20124,,[ phyrf_hds_adt_debug.c : 1081 ] phyrf_hds_InitAgileSpectralWatchdogConfig_PostDebug 
+20123,,[ phyrf_hds_adt_debug.c : 1067 ] phyrf_hds_InitAgileSpectralWatchdogConfig_PreDebug 
+20122,,[ phyrf_hds_adt_debug.c : 1165 ] phyrf_hds_InitNormalSpectralScan_PostDebug 
+20121,,[ phyrf_hds_adt_debug.c : 1151 ] phyrf_hds_InitNormalSpectralScan_PreDebug 
+20120,,[ phyrf_hds_adt_debug.c : 1193 ] phyrf_hds_InitNormalSpectralWatchdogConfig_PostDebug 
+20119,,[ phyrf_hds_adt_debug.c : 1179 ] phyrf_hds_InitNormalSpectralWatchdogConfig_PreDebug 
+20118,,[ phyrf_hds_adt_debug.c : 325 ] phyrf_hds_InitSpectralScan_PostDebug 
+20117,,[ phyrf_hds_adt_debug.c : 311 ] phyrf_hds_InitSpectralScan_PreDebug 
+20116,,[ phyrf_hds_adt_debug.c : 745 ] phyrf_hds_InitSpectralWatchdogConfig_PostDebug 
+20115,,[ phyrf_hds_adt_debug.c : 731 ] phyrf_hds_InitSpectralWatchdogConfig_PreDebug 
+20114,,[ phyrf_hds_adt_debug.c : 1025 ] phyrf_hds_IsAgileSpectralEnabled_PostDebug 
+20113,,[ phyrf_hds_adt_debug.c : 1011 ] phyrf_hds_IsAgileSpectralEnabled_PreDebug 
+20112,,[ phyrf_hds_adt_debug.c : 1137 ] phyrf_hds_IsNormalSpectralEnabled_PostDebug 
+20111,,[ phyrf_hds_adt_debug.c : 1123 ] phyrf_hds_IsNormalSpectralEnabled_PreDebug 
+20110,,[ phyrf_hds_adt_debug.c : 269 ] phyrf_hds_IsSpectralEnabled_PostDebug 
+20109,,[ phyrf_hds_adt_debug.c : 255 ] phyrf_hds_IsSpectralEnabled_PreDebug 
+20108,,[ phyrf_hds_adt_debug.c : 1697 ] phyrf_hds_MloEmlsrMsdConfig_PostDebug 
+20107,,[ phyrf_hds_adt_debug.c : 1683 ] phyrf_hds_MloEmlsrMsdConfig_PreDebug 
+20106,,[ phyrf_hds_adt_debug.c : 381 ] phyrf_hds_OclDisable_PostDebug 
+20105,,[ phyrf_hds_adt_debug.c : 367 ] phyrf_hds_OclDisable_PreDebug 
+20104,,[ phyrf_hds_adt_debug.c : 353 ] phyrf_hds_OclEnable_PostDebug 
+20103,,[ phyrf_hds_adt_debug.c : 339 ] phyrf_hds_OclEnable_PreDebug 
+20102,,[ phyrf_hds_adt_debug.c : 913 ] phyrf_hds_ReadAgileSpectralConfigRegs_PostDebug 
+20101,,[ phyrf_hds_adt_debug.c : 899 ] phyrf_hds_ReadAgileSpectralConfigRegs_PreDebug 
+20100,,[ phyrf_hds_adt_debug.c : 941 ] phyrf_hds_ReadNormalSpectralConfigRegs_PostDebug 
+20099,,[ phyrf_hds_adt_debug.c : 927 ] phyrf_hds_ReadNormalSpectralConfigRegs_PreDebug 
+20098,,[ phyrf_hds_adt_debug.c : 1445 ] phyrf_hds_ReadRxclearPrerxframeCnt_PostDebug 
+20097,,[ phyrf_hds_adt_debug.c : 1431 ] phyrf_hds_ReadRxclearPrerxframeCnt_PreDebug 
+20096,,[ phyrf_hds_adt_debug.c : 633 ] phyrf_hds_RepChannelCaptureDisable_PostDebug 
+20095,,[ phyrf_hds_adt_debug.c : 619 ] phyrf_hds_RepChannelCaptureDisable_PreDebug 
+20094,,[ phyrf_hds_adt_debug.c : 577 ] phyrf_hds_RepChannelCaptureEnable_PostDebug 
+20093,,[ phyrf_hds_adt_debug.c : 563 ] phyrf_hds_RepChannelCaptureEnable_PreDebug 
+20092,,[ phyrf_hds_adt_debug.c : 1837 ] phyrf_hds_RfaRriRestore_PostDebug 
+20091,,[ phyrf_hds_adt_debug.c : 1823 ] phyrf_hds_RfaRriRestore_PreDebug 
+20090,,[ phyrf_hds_adt_debug.c : 1809 ] phyrf_hds_RfaRriSave_PostDebug 
+20089,,[ phyrf_hds_adt_debug.c : 1795 ] phyrf_hds_RfaRriSave_PreDebug 
+20088,,[ phyrf_hds_adt_debug.c : 1613 ] phyrf_hds_RfaToggling_PostDebug 
+20087,,[ phyrf_hds_adt_debug.c : 1599 ] phyrf_hds_RfaToggling_PreDebug 
+20086,,[ phyrf_hds_adt_debug.c : 1557 ] phyrf_hds_SetLpl_PostDebug 
+20085,,[ phyrf_hds_adt_debug.c : 1543 ] phyrf_hds_SetLpl_PreDebug 
+20084,,[ phyrf_hds_adt_debug.c : 1417 ] phyrf_hds_SetMaxTargetPwr_PostDebug 
+20083,,[ phyrf_hds_adt_debug.c : 1403 ] phyrf_hds_SetMaxTargetPwr_PreDebug 
+20082,,[ phyrf_hds_adt_debug.c : 1389 ] phyrf_hds_SetOperatingMode_PostDebug 
+20081,,[ phyrf_hds_adt_debug.c : 1375 ] phyrf_hds_SetOperatingMode_PreDebug 
+20080,,[ phyrf_hds_adt_debug.c : 661 ] phyrf_hds_SetPbsForChannelCaptureDisabled_PostDebug 
+20079,,[ phyrf_hds_adt_debug.c : 647 ] phyrf_hds_SetPbsForChannelCaptureDisabled_PreDebug 
+20078,,[ phyrf_hds_adt_debug.c : 605 ] phyrf_hds_SetPbsForChannelCaptureEnabled_PostDebug 
+20077,,[ phyrf_hds_adt_debug.c : 591 ] phyrf_hds_SetPbsForChannelCaptureEnabled_PreDebug 
+20076,,[ phyrf_hds_adt_debug.c : 1473 ] phyrf_hds_SetRxclearPrerxframeCnt_PostDebug 
+20075,,[ phyrf_hds_adt_debug.c : 1459 ] phyrf_hds_SetRxclearPrerxframeCnt_PreDebug 
+20074,,[ phyrf_hds_adt_debug.c : 1641 ] phyrf_hds_SetTdPowerConfig_PostDebug 
+20073,,[ phyrf_hds_adt_debug.c : 1627 ] phyrf_hds_SetTdPowerConfig_PreDebug 
+20072,,[ phyrf_hds_adt_debug.c : 1361 ] phyrf_hds_SetVregPhyMode_PostDebug 
+20071,,[ phyrf_hds_adt_debug.c : 1347 ] phyrf_hds_SetVregPhyMode_PreDebug 
+20070,,[ phyrf_hds_adt_debug.c : 1501 ] phyrf_hds_SmarttxQueryStats_PostDebug 
+20069,,[ phyrf_hds_adt_debug.c : 1487 ] phyrf_hds_SmarttxQueryStats_PreDebug 
+20068,,[ phyrf_hds_adt_debug.c : 1529 ] phyrf_hds_SmarttxResetStats_PostDebug 
+20067,,[ phyrf_hds_adt_debug.c : 1515 ] phyrf_hds_SmarttxResetStats_PreDebug 
+20066,,[ phyrf_hds_adt_debug.c : 1333 ] phyrf_hds_SynthShutdownUnusedChain_PostDebug 
+20065,,[ phyrf_hds_adt_debug.c : 1319 ] phyrf_hds_SynthShutdownUnusedChain_PreDebug 
+20064,,[ phyrf_hds_adt_debug.c : 969 ] phyrf_hds_WriteAgileSpectralConfigRegs_PostDebug 
+20063,,[ phyrf_hds_adt_debug.c : 955 ] phyrf_hds_WriteAgileSpectralConfigRegs_PreDebug 
+20062,,[ phyrf_hds_adt_debug.c : 997 ] phyrf_hds_WriteNormalSpectralConfigRegs_PostDebug 
+20061,,[ phyrf_hds_adt_debug.c : 983 ] phyrf_hds_WriteNormalSpectralConfigRegs_PreDebug 
+20060,,[ phyrf_hds_adt_debug.c : 297 ] phyrf_hds_WriteSpectralConfigRegs_PostDebug 
+20059,,[ phyrf_hds_adt_debug.c : 283 ] phyrf_hds_WriteSpectralConfigRegs_PreDebug 
+20058,,[ phyrf_hds_adt_debug.c : 549 ] phyrf_hds_XlnaBypassDisable_PostDebug 
+20057,,[ phyrf_hds_adt_debug.c : 535 ] phyrf_hds_XlnaBypassDisable_PreDebug 
+20056,,[ phyrf_hds_adt_debug.c : 521 ] phyrf_hds_XlnaBypassEnable_PostDebug 
+20055,,[ phyrf_hds_adt_debug.c : 507 ] phyrf_hds_XlnaBypassEnable_PreDebug 
 20230,,[ phyrf_hds_adt_ram.c : 1003 ] HDS ADT AdtConfigRfSwitchByHwMode 
 20229,,[ phyrf_hds_adt_ram.c : 1087 ] HDS ADT AdtCxmInitWci2 
 20228,,[ phyrf_hds_adt_ram.c : 1114 ] HDS ADT AdtCxmWakeupBt 
@@ -8950,171 +8950,171 @@ org_rc_mask_null pdev_rc_mask[0]:%x pdev_rc_mask[1]:%x phymode:%d ni_legacy_rate
 22733,i,[ sched_algo_txbf.c : 1119 ] snd_failure update cv_buf num  %d 
 22732,i,[ sched_algo_txbf.c : 1241 ] snd_success remaining cv_buf num  %d 
 22731,I,[ sched_algo_txbf.c : 3750 ] snd_cv_upload success buf 0x%0x 
-22767,III,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 321 ] DFS_DUMPS Rejecting Radar since delta peak values are invalid : dl_delta_peak_match_count=%lu, dl_psidx_diff_match_count=%lu, rf_threshold=%lu
+22750,i,[ hca_HwComponentBbBase_debug.cpp : 203 ] PHYDBG: HWS phyDbgGetCsrCapInfo recipe success phyId: %d 
  
-22766,IIi,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 326 ] DFS_DUMPS %s: Rejecting Radar since duration diff %ld is more than %d
+22749,i,[ hca_HwComponentBbBase_debug.cpp : 264 ] PHYDBG: HWS phyDbgGetCsrCapInfo recipe fail phyId: %d 
  
-22765,i,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 466 ] [%d]: dfs is NULL 
-22764,i,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 562 ] [%d]: event is NULL  
-22763,i,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 579 ] DFS_DUMPS Rejecting as radar injected in non-DFS channel, freq offset=%d 
-22762,iiIIII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 805 ] 
+22748,,[ hca_HwComponentBbBase_debug.cpp : 917 ] PHYDBG DISABLE: HcaHwComponentBbBase_debug::PHYDBG_disable 
+22747,,[ hca_HwComponentBbBase_debug.cpp : 919 ] PHYDBG disabled
+ 
+22746,iii,[ hca_HwComponentBbBase_debug.cpp : 292 ] PHYDBG: HWS phyDbgTxGainCtrl recipe success phyId: %d, chain_mask: %d, gain_idx: %d 
+ 
+22745,iii,[ hca_HwComponentBbBase_debug.cpp : 296 ] PHYDBG: HWS phyDbgTxGainCtrl recipe fail phyId: %d, chain_mask: %d, gain_idx: %d 
+ 
+22744,i,[ hca_HwComponentBbBase_debug.cpp : 905 ] PHYDBG: HWS PHYDBG stop recipe success phyId:%d 
+ 
+22743,i,[ hca_HwComponentBbBase_debug.cpp : 911 ] PHYDBG: HWS PHYDBG stop recipe Fail phyId:%d 
+ 
+22742,,[ hca_HwComponentBbBase_debug.cpp : 1056 ] Configuring and starting DAC playback 
+22741,i,[ hca_HwComponentBbBase_debug.cpp : 1486 ] phydbg QDSS: eventmask: %d 
+22740,i,[ hca_HwComponentBbBase_debug.cpp : 1544 ] PHYDBG: HWS phyDbgGetTpcDebugReg recipe success phyId: %d 
+ 
+22739,i,[ hca_HwComponentBbBase_debug.cpp : 1548 ] PHYDBG: HWS phyDbgGetTpcDebugReg recipe Fail phyId: %d 
+ 
+22780,i,[ hca_HwComponentBbBase_debug_core.cpp : 101 ] PHYDBG: HWS phyDbgCapture recipe success phyId: %d 
+ 
+22779,i,[ hca_HwComponentBbBase_debug_core.cpp : 103 ] PHYDBG: HWS phyDbgCapture recipe fail phyId: %d 
+ 
+22778,i,[ hca_HwComponentBbBase_debug_core.cpp : 83 ] PHYDBG: HWS phyDbgCapture recipe success phyId: %d 
+ 
+22777,i,[ hca_HwComponentBbBase_debug_core.cpp : 85 ] PHYDBG: HWS phyDbgCapture recipe fail phyId: %d 
+ 
+22776,i,[ hca_HwComponentBbBase_debug_core.cpp : 297 ] PHYDBG: HWS phyDbgDacPlayback recipe success phyId: %d 
+ 
+22775,i,[ hca_HwComponentBbBase_debug_core.cpp : 299 ] PHYDBG: HWS phyDbgDacPlayback recipe fail phyId: %d 
+ 
+22774,i,[ hca_HwComponentBbBase_debug_core.cpp : 64 ] PHYDBG: HWS phyDbgCapture recipe success phyId: %d 
+ 
+22773,i,[ hca_HwComponentBbBase_debug_core.cpp : 66 ] PHYDBG: HWS phyDbgCapture recipe fail phyId: %d 
+ 
+22772,i,[ hca_HwComponentBbBase_debug_core.cpp : 278 ] PHYDBG: HWS phyDbgDacPlayback recipe success phyId: %d 
+ 
+22771,i,[ hca_HwComponentBbBase_debug_core.cpp : 280 ] PHYDBG: HWS phyDbgDacPlayback recipe fail phyId: %d 
+ 
+22770,i,[ hca_HwComponentBbBase_debug_core.cpp : 422 ] PHYDBG: HWS phyDbgLoadDacMemoryBank recipe success phyId: %d 
+ 
+22769,i,[ hca_HwComponentBbBase_debug_core.cpp : 424 ] PHYDBG: HWS phyDbgLoadDacMemoryBank recipe fail phyId: %d 
+ 
+22768,i,[ hca_HwComponentBbBase_debug_core.cpp : 127 ] PHYDBG: HWS phyDbgAcquireMutex recipe success phyId: %d 
+ 
+22767,i,[ hca_HwComponentBbBase_debug_core.cpp : 129 ] PHYDBG: HWS phyDbgAcquireMutex recipe fail phyId: %d 
+ 
+22766,i,[ hca_HwComponentBbBase_debug_core.cpp : 143 ] PHYDBG: HWS phyDbgReleaseMutex recipe success phyId: %d 
+ 
+22765,i,[ hca_HwComponentBbBase_debug_core.cpp : 145 ] PHYDBG: HWS phyDbgReleaseMutex recipe fail phyId: %d 
+ 
+22764,i,[ hca_HwComponentBbBase_debug_core.cpp : 235 ] PHYDBG: HWS phyDbgDacPlayback recipe success phyId: %d 
+ 
+22763,i,[ hca_HwComponentBbBase_debug_core.cpp : 237 ] PHYDBG: HWS phyDbgDacPlayback recipe fail phyId: %d 
+ 
+22762,i,[ hca_HwComponentBbBase_debug_core.cpp : 369 ] PHYDBG: HWS phyDbgDumpMemoryBank recipe success phyId: %d 
+ 
+22761,i,[ hca_HwComponentBbBase_debug_core.cpp : 371 ] PHYDBG: HWS phyDbgDumpMemoryBank recipe fail phyId: %d 
+ 
+22760,i,[ hca_HwComponentBbBase_debug_core.cpp : 452 ] PHYDBG: HWS phyDbgClearMemoryBank recipe success phyId: %d 
+ 
+22759,i,[ hca_HwComponentBbBase_debug_core.cpp : 454 ] PHYDBG: HWS phyDbgClearMemoryBank recipe fail phyId: %d 
+ 
+22758,i,[ hca_HwComponentBbBase_debug_core.cpp : 168 ] PHYDBG: HWS phyDbgConfigureTrigger recipe success phyId: %d 
+ 
+22757,i,[ hca_HwComponentBbBase_debug_core.cpp : 170 ] PHYDBG: HWS phyDbgConfigureTrigger recipe fail phyId: %d 
+ 
+22756,i,[ hca_HwComponentBbBase_debug_core.cpp : 393 ] PHYDBG: HWS phyDbgDumpMemoryBankADC recipe success phyId: %d 
+ 
+22755,i,[ hca_HwComponentBbBase_debug_core.cpp : 395 ] PHYDBG: HWS phyDbgDumpMemoryBankADC recipe fail phyId: %d 
+ 
+22754,i,[ hca_HwComponentBbBase_debug_core.cpp : 187 ] PHYDBG: HWS phyDbgConfigEventMask recipe success phyId: %d 
+ 
+22753,i,[ hca_HwComponentBbBase_debug_core.cpp : 189 ] PHYDBG: HWS phyDbgConfigEventMask recipe fail phyId: %d 
+ 
+22752,i,[ hca_HwComponentBbBase_debug_core.cpp : 206 ] PHYDBG: HWS phyDbgConfigEventMask recipe success phyId: %d 
+ 
+22751,i,[ hca_HwComponentBbBase_debug_core.cpp : 208 ] PHYDBG: HWS phyDbgConfigEventMask recipe fail phyId: %d 
+ 
+22790,ii,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 480 ] DFS_DUMP Dfs0Sighandler pHandle=%d ipc_ring_id=%d
+ 
+22789,ii,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 488 ] DFS_DUMP Dfs1Sighandler pHandle=%d ipc_ring_id=%d
+ 
+22788,ii,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 498 ] DFS_DUMP Dfs2Sighandler pHandle=%d ipc_ring_id=%d
+ 
+22787,,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 271 ] FFT_RAW START 
+ 
+22786,II,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 275 ] FFT_RAW %p 0x%x 
+ 
+22785,II,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 279 ] FFT_RAW %p 0x%x 
+ 
+22784,II,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 281 ] FFT_RAW %p 0x%x 
+ 
+22783,II,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 282 ] FFT_RAW %p 0x%x 
+ 
+22782,,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 287 ] FFT_RAW END 
+ 
+22781,iii,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 461 ] DFS_DUMP pcss_ipc_sig_handler_process_multiple_ring_element pHandle=%d ipc_ring_id=%d num_bufs=%d
+ 
+22792,i,[ hca_HwComponentBbBase_debugCrashDump.cpp : 47 ] PHYDBG: HWS phyDbgDumpMemoryBank recipe success phyId: %d 
+ 
+22791,i,[ hca_HwComponentBbBase_debugCrashDump.cpp : 51 ] PHYDBG: HWS phyDbgDumpMemoryBank recipe fail phyId: %d 
+ 
+22794,i,[ hca_HwComponentBbBase_pcss.cpp : 245 ] PcssIpcIRQHandler: PS Mode, ignoring IPC IRQ! phyId:%d 
+22793,ii,[ hca_HwComponentBbBase_pcss.cpp : 368 ] Pcss M3 Warm Reset Reason: %d, Reset Counter: %d  
+22798,iiIiiiiii,[ hca_HwComponentBbBase_dfs_phyerr_tlv.cpp : 255 ] DFS_DUMPS ts=%d diff_ts=%d sidx=%i dur=%d chirp=%d det=%d radar_check=%d agc_event=%d rssi=%d  
+22797,iiiii,[ hca_HwComponentBbBase_dfs_phyerr_tlv.cpp : 261 ] DFS_DUMPS ts=%d delta_peak=%d delta_diff=%d total_gain=%d is_max_pw=%d  
+22796,iiiii,[ hca_HwComponentBbBase_dfs_phyerr_tlv.cpp : 285 ] DFS_DUMP radar summary detection_mode=%d  timestamp=%d pulse_rssi=%d is_chirp=%d sidx=%d
+ 
+22795,iiiiiIiii,[ hca_HwComponentBbBase_dfs_phyerr_tlv.cpp : 197 ] DFS_DUMPS ts=%d fft_num=%d radar_check=%d total_gain=%d base_pwr=%d peak_sidx=%i relpwr=%d peak_mag=%d num_str_bins_ib=%d
+ 
+22799,i,[ hca_HwComponentBbBase_pcss_ipc.cpp : 522 ] PcssIpcRingIRQHandler: PS Mode, ignoring IPC Ring IRQ! phyId:%d 
+22828,III,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 321 ] DFS_DUMPS Rejecting Radar since delta peak values are invalid : dl_delta_peak_match_count=%lu, dl_psidx_diff_match_count=%lu, rf_threshold=%lu
+ 
+22827,IIi,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 326 ] DFS_DUMPS %s: Rejecting Radar since duration diff %ld is more than %d
+ 
+22826,i,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 466 ] [%d]: dfs is NULL 
+22825,i,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 562 ] [%d]: event is NULL  
+22824,i,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 579 ] DFS_DUMPS Rejecting as radar injected in non-DFS channel, freq offset=%d 
+22823,iiIIII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 805 ] 
 [%d]:PHYERR# = %d ts = %u  diff_ts = %u ppdu_rssi = %u dur = %u
  
-22761,iiiiii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 809 ] 
+22822,iiiiii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 809 ] 
 [%d]: is_hw_chirp = %d segid = %d sidx = %d peak_mag = %d delta_peak = %d 
  
-22760,iiiiIi,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 813 ] 
+22821,iiiiIi,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 813 ] 
 [%d]: delta_diff = %d agc_total_gain = %d agc_mb_gain = %d radar_subchan_mask = 0x%x pulse_height = %d 
  
-22759,iiiii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 818 ] 
+22820,iiiii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 818 ] 
 [%d]: triggering_agc_event = %d rs_pulse_rssi = %d pri80_inband_power = %d ext80_inband_power = %d 
  
-22758,IIIII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 822 ] ts =%u re.re_dur=%u re.re_rssi =%u diff =%u pl->pl_lastelem.p_time=%lu 
-22757,Ii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 901 ] :chan->ic_flags=0x%x, MHz separation=%d
+22819,IIIII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 822 ] ts =%u re.re_dur=%u re.re_rssi =%u diff =%u pl->pl_lastelem.p_time=%lu 
+22818,Ii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 901 ] :chan->ic_flags=0x%x, MHz separation=%d
  
-22756,iii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 905 ] : Peak Idx =%d,re.re_dur =%d,diff_ts =%d
+22817,iii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 905 ] : Peak Idx =%d,re.re_dur =%d,diff_ts =%d
  
-22755,,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 908 ] 
+22816,,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 908 ] 
 : Modify pulse dur to fit valid range 
  
-22754,Ii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 937 ] 
+22815,Ii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 937 ] 
 :chan->ic_flags=0x%x,MHz Separation=%d
  
-22753,iii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 941 ] :Peak Index =%d,re.re_dur =%d,diff_ts =%d
+22814,iii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 941 ] :Peak Index =%d,re.re_dur =%d,diff_ts =%d
  
-22752,,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 944 ] :Modify ETSI pulse dur to valid range 
+22813,,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 944 ] :Modify ETSI pulse dur to valid range 
  
-22751,,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1002 ] DFS_DUMPS found bin5 radar
+22812,,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1002 ] DFS_DUMPS found bin5 radar
  
-22750,iIIII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1012 ]   *** chan freq (%d): ts %lu re.re_dur %u rssi %u, 0x%x 
-22749,iII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1041 ] [%d]: Rejecting on rssi rssi=%u thresh=%u 
-22748,ii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1042 ] DFS_DUMPS Rejecting pulses on rssi rssi=%d, thresh=%d
+22811,iIIII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1012 ]   *** chan freq (%d): ts %lu re.re_dur %u rssi %u, 0x%x 
+22810,iII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1041 ] [%d]: Rejecting on rssi rssi=%u thresh=%u 
+22809,ii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1042 ] DFS_DUMPS Rejecting pulses on rssi rssi=%d, thresh=%d
  
-22747,iII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1072 ] [%d]:Rejecting on pri pri=%lld minpri=%u 
-22746,iiII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1105 ] [%d]:filterID= %d::Rejecting on individual filter min PRI deltaT=%lld rf->rf_minpri=%u 
-22745,iiII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1128 ] [%d]:filterID= %d :: Rejecting on individual filter max PRI deltaT=%lld rf->rf_minpri=%u 
-22744,iiII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1173 ] [%d]:filterID= %d :: Rejecting on individual filter max PRI deltaT=%lld rf->rf_minpri=%u 
-22743,iiii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1247 ] [%d]:### Found on channel minDur = %d, filterId = %d  seg_id = %d ### 
-22742,iiii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1300 ] DFS_DUMPS Radar Found with Filter Id = %d min dur=%d sidx=%d freq_offset=%d
+22808,iII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1072 ] [%d]:Rejecting on pri pri=%lld minpri=%u 
+22807,iiII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1105 ] [%d]:filterID= %d::Rejecting on individual filter min PRI deltaT=%lld rf->rf_minpri=%u 
+22806,iiII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1128 ] [%d]:filterID= %d :: Rejecting on individual filter max PRI deltaT=%lld rf->rf_minpri=%u 
+22805,iiII,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1173 ] [%d]:filterID= %d :: Rejecting on individual filter max PRI deltaT=%lld rf->rf_minpri=%u 
+22804,iiii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1247 ] [%d]:### Found on channel minDur = %d, filterId = %d  seg_id = %d ### 
+22803,iiii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1300 ] DFS_DUMPS Radar Found with Filter Id = %d min dur=%d sidx=%d freq_offset=%d
  
-22741,ii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1307 ] CHANNEL_CLOSE radarevent g_dfs_test_mode=%d  event_data.detection_mode=%d
+22802,ii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1307 ] CHANNEL_CLOSE radarevent g_dfs_test_mode=%d  event_data.detection_mode=%d
  
-22740,iiii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1339 ] [%d]:### RADAR FOUND ON CHANNEL %d (%d MHz),seg_id=%d ### 
-22739,i,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1409 ] DFS_DEBUGS false_radar dfs->dfs_seq_num =%d
- 
-22797,i,[ hca_HwComponentBbBase_debug_core.cpp : 101 ] PHYDBG: HWS phyDbgCapture recipe success phyId: %d 
- 
-22796,i,[ hca_HwComponentBbBase_debug_core.cpp : 103 ] PHYDBG: HWS phyDbgCapture recipe fail phyId: %d 
- 
-22795,i,[ hca_HwComponentBbBase_debug_core.cpp : 83 ] PHYDBG: HWS phyDbgCapture recipe success phyId: %d 
- 
-22794,i,[ hca_HwComponentBbBase_debug_core.cpp : 85 ] PHYDBG: HWS phyDbgCapture recipe fail phyId: %d 
- 
-22793,i,[ hca_HwComponentBbBase_debug_core.cpp : 297 ] PHYDBG: HWS phyDbgDacPlayback recipe success phyId: %d 
- 
-22792,i,[ hca_HwComponentBbBase_debug_core.cpp : 299 ] PHYDBG: HWS phyDbgDacPlayback recipe fail phyId: %d 
- 
-22791,i,[ hca_HwComponentBbBase_debug_core.cpp : 64 ] PHYDBG: HWS phyDbgCapture recipe success phyId: %d 
- 
-22790,i,[ hca_HwComponentBbBase_debug_core.cpp : 66 ] PHYDBG: HWS phyDbgCapture recipe fail phyId: %d 
- 
-22789,i,[ hca_HwComponentBbBase_debug_core.cpp : 278 ] PHYDBG: HWS phyDbgDacPlayback recipe success phyId: %d 
- 
-22788,i,[ hca_HwComponentBbBase_debug_core.cpp : 280 ] PHYDBG: HWS phyDbgDacPlayback recipe fail phyId: %d 
- 
-22787,i,[ hca_HwComponentBbBase_debug_core.cpp : 422 ] PHYDBG: HWS phyDbgLoadDacMemoryBank recipe success phyId: %d 
- 
-22786,i,[ hca_HwComponentBbBase_debug_core.cpp : 424 ] PHYDBG: HWS phyDbgLoadDacMemoryBank recipe fail phyId: %d 
- 
-22785,i,[ hca_HwComponentBbBase_debug_core.cpp : 127 ] PHYDBG: HWS phyDbgAcquireMutex recipe success phyId: %d 
- 
-22784,i,[ hca_HwComponentBbBase_debug_core.cpp : 129 ] PHYDBG: HWS phyDbgAcquireMutex recipe fail phyId: %d 
- 
-22783,i,[ hca_HwComponentBbBase_debug_core.cpp : 143 ] PHYDBG: HWS phyDbgReleaseMutex recipe success phyId: %d 
- 
-22782,i,[ hca_HwComponentBbBase_debug_core.cpp : 145 ] PHYDBG: HWS phyDbgReleaseMutex recipe fail phyId: %d 
- 
-22781,i,[ hca_HwComponentBbBase_debug_core.cpp : 235 ] PHYDBG: HWS phyDbgDacPlayback recipe success phyId: %d 
- 
-22780,i,[ hca_HwComponentBbBase_debug_core.cpp : 237 ] PHYDBG: HWS phyDbgDacPlayback recipe fail phyId: %d 
- 
-22779,i,[ hca_HwComponentBbBase_debug_core.cpp : 369 ] PHYDBG: HWS phyDbgDumpMemoryBank recipe success phyId: %d 
- 
-22778,i,[ hca_HwComponentBbBase_debug_core.cpp : 371 ] PHYDBG: HWS phyDbgDumpMemoryBank recipe fail phyId: %d 
- 
-22777,i,[ hca_HwComponentBbBase_debug_core.cpp : 452 ] PHYDBG: HWS phyDbgClearMemoryBank recipe success phyId: %d 
- 
-22776,i,[ hca_HwComponentBbBase_debug_core.cpp : 454 ] PHYDBG: HWS phyDbgClearMemoryBank recipe fail phyId: %d 
- 
-22775,i,[ hca_HwComponentBbBase_debug_core.cpp : 168 ] PHYDBG: HWS phyDbgConfigureTrigger recipe success phyId: %d 
- 
-22774,i,[ hca_HwComponentBbBase_debug_core.cpp : 170 ] PHYDBG: HWS phyDbgConfigureTrigger recipe fail phyId: %d 
- 
-22773,i,[ hca_HwComponentBbBase_debug_core.cpp : 393 ] PHYDBG: HWS phyDbgDumpMemoryBankADC recipe success phyId: %d 
- 
-22772,i,[ hca_HwComponentBbBase_debug_core.cpp : 395 ] PHYDBG: HWS phyDbgDumpMemoryBankADC recipe fail phyId: %d 
- 
-22771,i,[ hca_HwComponentBbBase_debug_core.cpp : 187 ] PHYDBG: HWS phyDbgConfigEventMask recipe success phyId: %d 
- 
-22770,i,[ hca_HwComponentBbBase_debug_core.cpp : 189 ] PHYDBG: HWS phyDbgConfigEventMask recipe fail phyId: %d 
- 
-22769,i,[ hca_HwComponentBbBase_debug_core.cpp : 206 ] PHYDBG: HWS phyDbgConfigEventMask recipe success phyId: %d 
- 
-22768,i,[ hca_HwComponentBbBase_debug_core.cpp : 208 ] PHYDBG: HWS phyDbgConfigEventMask recipe fail phyId: %d 
- 
-22807,ii,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 480 ] DFS_DUMP Dfs0Sighandler pHandle=%d ipc_ring_id=%d
- 
-22806,ii,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 488 ] DFS_DUMP Dfs1Sighandler pHandle=%d ipc_ring_id=%d
- 
-22805,ii,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 498 ] DFS_DUMP Dfs2Sighandler pHandle=%d ipc_ring_id=%d
- 
-22804,,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 271 ] FFT_RAW START 
- 
-22803,II,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 275 ] FFT_RAW %p 0x%x 
- 
-22802,II,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 279 ] FFT_RAW %p 0x%x 
- 
-22801,II,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 281 ] FFT_RAW %p 0x%x 
- 
-22800,II,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 282 ] FFT_RAW %p 0x%x 
- 
-22799,,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 287 ] FFT_RAW END 
- 
-22798,iii,[ hca_HwComponentBbBase_dfs_process_phyerr.cpp : 461 ] DFS_DUMP pcss_ipc_sig_handler_process_multiple_ring_element pHandle=%d ipc_ring_id=%d num_bufs=%d
- 
-22809,i,[ hca_HwComponentBbBase_debugCrashDump.cpp : 47 ] PHYDBG: HWS phyDbgDumpMemoryBank recipe success phyId: %d 
- 
-22808,i,[ hca_HwComponentBbBase_debugCrashDump.cpp : 51 ] PHYDBG: HWS phyDbgDumpMemoryBank recipe fail phyId: %d 
- 
-22811,i,[ hca_HwComponentBbBase_pcss.cpp : 245 ] PcssIpcIRQHandler: PS Mode, ignoring IPC IRQ! phyId:%d 
-22810,ii,[ hca_HwComponentBbBase_pcss.cpp : 368 ] Pcss M3 Warm Reset Reason: %d, Reset Counter: %d  
-22815,iiIiiiiii,[ hca_HwComponentBbBase_dfs_phyerr_tlv.cpp : 255 ] DFS_DUMPS ts=%d diff_ts=%d sidx=%i dur=%d chirp=%d det=%d radar_check=%d agc_event=%d rssi=%d  
-22814,iiiii,[ hca_HwComponentBbBase_dfs_phyerr_tlv.cpp : 261 ] DFS_DUMPS ts=%d delta_peak=%d delta_diff=%d total_gain=%d is_max_pw=%d  
-22813,iiiii,[ hca_HwComponentBbBase_dfs_phyerr_tlv.cpp : 285 ] DFS_DUMP radar summary detection_mode=%d  timestamp=%d pulse_rssi=%d is_chirp=%d sidx=%d
- 
-22812,iiiiiIiii,[ hca_HwComponentBbBase_dfs_phyerr_tlv.cpp : 197 ] DFS_DUMPS ts=%d fft_num=%d radar_check=%d total_gain=%d base_pwr=%d peak_sidx=%i relpwr=%d peak_mag=%d num_str_bins_ib=%d
- 
-22816,i,[ hca_HwComponentBbBase_pcss_ipc.cpp : 522 ] PcssIpcRingIRQHandler: PS Mode, ignoring IPC Ring IRQ! phyId:%d 
-22828,i,[ hca_HwComponentBbBase_debug.cpp : 203 ] PHYDBG: HWS phyDbgGetCsrCapInfo recipe success phyId: %d 
- 
-22827,i,[ hca_HwComponentBbBase_debug.cpp : 264 ] PHYDBG: HWS phyDbgGetCsrCapInfo recipe fail phyId: %d 
- 
-22826,,[ hca_HwComponentBbBase_debug.cpp : 917 ] PHYDBG DISABLE: HcaHwComponentBbBase_debug::PHYDBG_disable 
-22825,,[ hca_HwComponentBbBase_debug.cpp : 919 ] PHYDBG disabled
- 
-22824,iii,[ hca_HwComponentBbBase_debug.cpp : 292 ] PHYDBG: HWS phyDbgTxGainCtrl recipe success phyId: %d, chain_mask: %d, gain_idx: %d 
- 
-22823,iii,[ hca_HwComponentBbBase_debug.cpp : 296 ] PHYDBG: HWS phyDbgTxGainCtrl recipe fail phyId: %d, chain_mask: %d, gain_idx: %d 
- 
-22822,i,[ hca_HwComponentBbBase_debug.cpp : 905 ] PHYDBG: HWS PHYDBG stop recipe success phyId:%d 
- 
-22821,i,[ hca_HwComponentBbBase_debug.cpp : 911 ] PHYDBG: HWS PHYDBG stop recipe Fail phyId:%d 
- 
-22820,,[ hca_HwComponentBbBase_debug.cpp : 1056 ] Configuring and starting DAC playback 
-22819,i,[ hca_HwComponentBbBase_debug.cpp : 1486 ] phydbg QDSS: eventmask: %d 
-22818,i,[ hca_HwComponentBbBase_debug.cpp : 1544 ] PHYDBG: HWS phyDbgGetTpcDebugReg recipe success phyId: %d 
- 
-22817,i,[ hca_HwComponentBbBase_debug.cpp : 1548 ] PHYDBG: HWS phyDbgGetTpcDebugReg recipe Fail phyId: %d 
+22801,iiii,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1339 ] [%d]:### RADAR FOUND ON CHANNEL %d (%d MHz),seg_id=%d ### 
+22800,i,[ hca_HwComponentBbBase_dfs_process_radarevent.cpp : 1409 ] DFS_DEBUGS false_radar dfs->dfs_seq_num =%d
  
 22864,,[ hca_HwComponentBbWcn7850_debug.cpp : 277 ] ERROR: Received Null Pointer arguments 
 22863,I,[ hca_HwComponentBbWcn7850_debug.cpp : 283 ] REG DUMP: Started Selective PHY REGs store to buffer: 0x%08x 
@@ -9174,83 +9174,83 @@ org_rc_mask_null pdev_rc_mask[0]:%x pdev_rc_mask[1]:%x phymode:%d ni_legacy_rate
  
 22830,,[ hca_HwComponentBbWcn7850_debug.cpp : 175 ] ERROR: Received Null Pointer buffer argument in NF Reg Dump. Returning without filling buffer with the dump 
 22829,,[ hca_HwComponentBbWcn7850_debug.cpp : 197 ] ERROR: Received Null Pointer buffer argument in SS Reg Dump. Returning without filling buffer with the dump 
-22885,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 122 ] PHYDBG: HWS phyDbgDumpAllRegisters recipe success phyId: %d 
+22877,i,[ hca_HwComponentBbWcn7850_pcss.cpp : 86 ] PHY M3 Assert for PHY : %d
  
-22884,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 124 ] PHYDBG: HWS phyDbgDumpAllRegisters recipe fail phyId: %d 
+22876,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 90 ] %c%c%c%c 
+22875,ii,[ hca_HwComponentBbWcn7850_pcss.cpp : 136 ] PCSS Version : Branch = %d, Build ID = %d  
+22874,i,[ hca_HwComponentBbWcn7850_pcss.cpp : 56 ] PHY M3 Assert for PHY : %d
  
-22883,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 126 ] PHYDBG_CAPTURE_U 0x%lx
+22873,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 58 ] %c%c%c%c 
+22872,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 60 ] %c%c%c%c 
+22871,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 62 ] %c%c%c%c 
+22870,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 64 ] %c%c%c%c 
+22869,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 66 ] %c%c%c%c 
+22868,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 68 ] %c%c%c%c 
+22867,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 70 ] %c%c%c%c 
+22866,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 72 ] %c%c%c%c 
+22865,,[ hca_HwComponentBbWcn7850_pcss.cpp : 180 ] Wcn7850_pcss::WriteBeaconRssiValueToVreg: Error Cannot Access Register in Sleep, return 
+22898,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 122 ] PHYDBG: HWS phyDbgDumpAllRegisters recipe success phyId: %d 
  
-22882,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 127 ] PHYDBG_CAPTURE_L 0x%lx
+22897,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 124 ] PHYDBG: HWS phyDbgDumpAllRegisters recipe fail phyId: %d 
  
-22881,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 128 ] PHYDBG_PLAYBACK_0_L 0x%lx
+22896,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 126 ] PHYDBG_CAPTURE_U 0x%lx
  
-22880,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 129 ] PHYDBG_PLAYBACK_0_U 0x%lx
+22895,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 127 ] PHYDBG_CAPTURE_L 0x%lx
  
-22879,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 130 ] PHYDBG_PLAYBACK_1_L 0x%lx
+22894,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 128 ] PHYDBG_PLAYBACK_0_L 0x%lx
  
-22878,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 131 ] PHYDBG_PHYRF_TX_PRE_DESC_WR_1_L 0x%lx
+22893,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 129 ] PHYDBG_PLAYBACK_0_U 0x%lx
  
-22877,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 132 ] PHYDBG_WFAX_PHYRF_PHYRF_ACTIVATION_CTRL_L 0x%lx
+22892,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 130 ] PHYDBG_PLAYBACK_1_L 0x%lx
  
-22876,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 133 ] PHYDBG_MODE_L 0x%lx
+22891,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 131 ] PHYDBG_PHYRF_TX_PRE_DESC_WR_1_L 0x%lx
  
-22875,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 134 ] PHYDBG_TRIGGER_0_L 0x%lx
+22890,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 132 ] PHYDBG_WFAX_PHYRF_PHYRF_ACTIVATION_CTRL_L 0x%lx
  
-22874,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 135 ] PHYDBG_TRIGGER_0_U 0x%lx
+22889,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 133 ] PHYDBG_MODE_L 0x%lx
  
-22873,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 136 ] PHYDBG_TRIGGER_1_L 0x%lx
+22888,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 134 ] PHYDBG_TRIGGER_0_L 0x%lx
  
-22872,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 98 ] PHYDBG: HWS phyDbgConfigEventMask recipe success phyId: %d 
+22887,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 135 ] PHYDBG_TRIGGER_0_U 0x%lx
  
-22871,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 100 ] PHYDBG: HWS phyDbgConfigEventMask recipe fail phyId: %d 
+22886,I,[ hca_HwComponentBbWcn7850_debug_core.cpp : 136 ] PHYDBG_TRIGGER_1_L 0x%lx
  
-22870,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 38 ] PHYDBG: HWS phyDbgConfigEventMask recipe success phyId: %d 
+22885,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 98 ] PHYDBG: HWS phyDbgConfigEventMask recipe success phyId: %d 
  
-22869,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 40 ] PHYDBG: HWS phyDbgConfigEventMask recipe fail phyId: %d 
+22884,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 100 ] PHYDBG: HWS phyDbgConfigEventMask recipe fail phyId: %d 
  
-22868,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 78 ] PHYDBG: HWS phyDbgConfigEventMask recipe success phyId: %d 
+22883,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 38 ] PHYDBG: HWS phyDbgConfigEventMask recipe success phyId: %d 
  
-22867,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 80 ] PHYDBG: HWS phyDbgConfigEventMask recipe fail phyId: %d 
+22882,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 40 ] PHYDBG: HWS phyDbgConfigEventMask recipe fail phyId: %d 
  
-22866,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 59 ] PHYDBG: HWS phyDbgConfigEventMask recipe success phyId: %d 
+22881,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 78 ] PHYDBG: HWS phyDbgConfigEventMask recipe success phyId: %d 
  
-22865,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 61 ] PHYDBG: HWS phyDbgConfigEventMask recipe fail phyId: %d 
+22880,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 80 ] PHYDBG: HWS phyDbgConfigEventMask recipe fail phyId: %d 
  
-22888,ii,[ hca_HwComponentBbWcn7850_dfs_phyerr_tlv.cpp : 106 ] DFS_DUMP HcaHwComponentBbWcn7850_Dfs_Phyerr_Tlv Dfs1Sighandler pHandle=%d ipc_ring_id=%d
+22879,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 59 ] PHYDBG: HWS phyDbgConfigEventMask recipe success phyId: %d 
  
-22887,,[ hca_HwComponentBbWcn7850_dfs_phyerr_tlv.cpp : 68 ] DFS_DUMP HcaHwComponentBbWcn7850_Dfs_Phyerr_Tlv get_detector_id
+22878,i,[ hca_HwComponentBbWcn7850_debug_core.cpp : 61 ] PHYDBG: HWS phyDbgConfigEventMask recipe fail phyId: %d 
  
-22886,iii,[ hca_HwComponentBbWcn7850_dfs_phyerr_tlv.cpp : 89 ] DFS_DUMP pcss_ipc_sig_handler_process_multiple_ring_element pHandle=%d ipc_ring_id=%d num_bufs=%d
+22901,ii,[ hca_HwComponentBbWcn7850_dfs_phyerr_tlv.cpp : 106 ] DFS_DUMP HcaHwComponentBbWcn7850_Dfs_Phyerr_Tlv Dfs1Sighandler pHandle=%d ipc_ring_id=%d
  
-22901,i,[ hca_HwComponentBbWcn7850_pcss.cpp : 86 ] PHY M3 Assert for PHY : %d
+22900,,[ hca_HwComponentBbWcn7850_dfs_phyerr_tlv.cpp : 68 ] DFS_DUMP HcaHwComponentBbWcn7850_Dfs_Phyerr_Tlv get_detector_id
  
-22900,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 90 ] %c%c%c%c 
-22899,ii,[ hca_HwComponentBbWcn7850_pcss.cpp : 136 ] PCSS Version : Branch = %d, Build ID = %d  
-22898,i,[ hca_HwComponentBbWcn7850_pcss.cpp : 56 ] PHY M3 Assert for PHY : %d
+22899,iii,[ hca_HwComponentBbWcn7850_dfs_phyerr_tlv.cpp : 89 ] DFS_DUMP pcss_ipc_sig_handler_process_multiple_ring_element pHandle=%d ipc_ring_id=%d num_bufs=%d
  
-22897,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 58 ] %c%c%c%c 
-22896,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 60 ] %c%c%c%c 
-22895,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 62 ] %c%c%c%c 
-22894,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 64 ] %c%c%c%c 
-22893,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 66 ] %c%c%c%c 
-22892,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 68 ] %c%c%c%c 
-22891,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 70 ] %c%c%c%c 
-22890,IIII,[ hca_HwComponentBbWcn7850_pcss.cpp : 72 ] %c%c%c%c 
-22889,,[ hca_HwComponentBbWcn7850_pcss.cpp : 180 ] Wcn7850_pcss::WriteBeaconRssiValueToVreg: Error Cannot Access Register in Sleep, return 
 22902,iii,[ hca_HwComponentBbWcn7850_spectral.cpp : 387 ] SSCAN: BinIndices scanMode %d isChan165 %d, pCfg.ScanRptMode: %d 
 22903,,[ hca_HwComponentBbWcn7850_reset_RAM.cpp : 184 ] SetRxEVMEnable: no homechannel 
-22911,,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 249 ] WAR to disable LP synth due to Spur 
-22910,,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 253 ] WAR to disable LP synth for Legacy 
-22909,i,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 364 ] Setting PwrMsk=%d in Scan 
-22908,,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 533 ] Disabling DSS due to spur issue 
-22907,i,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 538 ] Setting PwrMsk=%d at the end of SetPwrMask API 
-22906,i,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 552 ] PhyRetention: save %d 
-22905,iiiiiiII,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 211 ] ResetPhyInputCommon: phyId %d bw %d mhz %d freq %d/%d dynPriChan %d txCM 0x%x rxCM 0x%x 
-22904,iiiIIIii,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 222 ] ResetPhyInputCommon: conc %d isSBS %d NF %d pwrMask 0x%x loadIniMask 0x%x BDF/Board_ID = 0x%x iseMLSR %d agileScan %d 
-22913,i,[ hca_HwComponentBbWcn7850_ani_patch.cpp : 48 ] xlna set ANI level to %d 
+22905,i,[ hca_HwComponentBbWcn7850_ani_patch.cpp : 48 ] xlna set ANI level to %d 
  
-22912,i,[ hca_HwComponentBbWcn7850_ani_patch.cpp : 94 ] pAniAFStruct->dl_ofdm is %d 
+22904,i,[ hca_HwComponentBbWcn7850_ani_patch.cpp : 94 ] pAniAFStruct->dl_ofdm is %d 
  
+22913,,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 249 ] WAR to disable LP synth due to Spur 
+22912,,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 253 ] WAR to disable LP synth for Legacy 
+22911,i,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 364 ] Setting PwrMsk=%d in Scan 
+22910,,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 533 ] Disabling DSS due to spur issue 
+22909,i,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 538 ] Setting PwrMsk=%d at the end of SetPwrMask API 
+22908,i,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 552 ] PhyRetention: save %d 
+22907,iiiiiiII,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 211 ] ResetPhyInputCommon: phyId %d bw %d mhz %d freq %d/%d dynPriChan %d txCM 0x%x rxCM 0x%x 
+22906,iiiIIIii,[ hca_HwComponentBbWcn7850_reset_patch.cpp : 222 ] ResetPhyInputCommon: conc %d isSBS %d NF %d pwrMask 0x%x loadIniMask 0x%x BDF/Board_ID = 0x%x iseMLSR %d agileScan %d 
 22914,IIII,[ hca_HwComponent_hwsIf_patch.c : 41 ] pHandle: phyBase 0x%x, phyBaseExt 0x%x - phyInput: phyBase 0x%x, phyBaseExt 0x%x 
 22979,,[ phyrf_bdf_ram.c : 5591 ] phyrf_Set_BDFVersion: Feature support unavailable 
 22978,,[ phyrf_bdf_ram.c : 5543 ] phyrf_Set_BDFVersion: Feature support unavailable 
@@ -12600,101 +12600,101 @@ org_rc_mask_null pdev_rc_mask[0]:%x pdev_rc_mask[1]:%x phymode:%d ni_legacy_rate
 25960,,[ wlan_regdb_offload.c : 1143 ] REGDB send WMI_REG_CHAN_LIST_CC_EVENTID 
 25959,ii,[ wlan_regdb_offload.c : 146 ] REGDB test command num_args=%d testId=%d 
 25987,,[ wlan_11d_scan_offload_init.c : 47 ] 11d scan start scan not allowed, non-sta is up 
-26082,,[ wlan_nan20_fa.c : 5054 ] NAN20ATTR_ParseChanBandEntryExtended: Incorrect center frequency 
+26082,,[ wlan_nan20_fa.c : 5077 ] NAN20ATTR_ParseChanBandEntryExtended: Incorrect center frequency 
 26081,,[ wlan_nan20_fa.c : 776 ] NAN_20_Set_Committed_Slot_Changed 
 26080,,[ wlan_nan20_fa.c : 756 ] NAN_20_Set_Potential_Slot_Changed 
 26079,iii,[ wlan_nan20_fa.c : 812 ] NAN_20_Update_FA_AttributeControl CommittedSlotChanged_dwcount: %d PotentialSlotChanged_dwcount: %d update_sdf: %d 
-26078,i,[ wlan_nan20_fa.c : 3809 ] ResolveFa: returning error %d 
-26077,i,[ wlan_nan20_fa.c : 3826 ] ResolveFa: peer cache null and channel null for OuiSubtype %d 
-26076,iIi,[ wlan_nan20_fa.c : 3830 ] ResolveFa: OuiSubtype%d mhz%x phymode%d 
-26075,,[ wlan_nan20_fa.c : 3846 ] ResolveFA: Error No FAs allocated! 
-26074,,[ wlan_nan20_fa.c : 3860 ] ResolveFa: NDC can't be honored/prepared 
-26073,i,[ wlan_nan20_fa.c : 3890 ] wlan_nan20_build_nan_availability_attr_nmf: ERROR_FA: calling incorrect function for ouitype %d 
-26072,,[ wlan_nan20_fa.c : 3895 ] wlan_nan20_build_nan_availability_attr_nmf: ERROR_FA: Channel forced but no channel info provided 
-26071,iI,[ wlan_nan20_fa.c : 3905 ] wlan_nan20_build_nan_availability_attr_nmf: ERROR_FA: Channel forced:%d is not in supported band:%x 
-26070,i,[ wlan_nan20_fa.c : 3924 ] wlan_nan20_build_nan_availability_attr_nmf: ERROR_FA: Unable to create FA Session for outsubtype %d 
-26069,,[ wlan_nan20_fa.c : 3929 ] wlan_nan20_build_nan_availability_attr_nmf: ERROR_FA: NDP or Ranging Instance is NULL cannot build FA/NA 
-26068,i,[ wlan_nan20_fa.c : 3933 ] wlan_nan20_build_nan_availability_attr_nmf: FA session already present, do save fa %d 
-26067,Ii,[ wlan_nan20_fa.c : 3943 ] wlan_nan20_build_nan_availability_attr_nmf: pnan_fa_session_for_peer %u %d 
-26066,Ii,[ wlan_nan20_fa.c : 3968 ] wlan_nan20_build_nan_availability_attr_nmf: skip for pnan_fa_session_for_peer:%u ouisubtype:%d  
-26065,,[ wlan_nan20_fa.c : 1791 ] nan20_cleanup_FA_before_save: Update slots failed 
-26064,,[ wlan_nan20_fa.c : 1797 ] nan20_cleanup_FA_before_save: No more slots ignore#1 
-26063,iiii,[ wlan_nan20_fa.c : 1819 ] wlan_nan20_cleanup_FA: mhz %d score %d fa_mhz %d fa_score %d 
-26062,,[ wlan_nan20_fa.c : 1838 ] nan20_cleanup_FA_before_save: No more slots ignore#3 
-26061,iiii,[ wlan_nan20_fa.c : 1914 ] wlan_nan20_cleanup_FA for RTT: mhz %d score %d fa_mhz %d fa_score %d 
-26060,iiiiiiii,[ wlan_nan20_fa.c : 4728 ] wlan_nan20_pick_best_peer_fa: chan Type(%d), AvailabilityType(%d), UsagePref(%d), TimeBitMapPresent(%d), Timebitmap BD:%d Period:%d StartOffset:%d TMBLen:%d  
-26059,iI,[ wlan_nan20_fa.c : 4732 ] TMB[%d]:0x%x 
-26058,,[ wlan_nan20_fa.c : 4743 ] wlan_nan20_pick_best_peer_fa: ERR More than one channel is marked as committed/conditional in an entry 
-26057,i,[ wlan_nan20_fa.c : 4751 ] wlan_nan20_pick_best_peer_fa: invliad operclass=%d 
-26056,ii,[ wlan_nan20_fa.c : 4762 ] wlan_nan20_pick_best_peer_fa: local band_config:%d peer>supported_band:%d skipping 5G entry local or remote is not 5g 
-26055,iiI,[ wlan_nan20_fa.c : 4772 ] wlan_nan20_pick_best_peer_fa: local band_config:%d peer>supported_band:%d skipping 6g entry local or remote is not 6g oper mode:%x 
-26054,,[ wlan_nan20_fa.c : 4778 ] wlan_nan20_pick_best_peer_fa: HE160 Operclass is not supported 
-26053,i,[ wlan_nan20_fa.c : 3551 ] wlan_nan20_fa_check_peer_fc_slot_capability: AvailabilityType %d 
-26052,Iiii,[ wlan_nan20_fa.c : 3578 ] wlan_nan20_fa_check_peer_fc_slot_capability: bitmap 0x%x freq %d 2g_freq %d 5g_freq %d 
-26051,ii,[ wlan_nan20_fa.c : 3595 ] wlan_nan20_fa_check_peer_fc_slot_capability: is_2G_fc_capable %d is_5G_fc_capable %d 
-26050,,[ wlan_nan20_fa.c : 4223 ] wlan_nan20_fa_fill_fa_chan_info: FA Error no FA session 
-26049,,[ wlan_nan20_fa.c : 4263 ] wlan_nan20_fa_fill_max_bw_chan: FA Error no FA session 
-26048,ii,[ wlan_nan20_fa.c : 4874 ] wlan_nan20_fa_find_best_channel: ERR channel_band = %d (mhz = %d) not found in peer avail attr 
-26047,,[ wlan_nan20_fa.c : 5246 ] wlan_nan20_fa_handle_mcc_from_sm_entry: arming sched delay timer  
-26046,i,[ wlan_nan20_fa.c : 5312 ] wlan_nan20_fa_lwt_enable_disable: enable = %d 
-26045,,[ wlan_nan20_fa.c : 5281 ] nan20_fa_update_ranging_slots ERR: slot map not subset of ranging schedule attribute 
-26044,iI,[ wlan_nan20_fa.c : 5303 ] nan20_fa_update_ranging_slots: TMB1[%d]:0x%x 
-26043,,[ wlan_nan20_fa.c : 1486 ] wlan_nan20_fill_chan_num_and_phymode: no ndp instance 
-26042,,[ wlan_nan20_fa.c : 1500 ] wlan_nan20_fill_chan_num_and_phymode: Incorrect primar channel 
-26041,iIii,[ wlan_nan20_fa.c : 2434 ] wlan_nan20_fill_fa_nan_avail_attr: map_id:%d p_fa_session:0x%x band_config:%d seq_id:%d 
-26040,IiiIiII,[ wlan_nan20_fa.c : 2918 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26039,IiiIiII,[ wlan_nan20_fa.c : 2929 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26038,IiiIiII,[ wlan_nan20_fa.c : 2944 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26037,IiiIiII,[ wlan_nan20_fa.c : 2955 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26036,IiiIiII,[ wlan_nan20_fa.c : 3001 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26035,IiiIiII,[ wlan_nan20_fa.c : 3012 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26034,IiiIiII,[ wlan_nan20_fa.c : 3068 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26033,iiii,[ wlan_nan20_fa.c : 2450 ] wlan_nan20_fill_fa_nan_avail_attr: FA info index=%d valid=%d fa_type=%d freq=%d 
-26032,IiiIiII,[ wlan_nan20_fa.c : 2510 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26031,IiiIiII,[ wlan_nan20_fa.c : 2542 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26030,IiiIiII,[ wlan_nan20_fa.c : 2601 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26029,IiiIiII,[ wlan_nan20_fa.c : 2701 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26028,IiiIiII,[ wlan_nan20_fa.c : 2755 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26027,IiiIiII,[ wlan_nan20_fa.c : 2792 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26026,IiiIiII,[ wlan_nan20_fa.c : 2812 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26025,IiiIiII,[ wlan_nan20_fa.c : 2824 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
-26024,IiiIiII,[ wlan_nan20_fa.c : 2891 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26078,i,[ wlan_nan20_fa.c : 3823 ] ResolveFa: returning error %d 
+26077,i,[ wlan_nan20_fa.c : 3840 ] ResolveFa: peer cache null and channel null for OuiSubtype %d 
+26076,iIi,[ wlan_nan20_fa.c : 3844 ] ResolveFa: OuiSubtype%d mhz%x phymode%d 
+26075,,[ wlan_nan20_fa.c : 3860 ] ResolveFA: Error No FAs allocated! 
+26074,,[ wlan_nan20_fa.c : 3874 ] ResolveFa: NDC can't be honored/prepared 
+26073,i,[ wlan_nan20_fa.c : 3904 ] wlan_nan20_build_nan_availability_attr_nmf: ERROR_FA: calling incorrect function for ouitype %d 
+26072,,[ wlan_nan20_fa.c : 3909 ] wlan_nan20_build_nan_availability_attr_nmf: ERROR_FA: Channel forced but no channel info provided 
+26071,iI,[ wlan_nan20_fa.c : 3919 ] wlan_nan20_build_nan_availability_attr_nmf: ERROR_FA: Channel forced:%d is not in supported band:%x 
+26070,i,[ wlan_nan20_fa.c : 3938 ] wlan_nan20_build_nan_availability_attr_nmf: ERROR_FA: Unable to create FA Session for outsubtype %d 
+26069,,[ wlan_nan20_fa.c : 3943 ] wlan_nan20_build_nan_availability_attr_nmf: ERROR_FA: NDP or Ranging Instance is NULL cannot build FA/NA 
+26068,i,[ wlan_nan20_fa.c : 3947 ] wlan_nan20_build_nan_availability_attr_nmf: FA session already present, do save fa %d 
+26067,Ii,[ wlan_nan20_fa.c : 3957 ] wlan_nan20_build_nan_availability_attr_nmf: pnan_fa_session_for_peer %u %d 
+26066,Ii,[ wlan_nan20_fa.c : 3982 ] wlan_nan20_build_nan_availability_attr_nmf: skip for pnan_fa_session_for_peer:%u ouisubtype:%d  
+26065,,[ wlan_nan20_fa.c : 1802 ] nan20_cleanup_FA_before_save: Update slots failed 
+26064,,[ wlan_nan20_fa.c : 1808 ] nan20_cleanup_FA_before_save: No more slots ignore#1 
+26063,iiii,[ wlan_nan20_fa.c : 1830 ] wlan_nan20_cleanup_FA: mhz %d score %d fa_mhz %d fa_score %d 
+26062,,[ wlan_nan20_fa.c : 1849 ] nan20_cleanup_FA_before_save: No more slots ignore#3 
+26061,iiii,[ wlan_nan20_fa.c : 1925 ] wlan_nan20_cleanup_FA for RTT: mhz %d score %d fa_mhz %d fa_score %d 
+26060,iiiiiiii,[ wlan_nan20_fa.c : 4746 ] wlan_nan20_pick_best_peer_fa: chan Type(%d), AvailabilityType(%d), UsagePref(%d), TimeBitMapPresent(%d), Timebitmap BD:%d Period:%d StartOffset:%d TMBLen:%d  
+26059,iI,[ wlan_nan20_fa.c : 4750 ] TMB[%d]:0x%x 
+26058,,[ wlan_nan20_fa.c : 4761 ] wlan_nan20_pick_best_peer_fa: ERR More than one channel is marked as committed/conditional in an entry 
+26057,i,[ wlan_nan20_fa.c : 4769 ] wlan_nan20_pick_best_peer_fa: invliad operclass=%d 
+26056,ii,[ wlan_nan20_fa.c : 4780 ] wlan_nan20_pick_best_peer_fa: local band_config:%d peer>supported_band:%d skipping 5G entry local or remote is not 5g 
+26055,iiI,[ wlan_nan20_fa.c : 4790 ] wlan_nan20_pick_best_peer_fa: local band_config:%d peer>supported_band:%d skipping 6g entry local or remote is not 6g oper mode:%x 
+26054,,[ wlan_nan20_fa.c : 4796 ] wlan_nan20_pick_best_peer_fa: HE160 Operclass is not supported 
+26053,i,[ wlan_nan20_fa.c : 3565 ] wlan_nan20_fa_check_peer_fc_slot_capability: AvailabilityType %d 
+26052,Iiii,[ wlan_nan20_fa.c : 3592 ] wlan_nan20_fa_check_peer_fc_slot_capability: bitmap 0x%x freq %d 2g_freq %d 5g_freq %d 
+26051,ii,[ wlan_nan20_fa.c : 3609 ] wlan_nan20_fa_check_peer_fc_slot_capability: is_2G_fc_capable %d is_5G_fc_capable %d 
+26050,,[ wlan_nan20_fa.c : 4241 ] wlan_nan20_fa_fill_fa_chan_info: FA Error no FA session 
+26049,,[ wlan_nan20_fa.c : 4281 ] wlan_nan20_fa_fill_max_bw_chan: FA Error no FA session 
+26048,ii,[ wlan_nan20_fa.c : 4897 ] wlan_nan20_fa_find_best_channel: ERR channel_band = %d (mhz = %d) not found in peer avail attr 
+26047,,[ wlan_nan20_fa.c : 5269 ] wlan_nan20_fa_handle_mcc_from_sm_entry: arming sched delay timer  
+26046,i,[ wlan_nan20_fa.c : 5335 ] wlan_nan20_fa_lwt_enable_disable: enable = %d 
+26045,,[ wlan_nan20_fa.c : 5304 ] nan20_fa_update_ranging_slots ERR: slot map not subset of ranging schedule attribute 
+26044,iI,[ wlan_nan20_fa.c : 5326 ] nan20_fa_update_ranging_slots: TMB1[%d]:0x%x 
+26043,,[ wlan_nan20_fa.c : 1494 ] wlan_nan20_fill_chan_num_and_phymode: no ndp instance 
+26042,,[ wlan_nan20_fa.c : 1508 ] wlan_nan20_fill_chan_num_and_phymode: Incorrect primar channel 
+26041,iIii,[ wlan_nan20_fa.c : 2448 ] wlan_nan20_fill_fa_nan_avail_attr: map_id:%d p_fa_session:0x%x band_config:%d seq_id:%d 
+26040,IiiIiII,[ wlan_nan20_fa.c : 2932 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26039,IiiIiII,[ wlan_nan20_fa.c : 2943 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26038,IiiIiII,[ wlan_nan20_fa.c : 2958 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26037,IiiIiII,[ wlan_nan20_fa.c : 2969 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26036,IiiIiII,[ wlan_nan20_fa.c : 3015 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26035,IiiIiII,[ wlan_nan20_fa.c : 3026 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26034,IiiIiII,[ wlan_nan20_fa.c : 3082 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26033,iiii,[ wlan_nan20_fa.c : 2464 ] wlan_nan20_fill_fa_nan_avail_attr: FA info index=%d valid=%d fa_type=%d freq=%d 
+26032,IiiIiII,[ wlan_nan20_fa.c : 2524 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26031,IiiIiII,[ wlan_nan20_fa.c : 2556 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26030,IiiIiII,[ wlan_nan20_fa.c : 2615 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26029,IiiIiII,[ wlan_nan20_fa.c : 2715 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26028,IiiIiII,[ wlan_nan20_fa.c : 2769 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26027,IiiIiII,[ wlan_nan20_fa.c : 2806 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26026,IiiIiII,[ wlan_nan20_fa.c : 2826 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26025,IiiIiII,[ wlan_nan20_fa.c : 2838 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
+26024,IiiIiII,[ wlan_nan20_fa.c : 2905 ] wlan_nan20_fill_fa_nan_avail_attr: entry_idx(31-16)/chan_idx(15-0)=0x%x freq=%d avail_type=%d slotmask = 0x%x operclass=%d chanbitmap=0x%x prim=0x%x  
 26023,iii,[ wlan_nan20_fa.c : 675 ] wlan_nan20_fa_session_index: Counter band %d stored FA %d FA session count %d 
 26022,ii,[ wlan_nan20_fa.c : 682 ] wlan_nan20_fa_sessioni_index: Counter channel %d stored FA %d 
-26021,iiii,[ wlan_nan20_fa.c : 1644 ] NAN20_FA: NDP channel can't be honored(%d, %d, %d %d) 
-26020,ii,[ wlan_nan20_fa.c : 4822 ] wlan_nan20_overwrite_default_fa_with_committed_channel: tempFreq:%d freq:%d 
-26019,,[ wlan_nan20_fa.c : 3716 ] wlan_nan20_pick_best_peer_fa ERR: NDC can't be served returning 
-26018,,[ wlan_nan20_fa.c : 3726 ] wlan_nan20_pick_best_peer_fa ERR: NDL can't be served returning 
-26017,,[ wlan_nan20_fa.c : 3755 ] wlan_nan20_pick_best_peer_fa ERR: No common channels found with peer 
-26016,iIIIiI,[ wlan_nan20_fa.c : 3199 ] nan20_process_and_save: OperClass:%d ChanBitmap:0x%xPrimaryChanBitmap:0x%x Freq:0x%x PhyMode:%d availabilitytype %x 
-26015,,[ wlan_nan20_fa.c : 3212 ] nan20_process_and_save: channel forced skipping saving entry 
-26014,,[ wlan_nan20_fa.c : 3274 ] wlan_nan20_process_and_save_individual_fa_session ERR: Minimum Slots not met 
-26013,,[ wlan_nan20_fa.c : 3295 ] nan20_process_and_save ERR: Maximum FA sessions reached 
-26012,ii,[ wlan_nan20_fa.c : 4575 ] wlan_nan20_process_band_entry: local band_config:%d peer>supported_band:%d skipping 5G entry local or remote is not 5g 
-26011,iiI,[ wlan_nan20_fa.c : 4599 ] wlan_nan20_process_band_entry: local band_config:%d peer>supported_band:%d skipping 6G entry local or remote is not 6g/ does not support he:%x 
-26010,i,[ wlan_nan20_fa.c : 4623 ] wlan_nan20_process_band_entry: invalid(or unspported) band=%d 
-26009,i,[ wlan_nan20_fa.c : 3350 ] wlan_nan20_pick_best_peer_fa _map_id = %d 
-26008,iiiiiii,[ wlan_nan20_fa.c : 3408 ] wlan_nan20_pick_best_peer_fa: save best channel %d %d %d %d %d %d %d 
-26007,i,[ wlan_nan20_fa.c : 3440 ] wlan_nan20_pick_best_peer_fa: Process and save FA failed %d 
-26006,,[ wlan_nan20_fa.c : 2004 ] NAN20_FA_RESOLVE: Skipping potential entry as usage preference is zero 
-26005,i,[ wlan_nan20_fa.c : 2008 ] NAN20_FA_RESOLVE: error finding global operating  class :%d 
-26004,iiI,[ wlan_nan20_fa.c : 2013 ] NAN20_FA_RESOLVE: chan_req_type:%d chan_mhz:%d ptemp_nan_peer_chan_band_info->ChanBitMap 0x%x 
-26003,I,[ wlan_nan20_fa.c : 2020 ] NAN20_FA_RESOLVE Skipping saving potential entry with chan bitmap 0x%x as channel is forced 
-26002,,[ wlan_nan20_fa.c : 2037 ] NAN20_FA_RESOLVE: Skipping 5G/6G entry as it is not supported 
-26001,II,[ wlan_nan20_fa.c : 2042 ] NAN20_FA_RESOLVE:ptemp_nan_peer_chan_band_info->ChanBitMap %x Primchanmap:%x 
-26000,iiiiII,[ wlan_nan20_fa.c : 2061 ] NAN20_FA_RESOLVE:0x05 mhz:%d bandwidth:%d score:%d saved_score:%d saved_chanbitmap:0x%x saved_primchanbitmap:0x%x 
-25999,iiiiII,[ wlan_nan20_fa.c : 2091 ] NAN20_FA_RESOLVE:0x06 mhz:%d bandwidth:%d score:%d saved_score:%d saved_chanbitmap:0x%x saved_primchanbitmap:0x%x 
-25998,iiiiiiiii,[ wlan_nan20_fa.c : 1223 ] wlan_nan20_save_fa_information: Saving FA information ost:%d freq:%d center_freq:%d OperClass:%dFaTimebitmap BD:%d Period:%d StartOffset:%d TMBLen:%d committed_slot_changed:%d 
-25997,iI,[ wlan_nan20_fa.c : 1227 ] wlan_nan20_save_fa_information: TMB[%d]:0x%x 
-25996,iii,[ wlan_nan20_fa.c : 1235 ] wlan_nan20_save_fa_information: Failed to Save FA information ost:%d mode:%d channel:%d 
-25995,II,[ wlan_nan20_fa.c : 1952 ] wlan_nan20_save_fa_reserved_slots:0x05 chanbitmap:0x%x primchanbitmap:0x%x 
-25994,,[ wlan_nan20_fa.c : 4483 ] wlan_nan20_set_fa_session_active: FA Error no FA session 
-25993,,[ wlan_nan20_fa.c : 4493 ] wlan_nan20_set_fa_session_active: Sched Update Notify set to TRUE 
-25992,iiii,[ wlan_nan20_fa.c : 4504 ] NAN20_FA: wlan_nan20_set_fa_session_active mhz:%d availtype:%d vdev_id:%d set_active:%d 
-25991,,[ wlan_nan20_fa.c : 4533 ] wlan_nan20_set_fa_session_active: Res mgr link failure 
-25990,I,[ wlan_nan20_fa.c : 4441 ] NAN_20_FA: Schedule update for peer entry fa_session 0x%x 
-25989,,[ wlan_nan20_fa.c : 4326 ] wlan_nan_fa_get_phymode: FA Error no FA session 
-25988,ii,[ wlan_nan20_fa.c : 4425 ] NAN20_FA Freq: %d bandwidth: %d 
+26021,iiii,[ wlan_nan20_fa.c : 1652 ] NAN20_FA: NDP channel can't be honored(%d, %d, %d %d) 
+26020,ii,[ wlan_nan20_fa.c : 4845 ] wlan_nan20_overwrite_default_fa_with_committed_channel: tempFreq:%d freq:%d 
+26019,,[ wlan_nan20_fa.c : 3730 ] wlan_nan20_pick_best_peer_fa ERR: NDC can't be served returning 
+26018,,[ wlan_nan20_fa.c : 3740 ] wlan_nan20_pick_best_peer_fa ERR: NDL can't be served returning 
+26017,,[ wlan_nan20_fa.c : 3769 ] wlan_nan20_pick_best_peer_fa ERR: No common channels found with peer 
+26016,iIIIiI,[ wlan_nan20_fa.c : 3213 ] nan20_process_and_save: OperClass:%d ChanBitmap:0x%xPrimaryChanBitmap:0x%x Freq:0x%x PhyMode:%d availabilitytype %x 
+26015,,[ wlan_nan20_fa.c : 3226 ] nan20_process_and_save: channel forced skipping saving entry 
+26014,,[ wlan_nan20_fa.c : 3288 ] wlan_nan20_process_and_save_individual_fa_session ERR: Minimum Slots not met 
+26013,,[ wlan_nan20_fa.c : 3309 ] nan20_process_and_save ERR: Maximum FA sessions reached 
+26012,ii,[ wlan_nan20_fa.c : 4593 ] wlan_nan20_process_band_entry: local band_config:%d peer>supported_band:%d skipping 5G entry local or remote is not 5g 
+26011,iiI,[ wlan_nan20_fa.c : 4617 ] wlan_nan20_process_band_entry: local band_config:%d peer>supported_band:%d skipping 6G entry local or remote is not 6g/ does not support he:%x 
+26010,i,[ wlan_nan20_fa.c : 4641 ] wlan_nan20_process_band_entry: invalid(or unspported) band=%d 
+26009,i,[ wlan_nan20_fa.c : 3364 ] wlan_nan20_pick_best_peer_fa _map_id = %d 
+26008,iiiiiii,[ wlan_nan20_fa.c : 3422 ] wlan_nan20_pick_best_peer_fa: save best channel %d %d %d %d %d %d %d 
+26007,i,[ wlan_nan20_fa.c : 3454 ] wlan_nan20_pick_best_peer_fa: Process and save FA failed %d 
+26006,,[ wlan_nan20_fa.c : 2015 ] NAN20_FA_RESOLVE: Skipping potential entry as usage preference is zero 
+26005,i,[ wlan_nan20_fa.c : 2019 ] NAN20_FA_RESOLVE: error finding global operating  class :%d 
+26004,iiI,[ wlan_nan20_fa.c : 2024 ] NAN20_FA_RESOLVE: chan_req_type:%d chan_mhz:%d ptemp_nan_peer_chan_band_info->ChanBitMap 0x%x 
+26003,I,[ wlan_nan20_fa.c : 2031 ] NAN20_FA_RESOLVE Skipping saving potential entry with chan bitmap 0x%x as channel is forced 
+26002,,[ wlan_nan20_fa.c : 2048 ] NAN20_FA_RESOLVE: Skipping 5G/6G entry as it is not supported 
+26001,II,[ wlan_nan20_fa.c : 2053 ] NAN20_FA_RESOLVE:ptemp_nan_peer_chan_band_info->ChanBitMap %x Primchanmap:%x 
+26000,iiiiII,[ wlan_nan20_fa.c : 2075 ] NAN20_FA_RESOLVE:0x05 mhz:%d bandwidth:%d score:%d saved_score:%d saved_chanbitmap:0x%x saved_primchanbitmap:0x%x 
+25999,iiiiII,[ wlan_nan20_fa.c : 2105 ] NAN20_FA_RESOLVE:0x06 mhz:%d bandwidth:%d score:%d saved_score:%d saved_chanbitmap:0x%x saved_primchanbitmap:0x%x 
+25998,iiiiiiiii,[ wlan_nan20_fa.c : 1231 ] wlan_nan20_save_fa_information: Saving FA information ost:%d freq:%d center_freq:%d OperClass:%dFaTimebitmap BD:%d Period:%d StartOffset:%d TMBLen:%d committed_slot_changed:%d 
+25997,iI,[ wlan_nan20_fa.c : 1235 ] wlan_nan20_save_fa_information: TMB[%d]:0x%x 
+25996,iii,[ wlan_nan20_fa.c : 1243 ] wlan_nan20_save_fa_information: Failed to Save FA information ost:%d mode:%d channel:%d 
+25995,II,[ wlan_nan20_fa.c : 1963 ] wlan_nan20_save_fa_reserved_slots:0x05 chanbitmap:0x%x primchanbitmap:0x%x 
+25994,,[ wlan_nan20_fa.c : 4501 ] wlan_nan20_set_fa_session_active: FA Error no FA session 
+25993,,[ wlan_nan20_fa.c : 4511 ] wlan_nan20_set_fa_session_active: Sched Update Notify set to TRUE 
+25992,iiii,[ wlan_nan20_fa.c : 4522 ] NAN20_FA: wlan_nan20_set_fa_session_active mhz:%d availtype:%d vdev_id:%d set_active:%d 
+25991,,[ wlan_nan20_fa.c : 4551 ] wlan_nan20_set_fa_session_active: Res mgr link failure 
+25990,I,[ wlan_nan20_fa.c : 4459 ] NAN_20_FA: Schedule update for peer entry fa_session 0x%x 
+25989,,[ wlan_nan20_fa.c : 4344 ] wlan_nan_fa_get_phymode: FA Error no FA session 
+25988,ii,[ wlan_nan20_fa.c : 4443 ] NAN20_FA Freq: %d bandwidth: %d 
 26085,IIiIIII,[ wlan_nan_beacon_rx.c : 320 ] NAN-BEACON_RX: from %04x%08x RSSI %d  valid %u  cluster 0x%04x  BI %u  statusFlags 0x%08x 
 26084,i,[ wlan_nan_beacon_rx.c : 345 ] Subscribe SID Attr: contains %d IDs 
 26083,IIIIIIIII,[ wlan_nan_beacon_rx.c : 446 ] NAN-SYNC_BEACON_DW_STATS: total rx %u  c1=(%u/%u/%u  %u) c2=(%u/%u/%u  %u) 
@@ -15767,32 +15767,32 @@ org_rc_mask_null pdev_rc_mask[0]:%x pdev_rc_mask[1]:%x phymode:%d ni_legacy_rate
  
 28952,iii,[ HwComponentTrxHamilton_calSmTxBwFilter.c : 164 ] TXBwFilter:  prevBandCode = %d,  prevPhyModeAX = %d,  prevBWCodeIdx = %d
  
-28964,,[ HwComponentTrxHamilton_calSmBwFilter.c : 473 ] calSmBwFilter: WARNING: pHandle is NULL: return without operation.
+28959,,[ HwComponentTrxHamilton_calSmRxBwFilter.c : 98 ] calSmBwFilter: WARNING: pHandle is NULL: return without operation.
  
-28963,iiII,[ HwComponentTrxHamilton_calSmBwFilter.c : 391 ] calSmBwFilter: invoke RxBBF cal: isSBSmode=%d, chainIdx=%d, rFrxChainMask=%x, phyInput->txChMask=%x 
-28962,,[ HwComponentTrxHamilton_calSmBwFilter.c : 405 ] RXBwFilter: Restored now
+28958,,[ HwComponentTrxHamilton_calSmRxBwFilter.c : 177 ] RXBwFilter: Skip 
+28957,iii,[ HwComponentTrxHamilton_calSmRxBwFilter.c : 166 ] RXBwFilter:  curBandCode = %d,  curPhyModeAX = %d,  curBWCodeIdx = %d
  
-28961,,[ HwComponentTrxHamilton_calSmBwFilter.c : 416 ] RXBwFilter: call calibration now
+28956,iii,[ HwComponentTrxHamilton_calSmRxBwFilter.c : 168 ] RXBwFilter:  prevBandCode = %d,  prevPhyModeAX = %d,  prevBWCodeIdx = %d
  
-28960,,[ HwComponentTrxHamilton_calSmBwFilter.c : 420 ] RXBwFilter: Save now
+28961,,[ hca_HwComponentTrxHamilton_calSmAdc.cpp : 165 ] CalSM: ADC starts 
+28960,,[ hca_HwComponentTrxHamilton_calSmAdc.cpp : 179 ] calSmAdc::Standalone: call calibration 
+28962,,[ hca_HwComponentTrxHamilton_calSmIm2.cpp : 101 ] IM2CAL:  completed 
+28971,,[ HwComponentTrxHamilton_calSmBwFilter.c : 473 ] calSmBwFilter: WARNING: pHandle is NULL: return without operation.
  
-28959,iiII,[ HwComponentTrxHamilton_calSmBwFilter.c : 318 ] calSmBwFilter: invoke TxBBF cal: isSBSmode=%d, chainIdx=%d, rFtxChainMask=%x, phyInput->txChMask=%x
+28970,iiII,[ HwComponentTrxHamilton_calSmBwFilter.c : 391 ] calSmBwFilter: invoke RxBBF cal: isSBSmode=%d, chainIdx=%d, rFrxChainMask=%x, phyInput->txChMask=%x 
+28969,,[ HwComponentTrxHamilton_calSmBwFilter.c : 405 ] RXBwFilter: Restored now
  
-28958,,[ HwComponentTrxHamilton_calSmBwFilter.c : 346 ] TXBwFilter: Save now
+28968,,[ HwComponentTrxHamilton_calSmBwFilter.c : 416 ] RXBwFilter: call calibration now
  
-28957,,[ HwComponentTrxHamilton_calSmBwFilter.c : 332 ] TXBwFilter: Restored now
+28967,,[ HwComponentTrxHamilton_calSmBwFilter.c : 420 ] RXBwFilter: Save now
  
-28956,,[ HwComponentTrxHamilton_calSmBwFilter.c : 344 ] TXBwFilter: call calibration now
+28966,iiII,[ HwComponentTrxHamilton_calSmBwFilter.c : 318 ] calSmBwFilter: invoke TxBBF cal: isSBSmode=%d, chainIdx=%d, rFtxChainMask=%x, phyInput->txChMask=%x
  
-28966,,[ hca_HwComponentTrxHamilton_calSmAdc.cpp : 165 ] CalSM: ADC starts 
-28965,,[ hca_HwComponentTrxHamilton_calSmAdc.cpp : 179 ] calSmAdc::Standalone: call calibration 
-28967,,[ hca_HwComponentTrxHamilton_calSmIm2.cpp : 101 ] IM2CAL:  completed 
-28971,,[ HwComponentTrxHamilton_calSmRxBwFilter.c : 98 ] calSmBwFilter: WARNING: pHandle is NULL: return without operation.
+28965,,[ HwComponentTrxHamilton_calSmBwFilter.c : 346 ] TXBwFilter: Save now
  
-28970,,[ HwComponentTrxHamilton_calSmRxBwFilter.c : 177 ] RXBwFilter: Skip 
-28969,iii,[ HwComponentTrxHamilton_calSmRxBwFilter.c : 166 ] RXBwFilter:  curBandCode = %d,  curPhyModeAX = %d,  curBWCodeIdx = %d
+28964,,[ HwComponentTrxHamilton_calSmBwFilter.c : 332 ] TXBwFilter: Restored now
  
-28968,iii,[ HwComponentTrxHamilton_calSmRxBwFilter.c : 168 ] RXBwFilter:  prevBandCode = %d,  prevPhyModeAX = %d,  prevBWCodeIdx = %d
+28963,,[ HwComponentTrxHamilton_calSmBwFilter.c : 344 ] TXBwFilter: call calibration now
  
 28989,,[ hca_HwComponentTrxHamilton_calSmPal.cpp : 400 ] PALCAL STARTED 
 28988,i,[ hca_HwComponentTrxHamilton_calSmPal.cpp : 407 ] PALCAL CONF final pal_cal_input->pcalMethod=%d 
